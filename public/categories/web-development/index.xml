@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Development on Bob Rockefeller</title>
+    <link>//localhost:1313/categories/web-development/</link>
+    <description>Recent content in Web Development on Bob Rockefeller</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Oct 2023 19:03:18 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/web-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WordPress Reconsidered</title>
+      <link>//localhost:1313/posts/2023-10-23-wordpress-reconsidered/</link>
+      <pubDate>Mon, 23 Oct 2023 19:03:18 +0000</pubDate>
+      <guid>//localhost:1313/posts/2023-10-23-wordpress-reconsidered/</guid>
+      <description>&lt;p&gt;I moved my websites off of WordPress several years ago due to the security problems I was having and the complexity of customizing themes. There were just too many files in too many places to modify when customizing a theme to suit me. So I switched to &lt;a href=&#34;https://getgrav.org&#34;&gt;Grav&lt;/a&gt; and found its straightforward approach was what I needed.&lt;/p&gt;&#xA;&lt;p&gt;Over time, the direct coding required for Grav became a problem because I would take breaks, sometimes long breaks, between posting and site modifications. When I got started again, I almost had to learn Grav all over. Looking for a way to use a more drag-and-drop interface, I switched to Squarespace. And it was a good, if somewhat expensive, thing. But now I&amp;rsquo;m looking at a $200/year subscription with few options for transferring my content to another host or platform.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

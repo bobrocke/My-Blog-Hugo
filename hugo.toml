@@ -1,4 +1,17 @@
-baseURL = 'https://example.org/'
+baseURL = '/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'mainroad'
+title = 'Bob Rockefeller'
+theme = 'roadster'
+
+# Configure Pagination. See https://gohugo.io/templates/pagination/#configuration
+[pagination]
+  pagerSize = 4 # (int) The number of pages per pager. Default is 10
+
+[params]
+  description = "Bob Rockefeller's General Blog" # Site description. Used in meta description
+  copyright = "Bob Rockefeller" # Footer copyright holder, otherwise will use site title
+  readmore = true # Show "Read more" button in list if true
+  authorbox = true # Show authorbox at bottom of pages if true
+  toc = true # Enable Table of Contents
+  pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
+  post_meta = ["date", "categories", "tags"] # Order of post meta information

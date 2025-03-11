@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lightroom Classic on Bob Rockefeller</title>
+    <link>//localhost:1313/tags/lightroom-classic/</link>
+    <description>Recent content in Lightroom Classic on Bob Rockefeller</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Nov 2023 14:45:28 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/lightroom-classic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ON1 &gt; LrC?</title>
+      <link>//localhost:1313/posts/2023-11-09-on1-lrc/</link>
+      <pubDate>Thu, 09 Nov 2023 14:45:28 +0000</pubDate>
+      <guid>//localhost:1313/posts/2023-11-09-on1-lrc/</guid>
+      <description>&lt;p&gt;Is ON1&amp;rsquo;s Photo RAW, now in &lt;a href=&#34;https://www.on1.com/products/photo-raw/whats-new/&#34;&gt;version 2024&lt;/a&gt;, &amp;lsquo;better enough&amp;rsquo; than Lightroom Classic to be worth a switch? After using Aperture (until it was discontinued), Capture One (for a few years), and now Lightroom Classic (for several years), Lightroom Classic has become my standard against which others are judged. To be worth moving to another program, it has to have something pretty good going for it.&lt;/p&gt;&#xA;&lt;p&gt;Both programs have been updated this fall. Lightroom added a very powerful &lt;a href=&#34;https://fstoppers.com/lightroom/how-use-lightrooms-powerful-new-point-color-tool-643606&#34;&gt;Point Color tool&lt;/a&gt; bringing it in line with Capture One&amp;rsquo;s excellent color controls. Photo RAW offered a bit more of an overhaul with a new user interface, better performance (especially between Browse and Edit), and &lt;a href=&#34;https://www.on1.com/products/photo-raw/brilliance-ai/?utm_source=google&amp;amp;utm_medium=cpc&amp;amp;utm_campaign=811687877&amp;amp;utm_term=&amp;amp;gad=1&amp;amp;gclid=EAIaIQobChMIo431sKezggMV7qBaBR1QWwcwEAAYAiAAEgIPN_D_BwE&#34;&gt;Brilliance AI&lt;/a&gt; – its version of creating an automated starting point for further editing. But does Photo RAW offer anything that Lightroom Classic does not?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
