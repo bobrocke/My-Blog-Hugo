@@ -14,3 +14,25 @@ theme = 'roadster'
   authorbox = true # Show authorbox at bottom of pages if true
   toc = true # Enable Table of Contents
   pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
+  post_meta = ["date", "categories"]
+
+[params.author]
+  name = "Bob Rockefeller"
+  bio = "What is Bob up to now?"
+  avatar = "img/avatar.png"
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "left"  # Configure layout for list pages
+  single = false # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+
+[Params.widgets]
+  recent_num = 3 # Set the number of articles in the "Recent articles" widget
+  categories_counter = false # Enable counter for each category in "Categories" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
