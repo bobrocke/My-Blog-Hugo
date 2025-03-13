@@ -7,7 +7,7 @@ theme = 'roadster'
 [pagination]
   pagerSize = 4 # (int) The number of pages per pager. Default is 10
 
-[params]
+[Params]
   description = "Bob Rockefeller's General Blog" # Site description. Used in meta description
   copyright = "Bob Rockefeller" # Footer copyright holder, otherwise will use site title
   readmore = true # Show "Read more" button in list if true
@@ -24,14 +24,24 @@ theme = 'roadster'
 [Params.sidebar]
   home = "right" # Configure layout for home page
   list = "left"  # Configure layout for list pages
-  single = false # Configure layout for single pages
+  single = "right" # Configure layout for single pages
   # Enable widgets in given order
-  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+  widgets = ["categories", "taglist", "social"]
 
 [Params.widgets]
   recent_num = 3 # Set the number of articles in the "Recent articles" widget
   categories_counter = false # Enable counter for each category in "Categories" widget
   tags_counter = false # Enable counter for each tag in "Tags" widget
+
+
+[Params.widgets.social]
+  cached = true # activate cache if true
+  # Enable parts of social widget
+  facebook = "bob.rockefeller"
+  x = "BobRockefeller"
+  instagram = "bobrockef"
+  email = "bob@bobrockefeller.com"
+
 
 [taxonomies]
   tag = "tags"

@@ -4,3 +4,12 @@
 [submodule "themes/roadster"]
 	path = themes/roadster
 	url = https://github.com/mansoorbarri/roadster.git
+[submodule "themes/flat"]
+	path = themes/flat
+	url = https://github.com/leafee98/hugo-theme-flat.git
+[submodule "themes/triple-hyde"]
+	path = themes/triple-hyde
+	url = https://github.com/derme302/triple-hyde.git
+[submodule "themes/hugo-clarity"]
+	path = themes/hugo-clarity
+	url = https://github.com/chipzoller/hugo-clarity
