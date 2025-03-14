@@ -13,7 +13,10 @@ tags: [M&P Competitor]
 
 The M&P Competitor, that is. After IPSC Nationals in November of 2023, I got started practicing and shooting matches with the M&P Competitor. That has worked out pretty well.
 
-![M&P Competitor](/assets/wp-content/uploads/2023/10/Competitor-L.png){: width="50%" .align-right}
+<figure style="float: right; width: 50%; margin: 1em 0em 1em 1em">
+  <img src="/images/wp-content/uploads/2023/10/Competitor-L.png" alt="The M&P Competitor" >
+  <figcaption>The M&P Competitor</figcaption>
+</figure>
 
 It's a lighter gun (30oz) than I've been shooting (43oz) and offers the pros and cons of that weight reduction. As has been reported by many, the lighter gun is easier to manipulate (drawing, transitioning, reloading, and so on) but doesn't settle as well on longer or more difficult targets. There's a trade off; but that trade off seems to work for me.
 
@@ -21,13 +24,19 @@ But more importantly, magazines with a [Henning Group](https://www.henningshop.c
 
 I have a couple of disappointments with the pistol. The first is the trigger. For a gun designed primarily for competition, its trigger is only slightly better than all other M&P triggers. A replacement trigger group is a near necessity and the [APEX Tactical](https://www.apextactical.com) flat-faced forward set [upgrade kit](https://www.apextactical.com/flat-faced-forward-set-trigger-kit-for-metal-frame-m-p-m2-0) fits the bill perfectly for me. With the right combination of included springs I have the trigger at about 1 ½# to the wall and then a crisp break with 1 ½# more pounds applied.
 
-![M&P Competitor](/assets/wp-content/uploads/2023/10/Competitor-R.png){: width="50%" .align-left}
+<figure style="float: left; width: 50%; margin: 1em 1em 1em 0em">
+  <img src="/images/wp-content/uploads/2023/10/Competitor-R.png" alt="The M&P Competitor" >
+  <figcaption>The M&P Competitor</figcaption>
+</figure>
 
 The sights are more of a problem. I like a 0.100\" wide front sight with a fiber optic rod. And [Dawson Precision](https://dawsonprecision.com/gun-sights/smith-wesson/) has them. But they don't make rear sights for the M&P Metal guns. The stock rear sight has a much too wide 0.154\" notch and a 0.100\" front sight would have just too much air around it.
 
 I compromised with a 0.125\" front sight, but it's not the competition sight picture I really want. No one makes an alternative competition rear sight and even Smith & Wesson sells nothing other than the stock 0.154\" width. Who at S&W thought those very wide sights were what competition shooters want today?
 
-![M&P Competitor](/assets/wp-content/uploads/2024/05/13199-OnWhite-3Q-Left__43554.png){: width="50%" .align-right}
+<figure style="float: right; width: 50%; margin: 1em 0em 1em 1em">
+  <img src="/images/wp-content/uploads/2024/05/13199-OnWhite-3Q-Left__43554.png" alt="The M&P Competitor" >
+  <figcaption>The M&P Competitor</figcaption>
+</figure>
 
 Everything else about the pistol suits me out of the box. The frame's grip texture provides enough bite, the cocking serrations work well, and gripping the gun feels natural and not far off from my 1911s. And it looks good, too. But why did S&W choose to make a metal gun out of aluminum instead of steel?
 

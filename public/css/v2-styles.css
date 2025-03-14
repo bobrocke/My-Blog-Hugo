@@ -11,3 +11,7 @@ figcaption {
   text-align: center;
   font-size: 0.85rem;
 }
+
+.menu__list {
+  justify-content: center;
+}

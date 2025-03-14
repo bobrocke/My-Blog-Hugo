@@ -51,3 +51,37 @@ theme = 'roadster'
 
 [markup.goldmark.renderer]
   unsafe = true # Allow HTML in md files
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 2
+  [[menu.main]]
+    name = "Portfolio"
+    url = "/portfolio"
+    weight = 3
+  [[menu.main]]
+    name = "Nature"
+    url = "/portfolio/nature"
+    parent = 'Portfolio'
+    weight = 1
+  [[main.menu]]
+    name = "Places"
+    url = "/portfolio/places"
+    parent = 'Portfolio'
+    weight = 2
+  [[main.menu]]
+    name = "Pets"
+    url = "/portfolio/pets"
+    parent = 'Portfolio'
+    weight = 3
+  [[main.menu]]
+    name = "People"
+    url = "/portfolio/people"
+    parent = 'Portfolio'
+    weight = 4
