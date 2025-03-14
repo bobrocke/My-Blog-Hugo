@@ -13,17 +13,26 @@ tags: [Laugo Arms Alien]
 
 I've started back shooting a [Laugo Arms Alien](https://laugoarmsusa.com) pistol and I still like it. These pistols are niche firearms that offer a unique design not found together in any other current pistol that I know. And if you have had a chance to shoot one, you'll know exactly what I mean by unique.
 
-<img src="/images/wp-content/uploads/2024/05/Laugo-Arms-Alien-Magwell-Left-Side.png" alt="The Alien Pistol" style="float: right; width: 50%; margin: 1em 0em 1em 1em">
+<figure style="float: right; width: 50%; margin: 1em 0em 1em 1em">
+  <img src="/images/wp-content/uploads/2024/05/Laugo-Arms-Alien-Magwell-Left-Side.png" alt="The Alien Pistol" >
+  <figcaption>The Alien</figcaption>
+</figure>
 
 Several years ago I owned two Alien Full Kits - one I shot and one I left unfired. I very much liked the way the gun handled and shot. But I was concerned about the pistol’s longer term viability in the US both in terms of spare part availability and continued service ([Lancer Systems](https://lancer-systems.com/product-category/laugo/) was handling both as the US distributor for Laugo Arms at the time). So I sold them. That was a mistake.
 
 Today, [Laugo Arms USA](https://laugoarmsusa.com) has responsibility for US sales and service. Individual spare parts are available for sale on their website along with all the current Alien pistol models. They also seem knowledgeable and responsive. My past fears were not justified. Lancer Systems still has a few Alien models in stock at closeout prices so I was able to get a Full Kit (the original black and green model with the Glock grip angle) at a bit of a discount.
 
-<img src="/images/wp-content/uploads/2024/05/Laugo-Arms-USA-Alien-Full-Kit-Cased.png" alt="Alien Full Kit" style="float: left; width: 50%; margin: 1em 1em 1em 0em">
+<figure style="float: left; width: 50%; margin: 1em 1em 1em 0em">
+  <img src="/images/wp-content/uploads/2024/05/Laugo-Arms-USA-Alien-Full-Kit-Cased.png" alt="The Alien Full Kit" >
+  <figcaption>The Alien Full Kit</figcaption>
+</figure>
 
 I mention the original Alien because Laugo Arms has introduced a new [Creator](https://laugoarmsusa.com/alien-creator-evolution/) series with several updates meant for the US market. Now you have a choice between the [original](https://laugoarmsusa.com/alien-pistol/) and the Creator. These are still very much niche pistols both in terms of their cost and their use cases. The cheapest you can get into an Alien is $3,900 and they don't really make much sense as a duty, home defense, or carry gun. As a competition gun in USPSA they are an awkward fit in Limited (they come only in 9mm) or Open (they have no compensator). They do fit just fine in PCSL's Factory division. Of course, they also make an extra special range toy!
 
-<img src="/images/wp-content/uploads/2024/05/Laugo-Arms-Alien-Exploded-View.png" alt="The Alien's Major Components" style="float: right; width: 50%; margin: 1em 0em 1em 1em">
+<figure style="float: right; width: 50%; margin: 1em 0em 1em 1em">
+  <img src="/images/wp-content/uploads/2024/05/Laugo-Arms-Alien-Exploded-View.png" alt="The Alien Components" >
+  <figcaption>The Alien Components</figcaption>
+</figure>
 
 In return for the Alien's uniqueness you get some significant advantages and a few disadvantages. The good stuff is reduced muzzle flip due to the peculiar design having the barrel mounted to the frame and very low with respect to your shooting hand. Having a barrel that does not tilt, rotate, or otherwise change position means its accuracy is improved over other designs. The top rail, where the sights are mounted, does not reciprocate with the slide. Combined with reduced muzzle flip, the sights hardly move making it very easy to take the next aimed shot.
 
@@ -41,7 +50,10 @@ Another disadvantage comes from the gun's uniqueness. You won't drop into your l
 
 The gun can get hot around the trigger guard and front of the frame. Because some gas from the chamber is directly ported into the gas chamber, extra heat is introduced. It may not be a problem under USPSA match conditions, but I can imagine it getting uncomfortable under sustained rapid fire.
 
-<img src="/images/wp-content/uploads/2024/05/creator-lo.png" alt="The Alien Creator Limited Optics" style="float: right; width: 50%; margin: 1em 0em 1em 1em">
+<figure style="float: right; width: 50%; margin: 1em 0em 1em 1em">
+  <img src="/images/wp-content/uploads/2024/05/creator-lo.png" alt="The Alien Creator Limited Optics" >
+  <figcaption>The Alien Creator Limited Optics</figcaption>
+</figure>
 
 There are now two styles of Alien, the [Alien](https://laugoarmsusa.com/alien-pistol/) and the [Alien Creator](https://laugoarmsusa.com/alien-creator-evolution/). You can get all the details of the differences on the website, but the short story is that the Creator was developed from the Alien to address the needs of American shooters. The Creator has a 1911 grip angle in place of the Alien's Glock grip angle and there is now a 22-round magazine for it.
 
