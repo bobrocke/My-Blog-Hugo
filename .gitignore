@@ -1,3 +1,4 @@
 hugo_notes.md
 public
 *.hugo.toml
+resources/*
