@@ -69,19 +69,19 @@ theme = 'roadster'
     name = "Nature"
     url = "/portfolio/nature"
     parent = 'Portfolio'
-    weight = 1
+    weight = 11
   [[main.menu]]
     name = "Places"
     url = "/portfolio/places"
     parent = 'Portfolio'
-    weight = 2
+    weight = 12
   [[main.menu]]
     name = "Pets"
     url = "/portfolio/pets"
     parent = 'Portfolio'
-    weight = 3
+    weight = 13
   [[main.menu]]
     name = "People"
     url = "/portfolio/people"
     parent = 'Portfolio'
-    weight = 4
+    weight = 14
