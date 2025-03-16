@@ -5,7 +5,7 @@ summary: I've done it before and it looks like I'm doing it again. It just may b
 image:
 categories:
   - Web Development
-tags:
+tags: [WordPress]
 ---
 
 I've done it before and it looks like I'm doing it again. It may be the right time to move my [personal blog](htpp://www.bobrockefeller.com) from WordPress to a static site for simplicity, portablity, and performance.
