@@ -69,27 +69,27 @@ theme = 'roadster'
     name = "Tags"
     url = "/tags"
     weight = 4
-  # [[menu.main]]
-  #   name = "Portfolio"
-  #   url = "/portfolio"
-  #   weight = 5
-  # [[menu.main]]
-  #   name = "Nature"
-  #   url = "/portfolio/nature"
-  #   parent = 'Portfolio'
-  #   weight = 11
-  # [[main.menu]]
-  #   name = "Places"
-  #   url = "/portfolio/places"
-  #   parent = 'Portfolio'
-  #   weight = 12
-  # [[main.menu]]
-  #   name = "Pets"
-  #   url = "/portfolio/pets"
-  #   parent = 'Portfolio'
-  #   weight = 13
-  # [[main.menu]]
-  #   name = "People"
-  #   url = "/portfolio/people"
-  #   parent = 'Portfolio'
-  #   weight = 14
+  [[menu.main]]
+    name = "Portfolio"
+    url = "/portfolio"
+    weight = 5
+  [[menu.main]]
+    name = "Nature"
+    url = "/portfolio/nature"
+    parent = 'Portfolio'
+    weight = 11
+  [[main.menu]]
+    name = "Places"
+    url = "/portfolio/places"
+    parent = 'Portfolio'
+    weight = 12
+  [[main.menu]]
+    name = "Pets"
+    url = "/portfolio/pets"
+    parent = 'Portfolio'
+    weight = 13
+  [[main.menu]]
+    name = "People"
+    url = "/portfolio/people"
+    parent = 'Portfolio'
+    weight = 14
