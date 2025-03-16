@@ -10,7 +10,7 @@ theme = 'roadster'
 [Params]
   description = "Bob Rockefeller's General Blog" # Site description. Used in meta description
   copyright = "Bob Rockefeller" # Footer copyright holder, otherwise will use site title
-  readmore = true # Show "Read more" button in list if true
+  readmore = false # Show "Read more" button in list if true
   authorbox = true # Show authorbox at bottom of pages if true
   toc = true # Enable Table of Contents
   pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
@@ -25,7 +25,7 @@ theme = 'roadster'
 
 [Params.sidebar]
   home = "right" # Configure layout for home page
-  list = "left"  # Configure layout for list pages
+  list = "right"  # Configure layout for list pages
   single = "right" # Configure layout for single pages
   # Enable widgets in given order
   widgets = ["categories", "taglist", "social"]
@@ -62,26 +62,34 @@ theme = 'roadster'
     url = "/about"
     weight = 2
   [[menu.main]]
-    name = "Portfolio"
-    url = "/portfolio"
+    name = "Categories"
+    url = "/categories"
     weight = 3
   [[menu.main]]
-    name = "Nature"
-    url = "/portfolio/nature"
-    parent = 'Portfolio'
-    weight = 11
-  [[main.menu]]
-    name = "Places"
-    url = "/portfolio/places"
-    parent = 'Portfolio'
-    weight = 12
-  [[main.menu]]
-    name = "Pets"
-    url = "/portfolio/pets"
-    parent = 'Portfolio'
-    weight = 13
-  [[main.menu]]
-    name = "People"
-    url = "/portfolio/people"
-    parent = 'Portfolio'
-    weight = 14
+    name = "Tags"
+    url = "/tags"
+    weight = 4
+  # [[menu.main]]
+  #   name = "Portfolio"
+  #   url = "/portfolio"
+  #   weight = 5
+  # [[menu.main]]
+  #   name = "Nature"
+  #   url = "/portfolio/nature"
+  #   parent = 'Portfolio'
+  #   weight = 11
+  # [[main.menu]]
+  #   name = "Places"
+  #   url = "/portfolio/places"
+  #   parent = 'Portfolio'
+  #   weight = 12
+  # [[main.menu]]
+  #   name = "Pets"
+  #   url = "/portfolio/pets"
+  #   parent = 'Portfolio'
+  #   weight = 13
+  # [[main.menu]]
+  #   name = "People"
+  #   url = "/portfolio/people"
+  #   parent = 'Portfolio'
+  #   weight = 14

@@ -6,8 +6,15 @@
     <description>Recent content on Bob Rockefeller</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Jun 2024 13:20:41 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Mar 2025 19:28:41 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Moving From WordPress</title>
+      <link>//localhost:1313/post/2025-03-14-moving-from-wordpress/</link>
+      <pubDate>Fri, 14 Mar 2025 19:28:41 +0000</pubDate>
+      <guid>//localhost:1313/post/2025-03-14-moving-from-wordpress/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve done it before and it looks like I&amp;rsquo;m doing it again. It may be the right time to move my &lt;a href=&#34;htpp://www.bobrockefeller.com&#34;&gt;personal blog&lt;/a&gt; from WordPress to a static site for simplicity, portablity, and performance.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Alien Ammo</title>
       <link>//localhost:1313/post/2024-06-05-alien-ammo/</link>
@@ -41,28 +48,42 @@
       <link>//localhost:1313/post/2023-11-08-2024-the-year-of-the-bullets/</link>
       <pubDate>Wed, 08 Nov 2023 17:52:58 +0000</pubDate>
       <guid>//localhost:1313/post/2023-11-08-2024-the-year-of-the-bullets/</guid>
-      <description>&lt;p&gt;For my &lt;a href=&#34;https://uspsa.org&#34;&gt;USPSA&lt;/a&gt;, &lt;a href=&#34;https://www.pcsleague.com&#34;&gt;PCSL&lt;/a&gt;, and &lt;a href=&#34;https://www.idpa.com&#34;&gt;IDPA&lt;/a&gt; practical shooting competitions I&amp;rsquo;ve been a huge fan and consistent user of the 1911 platform. But 8 or 10 rounds in a magazine gets old, especially in USPSA. So 2024 is going to be my year to shoot a high-capacity pistol. And there sure are a lot to choose from!&lt;/p&gt;&#xA;&lt;p&gt;I don&amp;rsquo;t want to mess with .40 S&amp;amp;W – I did that once and it&amp;rsquo;s just a pain. About the only place that caliber is used anymore is in USPSA competition; police departments switched to 9mm years ago. Because of that, finding range brass is almost impossible so brass must be purchased, adding to the expense. And then there&amp;rsquo;s the extra kick of recoil. Forget it. I&amp;rsquo;ll shoot 9mm, like the rest of the world.&lt;/p&gt;</description>
+      <description>For my &lt;a href=&#34;https://uspsa.org&#34;&gt;USPSA&lt;/a&gt;, &lt;a href=&#34;https://www.pcsleague.com&#34;&gt;PCSL&lt;/a&gt;, and &lt;a href=&#34;https://www.idpa.com&#34;&gt;IDPA&lt;/a&gt; practical shooting competitions I&amp;rsquo;ve been a huge fan and consistent user of the 1911 platform. But 8 or 10 rounds in a magazine gets old, especially in USPSA. So 2024 is going to be my year to shoot a high-capacity pistol. And there sure are a lot to choose from!</description>
     </item>
     <item>
       <title>The Fall Updates</title>
       <link>//localhost:1313/post/2023-11-04-the-fall-updates/</link>
       <pubDate>Sat, 04 Nov 2023 15:35:26 +0000</pubDate>
       <guid>//localhost:1313/post/2023-11-04-the-fall-updates/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.captureone.com/en&#34;&gt;Capture One&lt;/a&gt;, &lt;a href=&#34;https://www.adobe.com/products/photoshop-lightroom-classic.html&#34;&gt;Lightroom Classic&lt;/a&gt;, &lt;a href=&#34;https://www.dxo.com/dxo-photolab/&#34;&gt;PhotoLab Elite&lt;/a&gt;, and &lt;a href=&#34;https://www.on1.com/products/photo-raw/&#34;&gt;Photo R&lt;/a&gt;&lt;a href=&#34;https://www.on1.com/products/photo-raw/&#34;&gt;A&lt;/a&gt;&lt;a href=&#34;https://www.on1.com/products/photo-raw/&#34;&gt;W&lt;/a&gt; have all been updated this Fall. The question for me is whether or not these changes make switching from Lightroom Classic a good choice.&lt;/p&gt;&#xA;&lt;p&gt;I wrote about my &lt;a href=&#34;https://bobrockefeller.com/photography/photography-software/selecting-a-post-processor/&#34;&gt;approach to selecting a post-processing software&lt;/a&gt; for my photography earlier. My approach now is the same; what I consider important has not changed. What has changed are the features of the different programs.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;//localhost:1313/assets/wp-content/uploads/2023/10/AI-masking-screen-shot.png&#34;&gt;&lt;img src=&#34;//localhost:1313/assets/wp-content/uploads/2023/10/AI-masking-screen-shot-1024x640.png&#34; alt=&#34;AI Masking Screen Shot&#34;&gt;&lt;/a&gt;AI Masking Screen Shot&lt;/p&gt;</description>
+      <description>Capture One, Lightroom Classic, PhotoLab Elite, and Photo Raw have all been updated this Fall. The question for me is whether or not these changes make switching from Lightroom Classic a good choice.</description>
     </item>
     <item>
       <title>WordPress Reconsidered</title>
       <link>//localhost:1313/post/2023-10-23-wordpress-reconsidered/</link>
       <pubDate>Mon, 23 Oct 2023 19:03:18 +0000</pubDate>
       <guid>//localhost:1313/post/2023-10-23-wordpress-reconsidered/</guid>
-      <description>&lt;p&gt;I moved my websites off of WordPress several years ago due to the security problems I was having and the complexity of customizing themes. There were just too many files in too many places to modify when customizing a theme to suit me. So I switched to &lt;a href=&#34;https://getgrav.org&#34;&gt;Grav&lt;/a&gt; and found its straightforward approach was what I needed.&lt;/p&gt;&#xA;&lt;p&gt;Over time, the direct coding required for Grav became a problem because I would take breaks, sometimes long breaks, between posting and site modifications. When I got started again, I almost had to learn Grav all over. Looking for a way to use a more drag-and-drop interface, I switched to Squarespace. And it was a good, if somewhat expensive, thing. But now I&amp;rsquo;m looking at a $200/year subscription with few options for transferring my content to another host or platform.&lt;/p&gt;</description>
+      <description>I moved my websites off of WordPress several years ago due to the security problems I was having and the complexity of customizing themes. There were just too many files in too many places to modify when modifying a theme to suit me. So I switched to &lt;a href=&#34;https://getgrav.org&#34;&gt;Grav&lt;/a&gt; and found its straightforward approach was what I needed.</description>
     </item>
     <item>
       <title>About</title>
       <link>//localhost:1313/about/</link>
-      <pubDate>Tue, 25 Jan 2022 14:00:00 +0000</pubDate>
+      <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/about/</guid>
-      <description>&lt;p&gt;Our website builds with &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; static site generator and&#xA;&lt;a href=&#34;https://github.com/vimux/roadster&#34;&gt;Roadster&lt;/a&gt; theme. This demo allows you to see what Roadster based website looks like&#xA;before deciding to go with it. Just keep in mind that the current demo shows the basics, a small part of what the&#xA;combination of Hugo and Roadster can do.&lt;/p&gt;&#xA;&lt;h2 id=&#34;about-roadster&#34;&gt;About Roadster&lt;/h2&gt;&#xA;&lt;p&gt;Roadster is a responsive, simple, clean and content-focused Hugo theme based on the MH Magazine lite WordPress theme.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Bob Rockefeller…&lt;/p&gt;&#xA;&lt;p&gt;…has too many hobbies. And he bounces from one to the other making it hard to be good at any of them. He&#39;s built pistols and websites, taken a lot of pictures (some of which are good), and blogs about what he&#39;s done or learned.&lt;/p&gt;&#xA;&lt;p&gt;This is a static website; nothing but HTML and a little JavaScript here. It&#39;s hosted on Cloudflare for fast loading and a world-wide CDN.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Topaz Photo AI…</title>
+      <link>//localhost:1313/post/2023-05-15-about-topaz-photo-ai/</link>
+      <pubDate>Mon, 15 May 2023 22:52:53 +0000</pubDate>
+      <guid>//localhost:1313/post/2023-05-15-about-topaz-photo-ai/</guid>
+      <description>In &lt;a href=&#34;https://bobrockefeller.com/photography/beginning-bird-photography/&#34;&gt;my last post&lt;/a&gt;, I ended by saying I had chosen Lightroom Classic and &lt;a href=&#34;https://www.topazlabs.com/topaz-photo-ai&#34;&gt;Topaz Photo AI&lt;/a&gt; for my post-production needs. It didn’t take long for me to realize that Lightroom Classic’s new &lt;a href=&#34;https://helpx.adobe.com/lightroom-classic/help/whats-new/2023-3.html&#34;&gt;Denoise feature&lt;/a&gt; made that a bad choice, for me.</description>
+    </item>
+    <item>
+      <title>Beginning Bird Photography</title>
+      <link>//localhost:1313/post/2023-04-26-beginning-bird-photography/</link>
+      <pubDate>Wed, 26 Apr 2023 22:40:08 +0000</pubDate>
+      <guid>//localhost:1313/post/2023-04-26-beginning-bird-photography/</guid>
+      <description>The first thing to know about bird photography is that it’s hard. And the second thing to know is that you will need a long lens.</description>
     </item>
   </channel>
 </rss>
