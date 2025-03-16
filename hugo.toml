@@ -15,7 +15,7 @@ theme = 'roadster'
   toc = true # Enable Table of Contents
   pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
   post_meta = ["date", "categories"]
-  customCSS = ["/css/lightbox.css"] # Include custom CSS files
+  customCSS = ["/css/lightbox.css", "/css/custom.css"] # Include custom CSS files
   customJS = ["/js/lightbox.js"] # Include custom JS files
 
 [params.author]
