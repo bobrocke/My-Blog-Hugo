@@ -16,6 +16,69 @@
       <description>&lt;p&gt;I&amp;rsquo;ve done it before and it looks like I&amp;rsquo;m doing it again. It may be the right time to move my &lt;a href=&#34;htpp://www.bobrockefeller.com&#34;&gt;personal blog&lt;/a&gt; from WordPress to a static site for simplicity, portablity, and performance.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>The Frameworks</title>
+      <link>//localhost:53002/post/2025-03-07-the-frameworks/</link>
+      <pubDate>Fri, 07 Mar 2025 18:53:00 +0000</pubDate>
+      <guid>//localhost:53002/post/2025-03-07-the-frameworks/</guid>
+      <description>Getting my simple web application started and then deployed has been an excellent learning experience. And thank goodness for the fine documentation and guides to the frameworks I&amp;rsquo;ve tried. As a bonus, it&amp;rsquo;s almost all free!</description>
+    </item>
+    <item>
+      <title>Laravel</title>
+      <link>//localhost:53002/post/2025-03-07-laravel/</link>
+      <pubDate>Fri, 07 Mar 2025 18:35:00 +0000</pubDate>
+      <guid>//localhost:53002/post/2025-03-07-laravel/</guid>
+      <description>It&amp;rsquo;s looking more and more like I&amp;rsquo;ll be using Laravel in preference to Rails, Django, and Masonite. Maybe Laravel isn&amp;rsquo;t &amp;lsquo;better&amp;rsquo; from every point of view, but it seems &amp;lsquo;better&amp;rsquo; enough for me.</description>
+    </item>
+    <item>
+      <title>Convention vs. Configuration</title>
+      <link>//localhost:53002/post/2025-02-19-convention-vs-configuration/</link>
+      <pubDate>Wed, 19 Feb 2025 12:09:00 +0000</pubDate>
+      <guid>//localhost:53002/post/2025-02-19-convention-vs-configuration/</guid>
+      <description>&lt;p&gt;Ruby on Rails is well known for its philosophy of &lt;em&gt;convention over configuration&lt;/em&gt;. And there are definitely benefits to that approach. But are there also significant disadvantages?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Masonite, an Alternative to Django</title>
+      <link>//localhost:53002/post/2025-02-16-masonite-an-alternative-to-django/</link>
+      <pubDate>Tue, 11 Feb 2025 10:09:00 +0000</pubDate>
+      <guid>//localhost:53002/post/2025-02-16-masonite-an-alternative-to-django/</guid>
+      <description>&lt;p&gt;Ruby on Rails, Laravel, and Django are the heavy-hitters in full-stack web development frameworks written in Ruby, PHP, and Python, respectively. Rails has been around since 2004, Laravel since 2011, and Django since 2005. I recently came across Masonite (released in 2018) and had to look into it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>I Changed Themes</title>
+      <link>//localhost:53002/post/2025-02-07-i-changed-themes/</link>
+      <pubDate>Fri, 07 Feb 2025 10:09:00 +0000</pubDate>
+      <guid>//localhost:53002/post/2025-02-07-i-changed-themes/</guid>
+      <description>&lt;p&gt;A simple (I thought) desire to add a Stack Overflow icon, and link to my account there, in this blog&amp;rsquo;s footer sent me looking for a different, but still uncomplicated theme. Soon, I was off in the weeks. And I said I wouldn&amp;rsquo;t&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Zed is Good</title>
+      <link>//localhost:53002/post/2025-02-05-zed-is-good/</link>
+      <pubDate>Wed, 05 Feb 2025 17:55:00 +0000</pubDate>
+      <guid>//localhost:53002/post/2025-02-05-zed-is-good/</guid>
+      <description>&lt;p&gt;Programming editors and Integrated Development Environments (IDEs) are very personal choices because developers spend so much of their day working with them. VS Code is immensely popular as are the various JetBrains IDEs. VS Code is free, configurable, and powerful which is why so many develops prefer it. The very new Zed is gaining popularity fast.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What is Clean Syntax?</title>
+      <link>//localhost:53002/post/2025-02-03-what-is-clean-syntax/</link>
+      <pubDate>Mon, 03 Feb 2025 21:20:00 +0000</pubDate>
+      <guid>//localhost:53002/post/2025-02-03-what-is-clean-syntax/</guid>
+      <description>&lt;p&gt;Programmers talk about &lt;em&gt;clean syntax&lt;/em&gt; and say this or that language or framework has such a property. I&amp;rsquo;ve noted that Ruby and Ruby on Rails have this thing, too. So what is it?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rails and Laravel</title>
+      <link>//localhost:53002/post/2025-02-01-ruby-and-laravel/</link>
+      <pubDate>Sun, 02 Feb 2025 17:13:00 +0000</pubDate>
+      <guid>//localhost:53002/post/2025-02-01-ruby-and-laravel/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m finding that I really like the syntax of Ruby and the philosophy of Rails. Both are straightforward and &amp;lsquo;clean&amp;rsquo;. But I&amp;rsquo;ve been tinkering with Laravel, too, because it runs on more shared hosting services since it&amp;rsquo;s just good ol&amp;rsquo; PHP.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Jekyll Blogging</title>
+      <link>//localhost:53002/post/2025-02-01-jekyll-blogging/</link>
+      <pubDate>Sat, 01 Feb 2025 17:13:00 +0000</pubDate>
+      <guid>//localhost:53002/post/2025-02-01-jekyll-blogging/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve set this blog site up to be &lt;strong&gt;dead simple&lt;/strong&gt;. I don&amp;rsquo;t want to do anything to create it beyond installing Jekyll and setting it up to publish to GitHub Pages.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Alien Ammo</title>
       <link>//localhost:53002/post/2024-06-05-alien-ammo/</link>
       <pubDate>Wed, 05 Jun 2024 13:20:41 +0000</pubDate>
