@@ -57,39 +57,47 @@ theme = 'roadster'
     name = "Home"
     url = "/"
     weight = 1
+
   [[menu.main]]
     name = "About"
     url = "/about"
     weight = 2
+
   [[menu.main]]
     name = "Categories"
     url = "/categories"
     weight = 3
+
   [[menu.main]]
     name = "Tags"
     url = "/tags"
     weight = 4
-  [[menu.main]]
-    name = "Portfolio"
-    url = "/portfolio"
-    weight = 5
-  [[menu.main]]
-    name = "Nature"
-    url = "/portfolio/nature"
-    parent = 'Portfolio'
-    weight = 11
-  [[main.menu]]
-    name = "Places"
-    url = "/portfolio/places"
-    parent = 'Portfolio'
-    weight = 12
-  [[main.menu]]
-    name = "Pets"
-    url = "/portfolio/pets"
-    parent = 'Portfolio'
-    weight = 13
-  [[main.menu]]
-    name = "People"
-    url = "/portfolio/people"
-    parent = 'Portfolio'
-    weight = 14
+
+  # [[menu.main]]
+  #   name = "Portfolio"
+  #   url = "/portfolio/"
+  #   weight = 5
+
+  # [[menu.main]]
+  #   name = "Nature"
+  #   url = "/services/web-development/"
+  #   parent = "Portfolio"
+  #   weight = 1
+
+  # [[menu.main]]
+  #   name = "People"
+  #   url = "/services/seo/"
+  #   parent = "Portfolio"
+  #   weight = 2
+
+  # [[menu.main]]
+  #   name = "Places"
+  #   url = "/services/web-development/ecommerce/"
+  #   parent = "Portfolio"
+  #   weight = 3
+
+  # [[menu.main]]
+  #   name = "Pets"
+  #   url = "/services/web-development/custom-apps/"
+  #   parent = "Portfolio"
+  #   weight = 4
