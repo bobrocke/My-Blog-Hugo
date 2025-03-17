@@ -62,7 +62,7 @@ figcaption {
 }
 ```
 
-Coding for portability includes what goes in the YAML front matter. For example, some static site generators use an excerpt marker in the text (`<!--more-->`) and others expect the excerpt to be in the `description:` or `summary` in the front matter. So articles I'm writing now use both; the `<!--more-->` will just be ignored by generators not using it. I may end up just using the front matter because that might actually be the 'standard'.
+Coding for portability includes what goes in the YAML front matter. For example, some static site generators use an excerpt marker in the text (`<!--more-->`) and others expect the excerpt to be in the `description:` or `summary` in the front matter. So articles I'm writing now use both the `summary` and `<!--more-->`; the comment will just be ignored by generators not using it. I may end up just using the front matter for excerpts because that might actually be the 'standard'.
 
 So far Hugo is working out pretty well. The learning curve is a little steep for me, not knowing Go, and Hugo's documentation doesn't help -- it's broken into so many little pieces that finding what you want is better done with a web search. But most of the available themes are well maintained and several of them are very nice. Right now I'm working with Roadster which is a fork of Mainroad because that author no longer maintains it. Hugo is updated frequently can break themes, so maintenance is important.
 
