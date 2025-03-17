@@ -1,6 +1,3 @@
 [submodule "themes/roadster"]
 	path = themes/roadster
 	url = https://github.com/mansoorbarri/roadster.git
-[submodule "themes/hugo-clarity"]
-	path = themes/hugo-clarity
-	url = https://github.com/chipzoller/hugo-clarity
