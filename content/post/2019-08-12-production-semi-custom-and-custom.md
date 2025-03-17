@@ -2,8 +2,7 @@
 permalink: /pistols/production-semi-custom-and-custom/
 title: Production, Semi-Custom, and Custom
 summary: The makers of 1911s all fall into three general categories – _production_ , _semi-custom_ , and _custom_. What is it that differentiates these groups and why should you care? The most significant and obvious difference is the cost.
-date: 2019-08-12 23:16:18 -0000
-last_modified_at: 2023-10-18 23:16:48 -0000
+date: 2019-08-12 23:16:18
 publish: true
 pin: false
 categories:

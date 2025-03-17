@@ -3,8 +3,7 @@ layout: post
 permalink: /photography/photography-software/selecting-a-post-processor/
 title: Selecting a Post-Processor
 summary: I’ve spent the last couple of months working back and forth between the raw processors [Capture One](https://www.captureone.com/en), [Lightroom Classic](https://www.adobe.com/products/photoshop-lightroom-classic.html), [PhotoLab Elite](https://www.dxo.com/dxo-photolab/), and [Photo RAW](https://www.on1.com/products/photo-raw/) in an attempt to settle on just one going into 2024.
-date: 2023-09-06 23:27:06 -0000
-last_modified_at: 2023-10-22 18:45:13 -0000
+date: 2023-09-06 23:27:06
 publish: true
 pin: false
 toc: false

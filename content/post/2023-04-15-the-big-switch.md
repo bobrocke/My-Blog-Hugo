@@ -3,8 +3,7 @@ layout: post
 permalink: /photography/photography-gear/the-big-switch/
 title: The Big Switch
 summary: After many years of happy shooting with the Olympus OM-D E-M1 (and its Mark II upgrade) I’ve made the switch to the [Fujifilm X-T4](https://fujifilm-x.com/en-us/products/cameras/x-t4/). It’s really more of a switch back because I shot a Fujifilm X-T1 immediately before the Olympus. So why the flip-flop?
-date: 2023-04-15 22:23:07 -0000
-last_modified_at: 2023-10-21 22:42:35 -0000
+date: 2023-04-15 22:23:07
 publish: true
 pin: false
 categories:

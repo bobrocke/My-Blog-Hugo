@@ -3,8 +3,7 @@ layout: post
 permalink: /photography/beginning-bird-photography/
 title: Beginning Bird Photography
 summary: The first thing to know about bird photography is that it’s hard. And the second thing to know is that you will need a long lens.
-date: 2023-04-26 22:40:08 -0000
-last_modified_at: 2023-10-21 22:40:42 -0000
+date: 2023-04-26 22:40:08
 publish: true
 pin: false
 categories:

@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Photography Software on Bob Rockefeller</title>
-    <link>//localhost:52665/categories/photography-software/</link>
+    <link>//localhost:55267/categories/photography-software/</link>
     <description>Recent content in Photography Software on Bob Rockefeller</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 09 Nov 2023 14:45:28 +0000</lastBuildDate>
-    <atom:link href="//localhost:52665/categories/photography-software/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:55267/categories/photography-software/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ON1 &gt; LrC?</title>
-      <link>//localhost:52665/post/2023-11-09-on1-lrc/</link>
+      <link>//localhost:55267/post/2023-11-09-on1-lrc/</link>
       <pubDate>Thu, 09 Nov 2023 14:45:28 +0000</pubDate>
-      <guid>//localhost:52665/post/2023-11-09-on1-lrc/</guid>
+      <guid>//localhost:55267/post/2023-11-09-on1-lrc/</guid>
       <description>Is ON1&amp;rsquo;s Photo RAW, now in &lt;a href=&#34;https://www.on1.com/products/photo-raw/whats-new/&#34;&gt;version 2024&lt;/a&gt;, &amp;lsquo;better enough&amp;rsquo; than Lightroom Classic to be worth a switch? After using Aperture (until it was discontinued), Capture One (for a few years), and now Lightroom Classic (for several years), Lightroom Classic has become my standard against which others are judged. To be worth moving to another program, it has to have something pretty good going for it.</description>
     </item>
     <item>
       <title>The Fall Updates</title>
-      <link>//localhost:52665/post/2023-11-04-the-fall-updates/</link>
+      <link>//localhost:55267/post/2023-11-04-the-fall-updates/</link>
       <pubDate>Sat, 04 Nov 2023 15:35:26 +0000</pubDate>
-      <guid>//localhost:52665/post/2023-11-04-the-fall-updates/</guid>
+      <guid>//localhost:55267/post/2023-11-04-the-fall-updates/</guid>
       <description>Capture One, Lightroom Classic, PhotoLab Elite, and Photo Raw have all been updated this Fall. The question for me is whether or not these changes make switching from Lightroom Classic a good choice.</description>
     </item>
     <item>
       <title>Selecting a Post-Processor</title>
-      <link>//localhost:52665/post/2023-09-06-selecting-a-post-processor/</link>
+      <link>//localhost:55267/post/2023-09-06-selecting-a-post-processor/</link>
       <pubDate>Wed, 06 Sep 2023 23:27:06 +0000</pubDate>
-      <guid>//localhost:52665/post/2023-09-06-selecting-a-post-processor/</guid>
+      <guid>//localhost:55267/post/2023-09-06-selecting-a-post-processor/</guid>
       <description>I’ve spent the last couple of months working back and forth between the raw processors &lt;a href=&#34;https://www.captureone.com/en&#34;&gt;Capture One&lt;/a&gt;, &lt;a href=&#34;https://www.adobe.com/products/photoshop-lightroom-classic.html&#34;&gt;Lightroom Classic&lt;/a&gt;, &lt;a href=&#34;https://www.dxo.com/dxo-photolab/&#34;&gt;PhotoLab Elite&lt;/a&gt;, and &lt;a href=&#34;https://www.on1.com/products/photo-raw/&#34;&gt;Photo RAW&lt;/a&gt; in an attempt to settle on just one going into 2024.</description>
     </item>
     <item>
       <title>Photo Lab Elite?</title>
-      <link>//localhost:52665/post/2023-08-29-dxo-photolab-elite/</link>
+      <link>//localhost:55267/post/2023-08-29-dxo-photolab-elite/</link>
       <pubDate>Tue, 29 Aug 2023 23:00:10 +0000</pubDate>
-      <guid>//localhost:52665/post/2023-08-29-dxo-photolab-elite/</guid>
+      <guid>//localhost:55267/post/2023-08-29-dxo-photolab-elite/</guid>
       <description>I’ve been working with PhotoLab Elite 6 over the last couple of weeks re-editing some of my better images from the last few years. The more I work with it, the more I see the missing pieces yet to be included to make it a real competitor to Lightroom Classic, Capture One, and Photo RAW. And that’s making me question if PhotoLab Elite can really replace Lightroom Classic for me.</description>
     </item>
     <item>
       <title>From Lightroom to PhotoLab Elite</title>
-      <link>//localhost:52665/post/2023-08-18-from-lightroom-to-photolab-elite/</link>
+      <link>//localhost:55267/post/2023-08-18-from-lightroom-to-photolab-elite/</link>
       <pubDate>Fri, 18 Aug 2023 23:40:35 +0000</pubDate>
-      <guid>//localhost:52665/post/2023-08-18-from-lightroom-to-photolab-elite/</guid>
+      <guid>//localhost:55267/post/2023-08-18-from-lightroom-to-photolab-elite/</guid>
       <description>Over the years I have used many (too many) different image post-processing applications, even so far back as when Adobe Bridge was the only DAM available other than the Finder. When Apple’s Aperture first came out, I jumped on it right away, loving it until Apple discontinued it. That was a sad day, for me.</description>
     </item>
     <item>
       <title>About Topaz Photo AI…</title>
-      <link>//localhost:52665/post/2023-05-15-about-topaz-photo-ai/</link>
+      <link>//localhost:55267/post/2023-05-15-about-topaz-photo-ai/</link>
       <pubDate>Mon, 15 May 2023 22:52:53 +0000</pubDate>
-      <guid>//localhost:52665/post/2023-05-15-about-topaz-photo-ai/</guid>
+      <guid>//localhost:55267/post/2023-05-15-about-topaz-photo-ai/</guid>
       <description>In &lt;a href=&#34;https://bobrockefeller.com/photography/beginning-bird-photography/&#34;&gt;my last post&lt;/a&gt;, I ended by saying I had chosen Lightroom Classic and &lt;a href=&#34;https://www.topazlabs.com/topaz-photo-ai&#34;&gt;Topaz Photo AI&lt;/a&gt; for my post-production needs. It didn’t take long for me to realize that Lightroom Classic’s new &lt;a href=&#34;https://helpx.adobe.com/lightroom-classic/help/whats-new/2023-3.html&#34;&gt;Denoise feature&lt;/a&gt; made that a bad choice, for me.</description>
     </item>
   </channel>

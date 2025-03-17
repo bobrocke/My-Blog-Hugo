@@ -2,8 +2,7 @@
 permalink: /photography/moving-my-pictures-again-2/
 title: Moving My Pictures (Again)
 summary: Consistent with my shifting attention in web development, I’ve had my photo galleries in all sorts of Content Management Systems (CMSs) over the years. One feature most of those systems shared was the complexity of uploading new images or replacing old ones. My desire to simplify both my web development platform and keeping my images current has led me to Squarespace.
-date: 2023-04-03 21:33:13 -0000
-last_modified_at: 2023-10-21 22:47:39 -0000
+date: 2023-04-03 21:33:13
 publish: true
 pin: false
 categories:

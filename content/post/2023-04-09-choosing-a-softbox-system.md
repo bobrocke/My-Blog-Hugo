@@ -3,8 +3,7 @@ layout: post
 permalink: /photography/photography-gear/choosing-a-softbox-system/
 title: Choosing a Softbox System
 summary: After I settled on the right off-camera lighting system for me (Profoto), I needed to choose between [Glow](https://www.adorama.com/brands/Glow) (an Adorama brand) and [Profoto](https://profoto.com/us/products/light-shaping-tools) (specifically their OCF line) for a system of softboxes.
-date: 2023-04-09 22:03:41 -0000
-last_modified_at: 2023-10-21 22:44:30 -0000
+date: 2023-04-09 22:03:41
 publish: true
 pin: false
 categories:

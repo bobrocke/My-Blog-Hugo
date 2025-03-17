@@ -3,8 +3,7 @@ layout: post
 permalink: /photography/photography-gear/off-camera-flash-choices/
 title: Off-Camera Flash Choices
 summary: My off-camera flash 'system' has been a mishmash of equipment. Clearly, I didn’t have much of a ‘system’ and it certainly wasn’t very modern. It was time for something better.
-date: 2023-04-04 21:55:27 -0000
-last_modified_at: 2023-10-21 22:46:31 -0000
+date: 2023-04-04 21:55:27
 publish: true
 pin: false
 categories:
