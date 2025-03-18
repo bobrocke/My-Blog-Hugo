@@ -2,227 +2,227 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bob Rockefeller</title>
-    <link>//localhost:55476/</link>
+    <link>//localhost:59142/</link>
     <description>Recent content on Bob Rockefeller</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 14 Mar 2025 19:28:41 +0000</lastBuildDate>
-    <atom:link href="//localhost:55476/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:59142/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Moving From WordPress</title>
-      <link>//localhost:55476/post/2025-03-14-moving-from-wordpress/</link>
+      <link>//localhost:59142/post/2025-03-14-moving-from-wordpress/</link>
       <pubDate>Fri, 14 Mar 2025 19:28:41 +0000</pubDate>
-      <guid>//localhost:55476/post/2025-03-14-moving-from-wordpress/</guid>
+      <guid>//localhost:59142/post/2025-03-14-moving-from-wordpress/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve done it before and it looks like I&amp;rsquo;m doing it again. It may be the right time to move my &lt;a href=&#34;htpp://www.bobrockefeller.com&#34;&gt;personal blog&lt;/a&gt; from WordPress to a static site for simplicity, portablity, and performance.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Frameworks</title>
-      <link>//localhost:55476/post/2025-03-07-the-frameworks/</link>
+      <link>//localhost:59142/post/2025-03-07-the-frameworks/</link>
       <pubDate>Fri, 07 Mar 2025 18:53:00 +0000</pubDate>
-      <guid>//localhost:55476/post/2025-03-07-the-frameworks/</guid>
+      <guid>//localhost:59142/post/2025-03-07-the-frameworks/</guid>
       <description>Getting my simple web application started and then deployed has been an excellent learning experience. And thank goodness for the fine documentation and guides to the frameworks I&amp;rsquo;ve tried. As a bonus, it&amp;rsquo;s almost all free!</description>
     </item>
     <item>
       <title>Laravel</title>
-      <link>//localhost:55476/post/2025-03-07-laravel/</link>
+      <link>//localhost:59142/post/2025-03-07-laravel/</link>
       <pubDate>Fri, 07 Mar 2025 18:35:00 +0000</pubDate>
-      <guid>//localhost:55476/post/2025-03-07-laravel/</guid>
+      <guid>//localhost:59142/post/2025-03-07-laravel/</guid>
       <description>It&amp;rsquo;s looking more and more like I&amp;rsquo;ll be using Laravel in preference to Rails, Django, and Masonite. Maybe Laravel isn&amp;rsquo;t &amp;lsquo;better&amp;rsquo; from every point of view, but it seems &amp;lsquo;better&amp;rsquo; enough for me.</description>
     </item>
     <item>
       <title>Convention vs. Configuration</title>
-      <link>//localhost:55476/post/2025-02-19-convention-vs-configuration/</link>
+      <link>//localhost:59142/post/2025-02-19-convention-vs-configuration/</link>
       <pubDate>Wed, 19 Feb 2025 12:09:00 +0000</pubDate>
-      <guid>//localhost:55476/post/2025-02-19-convention-vs-configuration/</guid>
+      <guid>//localhost:59142/post/2025-02-19-convention-vs-configuration/</guid>
       <description>&lt;p&gt;Ruby on Rails is well known for its philosophy of &lt;em&gt;convention over configuration&lt;/em&gt;. And there are definitely benefits to that approach. But are there also significant disadvantages?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Masonite, an Alternative to Django</title>
-      <link>//localhost:55476/post/2025-02-16-masonite-an-alternative-to-django/</link>
+      <link>//localhost:59142/post/2025-02-16-masonite-an-alternative-to-django/</link>
       <pubDate>Tue, 11 Feb 2025 10:09:00 +0000</pubDate>
-      <guid>//localhost:55476/post/2025-02-16-masonite-an-alternative-to-django/</guid>
+      <guid>//localhost:59142/post/2025-02-16-masonite-an-alternative-to-django/</guid>
       <description>&lt;p&gt;Ruby on Rails, Laravel, and Django are the heavy-hitters in full-stack web development frameworks written in Ruby, PHP, and Python, respectively. Rails has been around since 2004, Laravel since 2011, and Django since 2005. I recently came across Masonite (released in 2018) and had to look into it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>I Changed Themes</title>
-      <link>//localhost:55476/post/2025-02-07-i-changed-themes/</link>
+      <link>//localhost:59142/post/2025-02-07-i-changed-themes/</link>
       <pubDate>Fri, 07 Feb 2025 10:09:00 +0000</pubDate>
-      <guid>//localhost:55476/post/2025-02-07-i-changed-themes/</guid>
+      <guid>//localhost:59142/post/2025-02-07-i-changed-themes/</guid>
       <description>&lt;p&gt;A simple (I thought) desire to add a Stack Overflow icon, and link to my account there, in this blog&amp;rsquo;s footer sent me looking for a different, but still uncomplicated theme. Soon, I was off in the weeks. And I said I wouldn&amp;rsquo;t&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Zed is Good</title>
-      <link>//localhost:55476/post/2025-02-05-zed-is-good/</link>
+      <link>//localhost:59142/post/2025-02-05-zed-is-good/</link>
       <pubDate>Wed, 05 Feb 2025 17:55:00 +0000</pubDate>
-      <guid>//localhost:55476/post/2025-02-05-zed-is-good/</guid>
+      <guid>//localhost:59142/post/2025-02-05-zed-is-good/</guid>
       <description>&lt;p&gt;Programming editors and Integrated Development Environments (IDEs) are very personal choices because developers spend so much of their day working with them. VS Code is immensely popular as are the various JetBrains IDEs. VS Code is free, configurable, and powerful which is why so many develops prefer it. The very new Zed is gaining popularity fast.&lt;/p&gt;</description>
     </item>
     <item>
       <title>What is Clean Syntax?</title>
-      <link>//localhost:55476/post/2025-02-03-what-is-clean-syntax/</link>
+      <link>//localhost:59142/post/2025-02-03-what-is-clean-syntax/</link>
       <pubDate>Mon, 03 Feb 2025 21:20:00 +0000</pubDate>
-      <guid>//localhost:55476/post/2025-02-03-what-is-clean-syntax/</guid>
+      <guid>//localhost:59142/post/2025-02-03-what-is-clean-syntax/</guid>
       <description>&lt;p&gt;Programmers talk about &lt;em&gt;clean syntax&lt;/em&gt; and say this or that language or framework has such a property. I&amp;rsquo;ve noted that Ruby and Ruby on Rails have this thing, too. So what is it?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rails and Laravel</title>
-      <link>//localhost:55476/post/2025-02-01-ruby-and-laravel/</link>
+      <link>//localhost:59142/post/2025-02-01-ruby-and-laravel/</link>
       <pubDate>Sun, 02 Feb 2025 17:13:00 +0000</pubDate>
-      <guid>//localhost:55476/post/2025-02-01-ruby-and-laravel/</guid>
+      <guid>//localhost:59142/post/2025-02-01-ruby-and-laravel/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m finding that I really like the syntax of Ruby and the philosophy of Rails. Both are straightforward and &amp;lsquo;clean&amp;rsquo;. But I&amp;rsquo;ve been tinkering with Laravel, too, because it runs on more shared hosting services since it&amp;rsquo;s just good ol&amp;rsquo; PHP.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Jekyll Blogging</title>
-      <link>//localhost:55476/post/2025-02-01-jekyll-blogging/</link>
+      <link>//localhost:59142/post/2025-02-01-jekyll-blogging/</link>
       <pubDate>Sat, 01 Feb 2025 17:13:00 +0000</pubDate>
-      <guid>//localhost:55476/post/2025-02-01-jekyll-blogging/</guid>
+      <guid>//localhost:59142/post/2025-02-01-jekyll-blogging/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve set this blog site up to be &lt;strong&gt;dead simple&lt;/strong&gt;. I don&amp;rsquo;t want to do anything to create it beyond installing Jekyll and setting it up to publish to GitHub Pages.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Alien Ammo</title>
-      <link>//localhost:55476/post/2024-06-05-alien-ammo/</link>
+      <link>//localhost:59142/post/2024-06-05-alien-ammo/</link>
       <pubDate>Wed, 05 Jun 2024 13:20:41 +0000</pubDate>
-      <guid>//localhost:55476/post/2024-06-05-alien-ammo/</guid>
+      <guid>//localhost:59142/post/2024-06-05-alien-ammo/</guid>
       <description>Perhaps the most important thing to control for reliable operation of the Alien pistol is the ammunition used. Because of the gas system that delays blowback, the wrong ammo will lead to unnecessary buildup and finally, failure to cycle the slide.</description>
     </item>
     <item>
       <title>An Alien Pistol</title>
-      <link>//localhost:55476/post/2024-06-01-an-alien-pistol/</link>
+      <link>//localhost:59142/post/2024-06-01-an-alien-pistol/</link>
       <pubDate>Sat, 01 Jun 2024 15:11:18 +0000</pubDate>
-      <guid>//localhost:55476/post/2024-06-01-an-alien-pistol/</guid>
+      <guid>//localhost:59142/post/2024-06-01-an-alien-pistol/</guid>
       <description>I&amp;rsquo;ve started back shooting a &lt;a href=&#34;https://laugoarmsusa.com&#34;&gt;Laugo Arms Alien&lt;/a&gt; pistol and I still like it. These pistols are niche firearms that offer a unique design not found together in any other current pistol that I know. And if you have had a chance to shoot one, you&amp;rsquo;ll know exactly what I mean by unique.</description>
     </item>
     <item>
       <title>The Competitor</title>
-      <link>//localhost:55476/post/2024-01-17-the-competitor/</link>
+      <link>//localhost:59142/post/2024-01-17-the-competitor/</link>
       <pubDate>Wed, 17 Jan 2024 18:56:55 +0000</pubDate>
-      <guid>//localhost:55476/post/2024-01-17-the-competitor/</guid>
+      <guid>//localhost:59142/post/2024-01-17-the-competitor/</guid>
       <description>The M&amp;amp;P Competitor, that is. After IPSC Nationals in November of 2023, I got started practicing and shooting matches with the M&amp;amp;P Competitor. That has worked out pretty well.</description>
     </item>
     <item>
       <title>ON1 &gt; LrC?</title>
-      <link>//localhost:55476/post/2023-11-09-on1-lrc/</link>
+      <link>//localhost:59142/post/2023-11-09-on1-lrc/</link>
       <pubDate>Thu, 09 Nov 2023 14:45:28 +0000</pubDate>
-      <guid>//localhost:55476/post/2023-11-09-on1-lrc/</guid>
+      <guid>//localhost:59142/post/2023-11-09-on1-lrc/</guid>
       <description>Is ON1&amp;rsquo;s Photo RAW, now in &lt;a href=&#34;https://www.on1.com/products/photo-raw/whats-new/&#34;&gt;version 2024&lt;/a&gt;, &amp;lsquo;better enough&amp;rsquo; than Lightroom Classic to be worth a switch? After using Aperture (until it was discontinued), Capture One (for a few years), and now Lightroom Classic (for several years), Lightroom Classic has become my standard against which others are judged. To be worth moving to another program, it has to have something pretty good going for it.</description>
     </item>
     <item>
       <title>2024: The Year of the Bullets</title>
-      <link>//localhost:55476/post/2023-11-08-2024-the-year-of-the-bullets/</link>
+      <link>//localhost:59142/post/2023-11-08-2024-the-year-of-the-bullets/</link>
       <pubDate>Wed, 08 Nov 2023 17:52:58 +0000</pubDate>
-      <guid>//localhost:55476/post/2023-11-08-2024-the-year-of-the-bullets/</guid>
+      <guid>//localhost:59142/post/2023-11-08-2024-the-year-of-the-bullets/</guid>
       <description>For my &lt;a href=&#34;https://uspsa.org&#34;&gt;USPSA&lt;/a&gt;, &lt;a href=&#34;https://www.pcsleague.com&#34;&gt;PCSL&lt;/a&gt;, and &lt;a href=&#34;https://www.idpa.com&#34;&gt;IDPA&lt;/a&gt; practical shooting competitions I&amp;rsquo;ve been a huge fan and consistent user of the 1911 platform. But 8 or 10 rounds in a magazine gets old, especially in USPSA. So 2024 is going to be my year to shoot a high-capacity pistol. And there sure are a lot to choose from!</description>
     </item>
     <item>
       <title>The Fall Updates</title>
-      <link>//localhost:55476/post/2023-11-04-the-fall-updates/</link>
+      <link>//localhost:59142/post/2023-11-04-the-fall-updates/</link>
       <pubDate>Sat, 04 Nov 2023 15:35:26 +0000</pubDate>
-      <guid>//localhost:55476/post/2023-11-04-the-fall-updates/</guid>
+      <guid>//localhost:59142/post/2023-11-04-the-fall-updates/</guid>
       <description>Capture One, Lightroom Classic, PhotoLab Elite, and Photo Raw have all been updated this Fall. The question for me is whether or not these changes make switching from Lightroom Classic a good choice.</description>
     </item>
     <item>
       <title>WordPress Reconsidered</title>
-      <link>//localhost:55476/post/2023-10-23-wordpress-reconsidered/</link>
+      <link>//localhost:59142/post/2023-10-23-wordpress-reconsidered/</link>
       <pubDate>Mon, 23 Oct 2023 19:03:18 +0000</pubDate>
-      <guid>//localhost:55476/post/2023-10-23-wordpress-reconsidered/</guid>
+      <guid>//localhost:59142/post/2023-10-23-wordpress-reconsidered/</guid>
       <description>I moved my websites off of WordPress several years ago due to the security problems I was having and the complexity of customizing themes. There were just too many files in too many places to modify when modifying a theme to suit me. So I switched to &lt;a href=&#34;https://getgrav.org&#34;&gt;Grav&lt;/a&gt; and found its straightforward approach was what I needed.</description>
     </item>
     <item>
       <title>About</title>
-      <link>//localhost:55476/about/</link>
+      <link>//localhost:59142/about/</link>
       <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:55476/about/</guid>
+      <guid>//localhost:59142/about/</guid>
       <description>&lt;p&gt;Bob Rockefeller…&lt;/p&gt;&#xA;&lt;p&gt;…has too many hobbies. And he bounces from one to the other making it hard to be good at any of them. He&#39;s built pistols and websites, taken a lot of pictures (some of which are good), and blogs about what he&#39;s done or learned.&lt;/p&gt;&#xA;&lt;p&gt;This is a static website; nothing but HTML and a little JavaScript here. It&#39;s hosted on Cloudflare for fast loading and a world-wide CDN.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Selecting a Post-Processor</title>
-      <link>//localhost:55476/post/2023-09-06-selecting-a-post-processor/</link>
+      <link>//localhost:59142/post/2023-09-06-selecting-a-post-processor/</link>
       <pubDate>Wed, 06 Sep 2023 23:27:06 +0000</pubDate>
-      <guid>//localhost:55476/post/2023-09-06-selecting-a-post-processor/</guid>
+      <guid>//localhost:59142/post/2023-09-06-selecting-a-post-processor/</guid>
       <description>I’ve spent the last couple of months working back and forth between the raw processors &lt;a href=&#34;https://www.captureone.com/en&#34;&gt;Capture One&lt;/a&gt;, &lt;a href=&#34;https://www.adobe.com/products/photoshop-lightroom-classic.html&#34;&gt;Lightroom Classic&lt;/a&gt;, &lt;a href=&#34;https://www.dxo.com/dxo-photolab/&#34;&gt;PhotoLab Elite&lt;/a&gt;, and &lt;a href=&#34;https://www.on1.com/products/photo-raw/&#34;&gt;Photo RAW&lt;/a&gt; in an attempt to settle on just one going into 2024.</description>
     </item>
     <item>
       <title>Photo Lab Elite?</title>
-      <link>//localhost:55476/post/2023-08-29-dxo-photolab-elite/</link>
+      <link>//localhost:59142/post/2023-08-29-dxo-photolab-elite/</link>
       <pubDate>Tue, 29 Aug 2023 23:00:10 +0000</pubDate>
-      <guid>//localhost:55476/post/2023-08-29-dxo-photolab-elite/</guid>
+      <guid>//localhost:59142/post/2023-08-29-dxo-photolab-elite/</guid>
       <description>I’ve been working with PhotoLab Elite 6 over the last couple of weeks re-editing some of my better images from the last few years. The more I work with it, the more I see the missing pieces yet to be included to make it a real competitor to Lightroom Classic, Capture One, and Photo RAW. And that’s making me question if PhotoLab Elite can really replace Lightroom Classic for me.</description>
     </item>
     <item>
       <title>From Lightroom to PhotoLab Elite</title>
-      <link>//localhost:55476/post/2023-08-18-from-lightroom-to-photolab-elite/</link>
+      <link>//localhost:59142/post/2023-08-18-from-lightroom-to-photolab-elite/</link>
       <pubDate>Fri, 18 Aug 2023 23:40:35 +0000</pubDate>
-      <guid>//localhost:55476/post/2023-08-18-from-lightroom-to-photolab-elite/</guid>
+      <guid>//localhost:59142/post/2023-08-18-from-lightroom-to-photolab-elite/</guid>
       <description>Over the years I have used many (too many) different image post-processing applications, even so far back as when Adobe Bridge was the only DAM available other than the Finder. When Apple’s Aperture first came out, I jumped on it right away, loving it until Apple discontinued it. That was a sad day, for me.</description>
     </item>
     <item>
       <title>T4 -&gt; T5 -&gt; H2 -&gt; H2S</title>
-      <link>//localhost:55476/post/2023-06-04-t4-t5-h2-h2s/</link>
+      <link>//localhost:59142/post/2023-06-04-t4-t5-h2-h2s/</link>
       <pubDate>Sun, 04 Jun 2023 11:33:37 +0000</pubDate>
-      <guid>//localhost:55476/post/2023-06-04-t4-t5-h2-h2s/</guid>
+      <guid>//localhost:59142/post/2023-06-04-t4-t5-h2-h2s/</guid>
       <description>Fujifilm has done a nice job differentiating their top-of-the-line X series cameras. I studied the differences, read reviews, and watched YouTube videos to learn which camera would best suit me when upgrading my X-T4.</description>
     </item>
     <item>
       <title>Squarespace Customization</title>
-      <link>//localhost:55476/post/2023-05-15-squarespace-customization/</link>
+      <link>//localhost:59142/post/2023-05-15-squarespace-customization/</link>
       <pubDate>Mon, 15 May 2023 23:01:59 +0000</pubDate>
-      <guid>//localhost:55476/post/2023-05-15-squarespace-customization/</guid>
+      <guid>//localhost:59142/post/2023-05-15-squarespace-customization/</guid>
       <description>The Squarespace platform allows the web developer a lot of flexibility in creating unique designs. But, naturally, there are limits and some developers will want to go beyond them to create websites that are even more unique. Although not covered by Squarespace’s support team, CSS and JavaScript can be used by more advanced web developers.</description>
     </item>
     <item>
       <title>About Topaz Photo AI…</title>
-      <link>//localhost:55476/post/2023-05-15-about-topaz-photo-ai/</link>
+      <link>//localhost:59142/post/2023-05-15-about-topaz-photo-ai/</link>
       <pubDate>Mon, 15 May 2023 22:52:53 +0000</pubDate>
-      <guid>//localhost:55476/post/2023-05-15-about-topaz-photo-ai/</guid>
+      <guid>//localhost:59142/post/2023-05-15-about-topaz-photo-ai/</guid>
       <description>In &lt;a href=&#34;https://bobrockefeller.com/photography/beginning-bird-photography/&#34;&gt;my last post&lt;/a&gt;, I ended by saying I had chosen Lightroom Classic and &lt;a href=&#34;https://www.topazlabs.com/topaz-photo-ai&#34;&gt;Topaz Photo AI&lt;/a&gt; for my post-production needs. It didn’t take long for me to realize that Lightroom Classic’s new &lt;a href=&#34;https://helpx.adobe.com/lightroom-classic/help/whats-new/2023-3.html&#34;&gt;Denoise feature&lt;/a&gt; made that a bad choice, for me.</description>
     </item>
     <item>
       <title>Beginning Bird Photography</title>
-      <link>//localhost:55476/post/2023-04-26-beginning-bird-photography/</link>
+      <link>//localhost:59142/post/2023-04-26-beginning-bird-photography/</link>
       <pubDate>Wed, 26 Apr 2023 22:40:08 +0000</pubDate>
-      <guid>//localhost:55476/post/2023-04-26-beginning-bird-photography/</guid>
+      <guid>//localhost:59142/post/2023-04-26-beginning-bird-photography/</guid>
       <description>The first thing to know about bird photography is that it’s hard. And the second thing to know is that you will need a long lens.</description>
     </item>
     <item>
       <title>The Big Switch</title>
-      <link>//localhost:55476/post/2023-04-15-the-big-switch/</link>
+      <link>//localhost:59142/post/2023-04-15-the-big-switch/</link>
       <pubDate>Sat, 15 Apr 2023 22:23:07 +0000</pubDate>
-      <guid>//localhost:55476/post/2023-04-15-the-big-switch/</guid>
+      <guid>//localhost:59142/post/2023-04-15-the-big-switch/</guid>
       <description>After many years of happy shooting with the Olympus OM-D E-M1 (and its Mark II upgrade) I’ve made the switch to the &lt;a href=&#34;https://fujifilm-x.com/en-us/products/cameras/x-t4/&#34;&gt;Fujifilm X-T4&lt;/a&gt;. It’s really more of a switch back because I shot a Fujifilm X-T1 immediately before the Olympus. So why the flip-flop?</description>
     </item>
     <item>
       <title>Choosing a Softbox System</title>
-      <link>//localhost:55476/post/2023-04-09-choosing-a-softbox-system/</link>
+      <link>//localhost:59142/post/2023-04-09-choosing-a-softbox-system/</link>
       <pubDate>Sun, 09 Apr 2023 22:03:41 +0000</pubDate>
-      <guid>//localhost:55476/post/2023-04-09-choosing-a-softbox-system/</guid>
+      <guid>//localhost:59142/post/2023-04-09-choosing-a-softbox-system/</guid>
       <description>After I settled on the right off-camera lighting system for me (Profoto), I needed to choose between &lt;a href=&#34;https://www.adorama.com/brands/Glow&#34;&gt;Glow&lt;/a&gt; (an Adorama brand) and &lt;a href=&#34;https://profoto.com/us/products/light-shaping-tools&#34;&gt;Profoto&lt;/a&gt; (specifically their OCF line) for a system of softboxes.</description>
     </item>
     <item>
       <title>Off-Camera Flash Choices</title>
-      <link>//localhost:55476/post/2023-04-04-off-camera-flash-choices/</link>
+      <link>//localhost:59142/post/2023-04-04-off-camera-flash-choices/</link>
       <pubDate>Tue, 04 Apr 2023 21:55:27 +0000</pubDate>
-      <guid>//localhost:55476/post/2023-04-04-off-camera-flash-choices/</guid>
+      <guid>//localhost:59142/post/2023-04-04-off-camera-flash-choices/</guid>
       <description>My off-camera flash &amp;lsquo;system&amp;rsquo; has been a mishmash of equipment. Clearly, I didn’t have much of a ‘system’ and it certainly wasn’t very modern. It was time for something better.</description>
     </item>
     <item>
       <title>Will Squarespace Be It?</title>
-      <link>//localhost:55476/post/2023-04-04-will-squarespace-be-it/</link>
+      <link>//localhost:59142/post/2023-04-04-will-squarespace-be-it/</link>
       <pubDate>Tue, 04 Apr 2023 18:48:42 +0000</pubDate>
-      <guid>//localhost:55476/post/2023-04-04-will-squarespace-be-it/</guid>
+      <guid>//localhost:59142/post/2023-04-04-will-squarespace-be-it/</guid>
       <description>My experiments in web development have led me all over the field of Content Management Systems (CMSs) from WordPress to Squarespace with stops at &lt;a href=&#34;https://getkirby.com/&#34;&gt;Kirby&lt;/a&gt;, &lt;a href=&#34;https://www.concretecms.com/&#34;&gt;concrete5&lt;/a&gt;, &lt;a href=&#34;https://www.silverstripe.org/&#34;&gt;SilverStripe&lt;/a&gt;, &lt;a href=&#34;https://perchrunway.com/&#34;&gt;Perch&lt;/a&gt;, &lt;a href=&#34;https://statamic.com/&#34;&gt;Statamic&lt;/a&gt;, and &lt;a href=&#34;https://getgrav.org/&#34;&gt;Grav&lt;/a&gt;. Some of those have changed names and/or underpinnings, but clearly, I’ve tried too many.</description>
     </item>
     <item>
       <title>Moving My Pictures (Again)</title>
-      <link>//localhost:55476/post/2023-04-03-moving-my-pictures-again-2/</link>
+      <link>//localhost:59142/post/2023-04-03-moving-my-pictures-again-2/</link>
       <pubDate>Mon, 03 Apr 2023 21:33:13 +0000</pubDate>
-      <guid>//localhost:55476/post/2023-04-03-moving-my-pictures-again-2/</guid>
+      <guid>//localhost:59142/post/2023-04-03-moving-my-pictures-again-2/</guid>
       <description>Consistent with my shifting attention in web development, I’ve had my photo galleries in all sorts of Content Management Systems (CMSs) over the years. One feature most of those systems shared was the complexity of uploading new images or replacing old ones. My desire to simplify both my web development platform and keeping my images current has led me to Squarespace.</description>
     </item>
     <item>
       <title>Production, Semi-Custom, and Custom</title>
-      <link>//localhost:55476/post/2019-08-12-production-semi-custom-and-custom/</link>
+      <link>//localhost:59142/post/2019-08-12-production-semi-custom-and-custom/</link>
       <pubDate>Mon, 12 Aug 2019 23:16:18 +0000</pubDate>
-      <guid>//localhost:55476/post/2019-08-12-production-semi-custom-and-custom/</guid>
+      <guid>//localhost:59142/post/2019-08-12-production-semi-custom-and-custom/</guid>
       <description>The makers of 1911s all fall into three general categories – &lt;em&gt;production&lt;/em&gt; , &lt;em&gt;semi-custom&lt;/em&gt; , and &lt;em&gt;custom&lt;/em&gt;. What is it that differentiates these groups and why should you care? The most significant and obvious difference is the cost.</description>
     </item>
   </channel>

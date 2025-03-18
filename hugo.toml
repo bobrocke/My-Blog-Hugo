@@ -44,13 +44,17 @@ theme = 'roadster'
   instagram = "bobrockef"
   email = "bob@bobrockefeller.com"
 
+[[Params.widgets.social.custom]]
+  title = "My Portfolio"
+  icon = "camera.svg"
+  url = "https://photos.bobrockefeller.com"
 
 [taxonomies]
   tag = "tags"
   category = "categories"
 
 [markup.goldmark.renderer]
-  unsafe = true # Allow HTML in md files
+  unsafe = true # true allows HTML in md files
 
 [menu]
   [[menu.main]]
