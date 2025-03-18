@@ -19,7 +19,7 @@ My objectives for this move are:
 - Security -- a static site doesn't have near as many vectors for hacking as a WordPress site.
 - Convenience -- I can write articles in Markdown nearly anywhere and not have to be logged into WordPress
 
-With that in mind, I knew I wanted to use a static site generator and write in relatively simple Markdown. So I needed to pick the right static site generator for this project. My experiments, so far, have been with Jekyll and I like it. But the fact is that Jekyll is a mature system with few updates and many themes that are no longer maintained or are being maintained for backward compatibility with the old GitHub pages workflow.
+With that in mind, I knew I wanted to use a static site generator and write in simple Markdown. So I needed to pick the right static site generator for this project. My experiments, so far, have been with Jekyll and I like it. But the fact is that Jekyll is a mature system with few updates and many themes that are no longer maintained, or are being maintained only for backward compatibility with the old GitHub Pages workflow.
 
 This lack of updates to the system and the themes lead me to consider a few other popular static site generators.
 
@@ -38,7 +38,7 @@ Gatsby
 Astro
 : More JavaScript and many possible template languages.
 
-So I'm trying out Hugo. I don't want the complexity of an application framework for a static site blog, and learning Go might be interesting. It should take care of my performance, security, and convenience objectives. The portability part will take a bit of work, and discipline, on my part.
+I'm trying out Hugo. I don't want the complexity of an application framework for a static site blog, and learning Go might be interesting. It should take care of my performance, security, and convenience objectives. The portability part will take a bit of work, and discipline, on my part.
 
 Markdown is an inherently portable document format. But plain old Markdown doesn't offer more than the very basics in formatting. Not even Definition Lists, Fenced Code Blocks, Tables, or Footnotes. These features, and others, are implemented in the many Markdown alternatives such as kramdown (Ruby), CommonMark (PHP), markdown-it (JavaScript), and GoldMark (Go).
 
@@ -53,7 +53,7 @@ The good news for flexibility in image display is that all the Markdown alternat
 </figure>
 ```
 
-Making the caption look 'right' just takes a little CSS in the theme.
+Making the caption look 'right' only takes a little CSS in the theme.
 
 ```CSS
 figcaption {
@@ -62,8 +62,10 @@ figcaption {
 }
 ```
 
-Coding for portability includes what goes in the YAML front matter. For example, some static site generators use an excerpt marker in the text (`<!--more-->`) and others expect the excerpt to be in the `description:` or `summary` in the front matter. So articles I'm writing now use both the `summary` and `<!--more-->`; the comment will just be ignored by generators not using it. I may end up just using the front matter for excerpts go because that might actually be the 'standard'.
+Coding for portability includes what goes in the YAML front matter. For example, some static site generators use an excerpt marker in the text (`<!--more-->`) and others expect the excerpt to be in the `description:` or maybe the `summary:` field in the front matter. So articles I'm writing now use both the `summary` and `<!--more-->`; the comment will just be ignored by generators not using it.
 
-So far Hugo is working out pretty well. The learning curve is a little steep for me, not knowing Go, and Hugo's documentation doesn't help -- it's broken into so many little pieces that finding what you want is better done with a web search. But most of the available themes are well maintained and several of them are very nice. Right now I'm working with Roadster which is a fork of Mainroad because that author no longer maintains it. Hugo is updated frequently can break themes, so maintenance is important.
+I may end up just using the front matter for excerpts go because that might actually be the 'standard'. Before I'm sure, I'll need to do more work in learning how other static site generators use YAML front matter in hopes of finding what really is 'standard' and what will be a portability problem.
 
-Hugo is indeed very fast generating my site. Jekyll was plenty fast enough, but Hugo is almost instant. Its development server is very good at seeing file changes and updating the browser which makes tweaking things so much easier.
+So far Hugo is working out pretty well. The learning curve is a little steep for me, not knowing Go, and Hugo's documentation doesn't help -- it's broken into so many little pieces that finding what you want is better done with a web search. But most of the available themes are well maintained and several of them are very nice. Right now I'm working with Roadster which is a fork of Mainroad (because that author no longer maintains it). Hugo is updated frequently and can break themes, so maintenance is important.
+
+Hugo is indeed very fast generating my site. Jekyll was plenty fast enough, but Hugo is almost instant. Its development server is very good at seeing file changes and updating the browser which makes tweaking things so much easier. I like it.
