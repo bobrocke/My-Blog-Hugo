@@ -35,7 +35,6 @@ theme = 'roadster'
   categories_counter = false # Enable counter for each category in "Categories" widget
   tags_counter = false # Enable counter for each tag in "Tags" widget
 
-
 [Params.widgets.social]
   cached = true # activate cache if true
   # Enable parts of social widget
@@ -43,6 +42,11 @@ theme = 'roadster'
   x = "BobRockefeller"
   instagram = "bobrockef"
   email = "bob@bobrockefeller.com"
+
+[[Params.widgets.social.custom]]
+  title = "Stack Overflow"
+  icon = "stackoverflow.svg"
+  url = "https://stackoverflow.com/users/1938118/bob-rockefeller"
 
 [[Params.widgets.social.custom]]
   title = "My Portfolio"
