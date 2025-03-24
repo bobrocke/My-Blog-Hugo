@@ -9,7 +9,8 @@
   <body class="flex min-h-dvh flex-col sm:min-h-screen">
     {{- partial "header.html" . -}}
     <main class="mx-auto w-screen max-w-4xl flex-1 grow px-6 py-16">
-      {{- block "main" . }}{{- end }}
+      {{- block "main" . }}
+      {{- end }}
     </main>
     {{- partial "footer.html" . -}}
   </body>

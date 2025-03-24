@@ -5,3 +5,5 @@
 .hugo_build.lock
 
 yarn.lock
+hugo_notes.md
+.zed

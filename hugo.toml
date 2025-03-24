@@ -1,3 +1,27 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://bobrockefeller.com/'
 languageCode = 'en-us'
-title = 'Hugo TailwindCSS Starter'
+title = 'Bob Rockefeller'
+
+[markup.goldmark.renderer]
+  unsafe = true # true allows HTML in md files
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 2
+
+  [[menu.main]]
+    name = "Categories"
+    url = "/categories"
+    weight = 3
+
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags"
+    weight = 4

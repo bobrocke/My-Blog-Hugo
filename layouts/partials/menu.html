@@ -1,0 +1,13 @@
+{{- if .Site.Menus.main }}
+  <nav class="">
+    <ul class="">
+      {{- range .Site.Menus.main }}
+        {{- if not .Parent }}
+          <li class="">
+            <a class="" href="{{ .URL }}">{{ .Name }}</a>
+          </li>
+        {{- end }}
+      {{- end }}
+    </ul>
+  </nav>
+{{- end }}
