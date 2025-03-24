@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@plugin "daisyui" {
+  prefix: "d-";
+}
 
 @theme {
   --color-avocado-100: oklch(0.99 0 0);
