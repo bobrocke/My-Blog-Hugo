@@ -2,6 +2,10 @@ baseURL = 'https://bobrockefeller.com/'
 languageCode = 'en-us'
 title = 'Bob Rockefeller'
 
+# Configure Pagination. See https://gohugo.io/templates/pagination/#configuration
+[pagination]
+  pagerSize = 4 # (int) The number of pages per pager. Default is 10
+
 [markup.goldmark.renderer]
   unsafe = true # true allows HTML in md files
 

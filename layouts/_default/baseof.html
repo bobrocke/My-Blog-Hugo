@@ -1,17 +1,17 @@
 <!doctype html>
 <html lang="{{ .Site.LanguageCode }}">
-  {{ partial "head.html" . }}
+  {{ partial "head.html" . -}}
 
   <!-- DEV TOOLS START -->
-  <!-- {{- partial "dev/dev-tools.html" . -}} -->
+    {{- partial "dev/dev-tools.html" . -}}
   <!-- DEV TOOLS END -->
 
-  <body class="flex min-h-dvh flex-col sm:min-h-screen">
+  <body id="baseof.html" class="mx-auto w-screen max-w-4xl px-6 py-6">
     {{- partial "header.html" . -}}
-    <main class="mx-auto w-screen max-w-4xl flex-1 grow px-6 py-16">
-      {{- block "main" . }}
-      {{- end }}
-    </main>
+
+    {{- block "main" . }}
+    {{- end }}
+
     {{- partial "footer.html" . -}}
 
   <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
