@@ -1,7 +1,8 @@
 @import "tailwindcss";
-@plugin "daisyui" {
-  prefix: "d-";
-}
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+
+@source "../node_modules/flowbite";
 
 @theme {
   --color-avocado-100: oklch(0.99 0 0);
