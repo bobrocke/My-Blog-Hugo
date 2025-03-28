@@ -1,27 +1,12 @@
 {{ define "main" }}
- 	{{- with .Content }}
-   	<div id="index.html" class="">
-  		{{ . }}
-   	</div>
- 	{{- end }}
-
- 	<!-- {{ $paginator := (.Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections).ByDate.Reverse) }}
- 	{{ range $paginator.Pages }}
-		{{- .Render "summary" }}
- 	{{ end }} -->
-
-  {{ $pages := where site.RegularPages "Type" "posts" }}
-  {{ $paginator := .Paginate $pages.ByTitle 7 }}
-
+ 	{{ $paginator := (.Paginate (where .Site.RegularPages "Type" "post").ByDate.Reverse) }}
   {{ range $paginator.Pages }}
-    <div class="ml-4 mt-8">
+    <div class="mx-6 mt-8">
       <h2><a class="font-serif md:text-3xl" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-      <div class="md:text-sm mb-4">{{ .Date | time.Format ":date_long" }}</div>
-      <div class="leading-none prose md:prose-lg">{{ .Summary }}</div>
+      <div class="md:text-sm mb-3">{{ .Date | time.Format ":date_long" }}</div>
+      <div class="max-w-none leading-none prose md:prose-lg">{{ .Summary }}</div>
     </div>
-  {{ end }}
-
-  <p id="index.html"></p>
+ 	{{ end }}
 
   {{ partial "pagination.html" . }}
 

@@ -1,3 +1,6 @@
+TailwindCSS is working via package.json, postcss.mjs, and styles.css
+Flowbite is working via package.json, styles.css, and CDN for .js
+
 <!-- PROJECT SHIELDS -->
 
 [![Contributors][contributors-shield]][contributors-url]

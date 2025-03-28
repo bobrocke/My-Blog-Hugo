@@ -1,5 +1,4 @@
 ---
-layout: post
 title: The Frameworks
 summary: Getting my simple web application started and then deployed has been an excellent learning experience. And thank goodness for the fine documentation and guides to the frameworks I've tried. As a bonus, it's almost all free!
 image:

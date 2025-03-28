@@ -1,5 +1,6 @@
 ---
 title: About
+layout: baseof.html
 ---
 
 <p>Bob Rockefeller…</p>

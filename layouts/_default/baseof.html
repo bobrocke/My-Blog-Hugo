@@ -6,11 +6,11 @@
     {{- partial "dev/dev-tools.html" . -}}
   <!-- DEV TOOLS END -->
 
-  <body id="baseof.html" class="mx-auto w-screen max-w-4xl px-6 py-6">
+  {{ "<!-- baseof.html. -->" | safeHTML }}
+  <body class="mx-auto w-screen max-w-4xl p-6">
     {{- partial "header.html" . -}}
 
-    {{- block "main" . }}
-    {{- end }}
+    {{- block "main" . }}{{- end }}
 
     {{- partial "footer.html" . -}}
 
