@@ -1,31 +1,15 @@
+{{ "<!-- pagination.html -->" | safeHTML }}
+
 <div class="flex justify-center mt-8">
-
-  {{- $msg1 := "When passing a map to the internal pagination template, one of the elements must be named 'page', and it must be set to the context of the current page." }}
-  {{- $msg2 := "The 'format' specified in the map passed to the internal pagination template is invalid. Valid choices are: %s." }}
-
   {{- $page := . }}
-  {{- $format := "default" }}
-
-  {{- if reflect.IsMap . }}
-    {{- with .page }}
-      {{- $page = . }}
-    {{- else }}
-      {{- errorf $msg1 }}
-    {{- end }}
-    {{- with .format }}
-      {{- $format = lower . }}
-    {{- end }}
-  {{- end }}
 
   {{- if gt $page.Paginator.TotalPages 1 }}
     <ul class="inline-flex -space-x-px text-base h-10">
-      {{- partial (printf "partials/inline/pagination/%s" $format) $page }}
+      {{- partial (printf "partials/inline/pagination") $page }}
     </ul>
   {{- end }}
 
-  {{/* Format: default
-  {{/* --------------------------------------------------------------------- */}}
-  {{- define "partials/inline/pagination/default" }}
+  {{- define "partials/inline/pagination" }}
     {{- with .Paginator }}
       {{- $currentPageNumber := .PageNumber }}
 

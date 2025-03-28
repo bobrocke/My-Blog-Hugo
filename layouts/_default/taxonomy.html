@@ -1,6 +1,6 @@
 {{ define "main" }}
-  <div class="mx-6 mt-8 prose prose-lg prose-a:no-underline prose-a:hover:text-red-600">
-    <h1 class="font-serif md:text-4xl">{{ .Title }}</h1>
+  <div class="mx-6 mt-8">
+    <h1 class="font-serif md:text-4xl mb-6">{{ .Title }}</h1>
 
     {{ .Content }}
 
@@ -8,7 +8,7 @@
     {{ $paginator := .Paginate $pages.ByTitle 8 }}
 
     {{ range $paginator.Pages }}
-      <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
+      <h3 class="ml-6 pb-4 text-2xl hover:text-red-600"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
     {{ end }}
 
     {{ partial "pagination.html" . }}
