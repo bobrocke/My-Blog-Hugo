@@ -11,8 +11,14 @@ title = 'Bob Rockefeller'
 [pagination]
   pagerSize = 4 # (int) The number of pages per pager. Default is 10
 
-[markup.goldmark.renderer]
-  unsafe = true # true allows HTML in md files
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true # true allows HTML in md files
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
 
 [menu]
   [[menu.main]]

@@ -3,8 +3,11 @@
   {{ range $paginator.Pages }}
     <div class="mx-6 mt-8">
       <h2><a class="font-serif md:text-3xl" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-      <div class="md:text-sm mb-3">{{ .Date | time.Format ":date_long" }}</div>
-      <div class="max-w-none leading-none prose md:prose-lg">{{ .Summary }}</div>
+      {{ partial "post-meta.html" . }}
+      <div class="max-w-none leading-none prose prose-a:hover:text-red-600 md:prose-lg">{{ .Summary }}</div>
+      {{ if .Truncated }}
+        <a class="float-right hover:text-red-600" href="{{ .RelPermalink }}">Read more...</a>
+      {{ end }}
     </div>
  	{{ end }}
 
