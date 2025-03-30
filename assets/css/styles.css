@@ -10,3 +10,9 @@
   --font-sans: "PT Sans", "sans-serif";
   --font-serif: "PT Serif", "serif";
 }
+
+figcaption {
+  text-align: center !important;
+  font-size: 0.85rem;
+  margin-top: 0 !important;
+}

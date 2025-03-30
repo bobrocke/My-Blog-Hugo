@@ -18,7 +18,7 @@ There are several sites offering lists of available Jekyll themes. Here are the 
 
 - [Jekyll Themes](http://jekyllthemes.org/)
 - [Best Jekyll Themes](https://www.bestjekyllthemes.com/)
-- [Jamstack Themes](https://jamstackthemes.dev/ssg/jekyll/)
+- [JAMstack Themes](https://jamstackthemes.dev/ssg/jekyll/)
 
 Thinking that all Jekyll themes were distributed as gem files, I was surprised to find many themes were only available as GitHub repositories that were meant to be downloaded and built upon by the user. The Jekyll Remote Theme gem allows you to use a theme from its repository without downloading anything -- Clever! But I had nothing but trouble trying to get it to work and gave up.
 

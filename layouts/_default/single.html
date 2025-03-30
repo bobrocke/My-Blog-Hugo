@@ -1,9 +1,9 @@
 {{ define "main" }}
-  {{ "<!-- single.html -->" | safeHTML }}
+  {{ "<!-- _default/single.html -->" | safeHTML }}
 
-  {{ $pages := .CurrentSection.Pages.ByWeight }}
+  {{ $pages := .CurrentSection.Pages.ByDate }}
 
-  <div class="mx-6 mt-8 max-w-none prose prose-lg prose-a:hover:text-red-600">
+  <div class="mx-6 mt-8 max-w-none prose prose-lg prose-a:hover:text-red-600 prose-img:my-1">
     <h1 class="font-serif md:text-4xl mb-2">{{ .Title }}</h1>
     {{ partial "post-meta.html" . }}
     {{ .Content }}
@@ -17,7 +17,7 @@
         </li>
       {{ else }}
         <li>
-          <a aria-label="Previous" class="w-30 flex items-center justify-center px-4 h-10 ms-0 leading-tight text-black bg-white border border-gray-300 rounded-s-lg dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400" role="button"><span aria-hidden="true">Previous</span></a>
+          <a aria-label="Previous" class="w-30 flex items-center justify-center px-4 h-10 ms-0 leading-tight text-gray-400 bg-white border border-gray-300 rounded-s-lg dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400" role="button"><span aria-hidden="true">Previous</span></a>
         </li>
       {{ end }}
 
@@ -27,7 +27,7 @@
         </li>
       {{ else }}
         <li>
-          <a aria-label="Next" class="w-30 flex items-center justify-center px-4 h-10 leading-tight text-black bg-white border border-gray-300 rounded-e-lg dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400" role="button"><span aria-hidden="true">Next</span></a>
+          <a aria-label="Next" class="w-30 flex items-center justify-center px-4 h-10 leading-tight text-gray-400 bg-white border border-gray-300 rounded-e-lg dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400" role="button"><span aria-hidden="true">Next</span></a>
         </li>
       {{ end }}
     </ul>

@@ -16,7 +16,7 @@ Over time, the coding requirements for a Grav site became a problem because I wo
 
 All this switching around reminds me that I should recommend maintaining your domain name registration somewhere separate from your hosting. I use [Hover](https://www.hover.com) and have for years. Whenever I've changed hosts, or even email providers, it's been easy to go back to Hover and redirect my domain to wherever I need it to go.
 
-<figure style="display: block; margin: 1em auto 1em auto">
+<figure style="display: block; margin: 1em auto 1em auto; width: 50%; float: right">
   <img src="/images/wp-content/uploads/2023/10/block-editing.jpeg" alt="The Block Editor" >
   <figcaption>The Block Editor</figcaption>
 </figure>

@@ -44,7 +44,7 @@ Markdown is an inherently portable document format. But plain old Markdown doesn
 
 And that's the problem. The Markdown alternatives don't all agree on syntax and features. Floating an image to the right with a caption requires everything from shortcodes, to plug-ins, to clever syntax. None of that is very portable.
 
-The good news for flexibility in image display is that all the Markdown alternatives respect plain HTML. That let's me copy and paste a block of code and just edit the image path to float left or right and to add a caption.
+The good news for flexibility in image display is that all the Markdown alternatives respect plain HTML. That let's me copy and paste a block of code (or, better, create a snippet) and just edit the image path to float left or right and to add a caption.
 
 ```HTML
 <figure style="float: right; width: 50%; margin: 1em 0em 1em 1em">
@@ -62,10 +62,10 @@ figcaption {
 }
 ```
 
-Coding for portability includes what goes in the YAML front matter. For example, some static site generators use an excerpt marker in the text (`<!--more-->`) and others expect the excerpt to be in the `description:` or maybe the `summary:` field in the front matter. So articles I'm writing now use both the `summary` and `<!--more-->`; the comment will just be ignored by generators not using it.
+Coding for portability includes what goes in the YAML front matter. For example, some static site generators use an excerpt marker in the text (`<!--more-->` or `<!--excerpt-->`) and others expect the excerpt to be in the `description:` or maybe the `summary:` field in the front matter. So articles I'm writing now use both the `summary` and `<!--more-->`; the comment will just be ignored by generators not using it.
 
-I may end up just using the front matter for excerpts go because that might actually be the 'standard'. Before I'm sure, I'll need to do more work in learning how other static site generators use YAML front matter in hopes of finding what really is 'standard' and what will be a portability problem.
+I may end up just using the front matter for excerpts because that might actually be the 'standard'. Before I'm sure, I'll need to do more work in learning how other static site generators use YAML front matter in hopes of finding what really is 'standard' and what will be a portability problem.
 
-So far Hugo is working out pretty well. The learning curve is a little steep for me, not knowing Go, and Hugo's documentation doesn't help -- it's broken into so many little pieces that finding what you want is better done with a web search. But most of the available themes are well maintained and several of them are very nice. Right now I'm working with Roadster which is a fork of Mainroad (because that author no longer maintains it). Hugo is updated frequently and can break themes, so maintenance is important.
+So far Hugo is working out pretty well. The learning curve is a little steep for me, not knowing the Go Template Language, and Hugo's documentation doesn't help -- it's broken into so many little pieces that finding what you want is better done with a web search. But most of the available themes are well maintained and several of them are very nice. Right now I'm working with [Roadster](https://roadster-hugo.pages.dev/) which is a fork of Mainroad (because that author no longer maintains it). Hugo is updated frequently and can break themes, so maintenance is important.
 
-Hugo is indeed very fast generating my site. Jekyll was plenty fast enough, but Hugo is almost instant. Its development server is very good at seeing file changes and updating the browser which makes tweaking things so much easier. I like it.
+Hugo is indeed very fast generating my site. Jekyll was pretty fast, but Hugo is almost instant. Its development server is very good at seeing file changes and updating the browser which makes tweaking things so much easier. I like it.
