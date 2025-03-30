@@ -19,6 +19,9 @@ title = 'Bob Rockefeller'
       [markup.goldmark.parser.attribute]
         block = true
         title = true
+    [markup.goldmark.renderHooks]
+      [markup.goldmark.renderHooks.link]
+        enableDefault = true
 
 [menu]
   [[menu.main]]
