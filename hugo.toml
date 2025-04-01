@@ -13,15 +13,17 @@ title = 'Bob Rockefeller'
 
 [markup]
   [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true # true allows HTML in md files
     [markup.goldmark.parser]
       [markup.goldmark.parser.attribute]
         block = true
         title = true
     [markup.goldmark.renderHooks]
+      [markup.goldmark.renderHooks.image]
+        enableDefault = false
       [markup.goldmark.renderHooks.link]
         enableDefault = true
+    [markup.goldmark.renderer]
+      unsafe = true # true allows HTML in md files
 
 [menu]
   [[menu.main]]

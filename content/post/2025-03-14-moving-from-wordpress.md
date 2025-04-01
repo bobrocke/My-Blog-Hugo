@@ -23,20 +23,23 @@ With that in mind, I knew I wanted to use a static site generator and write in s
 
 This lack of updates to the system and the themes lead me to consider a few other popular static site generators.
 
-Next.js
+[Next.js](https://nextjs.org/)
 : Written in JavaScript and using React templates, this one is very popular. But it's more of an application framework that can create static sites.
 
-Hugo
+[Hugo](https://gohugo.io/)
 : Written in Go and using Go templates, Hugo is coming on like gangbusters. One of its claims to fame is the speed with which it can generate a site.
 
-Nuxt
+[Eleventy/11ty](https://www.11ty.dev/)
+: This one is written in JavaScript but is a decendent of Jekyll rather than an applicationn framework. It's super extensible and can use a number of different template languages.
+
+[Nuxt](https://nuxt.com/)
 : Another JavaScript application framework, but using Vue templates.
 
-Gatsby
+[Gatsby](https://www.gatsbyjs.com/)
 : And another JavaScript application framework using React templates!
 
-Astro
-: More JavaScript and many possible template languages.
+[Astro](https://astro.build/)
+: One more JavaScript application framework and with a choice of many possible template languages.
 
 I'm trying out Hugo. I don't want the complexity of an application framework for a static site blog, and learning Go might be interesting. It should take care of my performance, security, and convenience objectives. The portability part will take a bit of work, and discipline, on my part.
 
@@ -44,11 +47,11 @@ Markdown is an inherently portable document format. But plain old Markdown doesn
 
 And that's the problem. The Markdown alternatives don't all agree on syntax and features. Floating an image to the right with a caption requires everything from shortcodes, to plug-ins, to clever syntax. None of that is very portable.
 
-The good news for flexibility in image display is that all the Markdown alternatives respect plain HTML. That let's me copy and paste a block of code (or, better, create a snippet) and just edit the image path to float left or right and to add a caption.
+The good news for flexibility in image display is that all the Markdown alternatives respect plain HTML. That let's me copy and paste a block of code (or, better, create a snippet) and just edit the image path to float left or right, and to add a caption.
 
 ```HTML
 <figure style="float: right; width: 50%; margin: 1em 0em 1em 1em">
-  <img src="/images/image,jpg" alt="Alternate Text" >
+  <img src="/images/image.jpg" alt="Alternate Text" >
   <figcaption>Caption</figcaption>
 </figure>
 ```
