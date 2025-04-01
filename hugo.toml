@@ -25,6 +25,14 @@ title = 'Bob Rockefeller'
     [markup.goldmark.renderer]
       unsafe = true # true allows HTML in md files
 
+[privacy]
+  [privacy.googleAnalytics]
+    respectDoNotTrack = true
+
+[services]
+  [services.googleAnalytics]
+    id = 'G-HS35T98ZR3'
+
 [menu]
   [[menu.main]]
     name = "Home"
