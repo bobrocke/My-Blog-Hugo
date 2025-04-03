@@ -27,10 +27,10 @@ This lack of updates to the system and the themes lead me to consider a few othe
 : Written in JavaScript and using React templates, this one is very popular. But it's more of an application framework that can create static sites.
 
 [Hugo](https://gohugo.io/)
-: Written in Go and using Go templates, Hugo is coming on like gangbusters. One of its claims to fame is the speed with which it can generate a site.
+: Written in Go and using Go templates, Hugo is coming on like gangbusters. One of its claims to fame is the speed with which it can generate a site. It's also a 'batteries included' system that needs few add-ons.
 
 [Eleventy/11ty](https://www.11ty.dev/)
-: This one is written in JavaScript but is a descendant of Jekyll rather than an application framework. It's super extensible and can use a number of different template languages.
+: This one is written in JavaScript but is a descendant of Jekyll rather than an application framework. It's not much out of the box, but it's super extensible so you can add what you need. It also can use a number of different template languages, if you have a preference..
 
 [Nuxt](https://nuxt.com/)
 : Another JavaScript application framework, but using Vue templates.
