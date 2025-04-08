@@ -71,12 +71,12 @@ get "colors", to: "colors#colors"
 
 Rails Routes automatically have names, so there's no need for more typing.
 
-Having said all that, I find that Python syntax is nicer than PHP's, but not a elegant as Ruby's. Which is getting away from the point that Masonite is more like Rails than it is like Django. So if you don't like some of Django's concepts, but you like Python, you may well be happy with Masonite.
+Having said all that, I find that Python syntax is nicer than PHP's, but not as elegant as Ruby's. Which is getting away from the point that Masonite is more like Rails than it is like Django. So if you don't like some of Django's concepts, but you like Python, you may well be happy with Masonite.
 
-Django can be disorienting with its nested folder structure that assumes you'll have multiple apps within a single project. It also goes against the grain with its MVT architecture. Django Models are like everyone else's Models. But Django has Views where Masonite has Controllers. And Masonite's Views are Django's Templates.
+Django also goes against the grain with its MVT architecture. Django Models are like everyone else's Models. But Django has Views where Masonite has Controllers. And Masonite's Views are Django's Templates.
 
 If you stick with Django long enough, those differences won't matter. But for a while, especially if you have experience with an MCV framework, you'll find yourself constantly making the translation.
 
-Both Django and Masonite are 'batteries included' frameworks. Django just has a few more batteries. Notably, Masonite has no built-in logging or Admin. And there's just more information available for Django in its extensive documentation and wide community support.
+Both Django and Masonite are 'batteries included' frameworks. Django just has a few more batteries. Notably, Masonite has no built-in logging or Admin. And there's more information available for Django in its extensive documentation and wide community support.
 
 Experienced Django developers are likely to have little interest in Masonite beyond some weekend experimenting. But for developers thinking about a Python-based framework, Masonite has a lot to offer.
