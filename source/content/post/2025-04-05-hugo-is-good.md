@@ -1,15 +1,15 @@
 ---
 title: Hugo is Good
-date: 2025-03-30
+date: 2025-04-05
 lastmod:
-summary:
+summary: This site is now running on Hugo, a popular Static Site Generator (SSG). I tried [Jekyll](https://jekyllrb.com/), [Hugo](https://gohugo.io/), [Astro](https://astro.build/), and [Eleventy/11ty](https://www.11ty.dev/) on the way here, but settled on Hugo. It's good!
 description:
-draft: true
-categories: []
-tags: []
+draft:
+categories: [Web Development]
+tags: [Hugo]
 ---
 
-This site is running on Hugo, a popular Static Site Generator (SSG). I tried [Jekyll](https://jekyllrb.com/), [Hugo](https://gohugo.io/), [Astro](https://astro.build/), and [Eleventy/11ty](https://www.11ty.dev/) on the way here, but settled on Hugo.
+This site is now running on Hugo, a popular Static Site Generator (SSG). I tried [Jekyll](https://jekyllrb.com/), [Hugo](https://gohugo.io/), [Astro](https://astro.build/), and [Eleventy/11ty](https://www.11ty.dev/) on the way here, but settled on Hugo. It's good!
 
 <!--more-->
 
