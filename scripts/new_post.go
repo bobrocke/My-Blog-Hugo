@@ -47,6 +47,8 @@ tags: []
 ---
 
 Write your blog content here.
+
+<!--more-->
 `, title, time.Now().Format("2006-01-02"))
 }
 
