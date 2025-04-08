@@ -1,3 +1,4 @@
+{{ "<!-- _default/baseof.html -->" | safeHTML }}
 <!doctype html>
 <html lang="{{ .Site.LanguageCode }}">
   {{ partial "head.html" . -}}
@@ -6,7 +7,7 @@
     {{- partial "dev/dev-tools.html" . -}}
   <!-- DEV TOOLS END -->
 
-  {{ "<!-- baseof.html. -->" | safeHTML }}
+
   <body class="mx-auto w-screen max-w-4xl p-6">
     {{- partial "header.html" . -}}
 
