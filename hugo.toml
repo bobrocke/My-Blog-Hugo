@@ -50,3 +50,20 @@ title = 'Bob Rockefeller'
 [taxonomies]
   tag = "tags"
   category = "categories"
+
+[module]
+  [[module.mounts]]
+    source = 'source/content'
+    target = 'content'
+  [[module.mounts]]
+    source = 'source/layouts'
+    target = 'layouts'
+  [[module.mounts]]
+    source = 'source/assets'
+    target = 'assets'
+  [[module.mounts]]
+    source = 'source/archetypes'
+    target = 'archetypes'
+  [[module.mounts]]
+    source = 'source/static'
+    target = 'static'
