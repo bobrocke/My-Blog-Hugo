@@ -5,33 +5,26 @@ title = 'Bob Rockefeller'
 [Params]
   description = 'What is Bob up to now?'
   customCSS = ["/css/lightbox.css", "/css/custom.css"] # Include custom CSS files
-  customJS = ["/js/lightbox.js"] # Include custom JS files
+  customJS = ["/js/lightbox.js"]                       # Include custom JS files
+
 
 # Configure Pagination. See https://gohugo.io/templates/pagination/#configuration
 [pagination]
-  pagerSize = 4 # (int) The number of pages per pager. Default is 10
+  pagerSize = 4
 
 [markup]
   [markup.goldmark]
-    [markup.goldmark.parser]
-      [markup.goldmark.parser.attribute]
-        block = true
-        title = true
-    [markup.goldmark.renderHooks]
-      [markup.goldmark.renderHooks.image]
-        enableDefault = false
-      [markup.goldmark.renderHooks.link]
-        enableDefault = true
-    [markup.goldmark.renderer]
-      unsafe = true # true allows HTML in md files
-
-[privacy]
-  [privacy.googleAnalytics]
-    respectDoNotTrack = true
-
-[services]
-  [services.googleAnalytics]
-    id = 'G-HS35T98ZR3'
+  [markup.goldmark.parser]
+    [markup.goldmark.parser.attribute]
+    block = true
+    title = true
+  [markup.goldmark.renderHooks]
+    [markup.goldmark.renderHooks.image]
+      enableDefault = false
+    [markup.goldmark.renderHooks.link]
+      enableDefault = true
+  [markup.goldmark.renderer]
+    unsafe = true # true allows HTML in md files
 
 [menu]
   [[menu.main]]
@@ -54,6 +47,6 @@ title = 'Bob Rockefeller'
     url = "/tags"
     weight = 4
 
-  [taxonomies]
-    tag = "tags"
-    category = "categories"
+[taxonomies]
+  tag = "tags"
+  category = "categories"

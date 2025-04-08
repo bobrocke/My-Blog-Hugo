@@ -1,29 +1,23 @@
 {
-  "name": "hugo-tailwindcss-starter",
-  "description": "Starter project for Hugo and TailwindCSS v4.0, ready to deploy in Vercel!",
-  "version": "2.0.0",
+  "name": "bob-rockefeller",
+  "description": "What is Bob up to now?",
+  "version": "1.0.0",
   "license": "MIT",
-  "author": "Odhy Pradhana (odhyp.com)",
+  "author": "Bob Rockefeller",
   "keywords": [
     "hugo",
     "tailwindcss",
-    "tailwindcss-v4",
-    "vercel"
+    "tailwindcss-v4"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/odhyp/hugo-tailwindcss-starter.git"
-  },
-  "bugs": {
-    "url": "https://github.com/odhyp/hugo-tailwindcss-starter/issues"
-  },
-  "homepage": "https://github.com/odhyp/hugo-tailwindcss-starter#readme",
   "scripts": {
-    "dev": "hugo server",
+    "serve-d": "rm -rf public && rm -rf resources && hugo server -D",
+    "serve": "rm -rf public && rm -rf resources && hugo server",
     "build": "hugo --gc --minify",
-    "watch": "hugo server --disableFastRender --navigateToChanged"
+    "watch": "hugo server --disableFastRender --navigateToChanged",
+    "clean": "rm -rf public && rm -rf resources"
   },
   "dependencies": {
+    "@tailwindcss/forms": "^0.5.10",
     "@tailwindcss/postcss": "^4.0.1",
     "@tailwindcss/typography": "^0.5.16",
     "flowbite": "^3.1.2",
