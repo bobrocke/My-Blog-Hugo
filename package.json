@@ -14,7 +14,8 @@
     "serve": "hugo server",
     "build": "hugo --gc --minify",
     "watch": "hugo server --disableFastRender --navigateToChanged",
-    "clean": "rm -rf _site && rm -rf _resources"
+    "clean": "rm -rf _site && rm -rf _resources",
+    "draft": "go run scripts/new_draft.go"
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.5.10",

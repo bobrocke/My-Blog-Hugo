@@ -6,7 +6,7 @@
     <div class="mx-6 mt-8">
       <h2><a class="font-serif text-xl hover:text-red-600 md:text-4xl" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
       {{ partial "post-meta.html" . }}
-      <div class="max-w-none prose-sm prose prose-a:hover:text-red-600 md:prose-lg">{{ .Summary }}</div>
+      <div class="max-w-none prose-sm prose prose-a:no-underline prose-a:text-blue-600 prose-a:hover:text-red-600 md:prose-lg">{{ .Summary }}</div>
       {{ if .Truncated }}
         <a class="float-right text-sm md:text-base hover:text-red-600" href="{{ .RelPermalink }}">Read more...</a>
       {{ end }}
