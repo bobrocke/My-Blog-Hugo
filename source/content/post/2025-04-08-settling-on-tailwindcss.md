@@ -9,7 +9,7 @@ categories: []
 tags: []
 ---
 
-While experimenting with various static site generators, I've also been learning about [Bulma](https://bulma.io/) (a traditional CSS framework) and [TailwindCSS](https://tailwindcss.com/) (a 'new style' utility CSS framework). They come at the idea of a CSS framework from two very different perspectives, and if you've seen the Internet discussions, you'll know that opinions are decidedly mixed.
+While experimenting with various [static site generators](2025-03-14-moving-from-wordpress.md), I've also been learning about [Bulma](https://bulma.io/) (a traditional CSS framework) and [TailwindCSS](https://tailwindcss.com/) (a 'new style' utility CSS framework). They come at the idea of a CSS framework from two very different perspectives, and if you've seen the Internet discussions, you'll know that opinions are decidedly mixed.
 
 <!--more-->
 
