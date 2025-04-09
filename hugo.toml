@@ -2,6 +2,9 @@ baseURL = 'https://bobrockefeller.com/'
 languageCode = 'en-us'
 title = 'Bob Rockefeller'
 
+publishDir = '_site'
+resourceDir = '_resources'
+
 [Params]
   description = 'What is Bob up to now?'
   customCSS = ["/css/lightbox.css", "/css/custom.css"] # Include custom CSS files
@@ -50,8 +53,6 @@ title = 'Bob Rockefeller'
 [taxonomies]
   tag = "tags"
   category = "categories"
-
-publishDir = '_site'
 
 [module]
   [[module.mounts]]

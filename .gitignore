@@ -9,8 +9,9 @@ hugo_notes.md
 .zed
 theme_colors.txt
 ToDo.md
-README.md
-resources
+ReadMe.md
 codebook.toml
 scripts
 .ruby-version
+_site
+_resources
