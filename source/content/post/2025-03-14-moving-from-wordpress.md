@@ -49,16 +49,16 @@ And that's the problem. The Markdown alternatives don't all agree on syntax and 
 
 The good news for flexibility in image display is that all the Markdown alternatives respect plain HTML. So I can copy and paste a block of code (or, even better, create a snippet) and just edit the image path, the float direction, and add a caption. Maybe change the width.
 
-```HTML
+```html
 <figure style="float: right; width: 50%; margin: 1em 0em 1em 1em">
-  <img src="/images/image.jpg" alt="Alternate Text" >
+  <img src="/images/image.jpg" alt="Alternate Text" />
   <figcaption>Caption</figcaption>
 </figure>
 ```
 
 Making the caption look 'right' only takes a little CSS in the theme.
 
-```CSS
+```css
 figcaption {
   text-align: center;
   font-size: 0.85rem;

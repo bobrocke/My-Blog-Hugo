@@ -18,7 +18,7 @@ Masonite uses `python craft` in place of Laravel's `php artisan` to create the b
 
 It's cool, but not all that meaningful, I suppose, that you can get Masonite up and running in four lines:
 
-```Bash
+```bash
 pip install masonite
 project start .
 project install

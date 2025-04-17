@@ -7,7 +7,7 @@ publish: true
 pin: false
 categories:
   - Competition Pistols
-tags: [1911]
+tags: [1911s]
 ---
 
 The makers of 1911s all fall into three general categories – _production_ , _semi-custom_ , and _custom_. What is it that differentiates these groups and why should you care? The most significant and obvious difference is the cost.

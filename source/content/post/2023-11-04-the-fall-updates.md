@@ -13,6 +13,8 @@ tags: []
 
 I wrote about my [approach to selecting a post-processing software](https://bobrockefeller.com/photography/photography-software/selecting-a-post-processor/) for my photography earlier. My approach now is the same; what I consider important has not changed. What has changed are the features of the different programs.
 
+<!--more-->
+
 <figure style="display: block; margin: 1em auto 1em auto">
   <img src="/images/wp-content/uploads/2023/10/AI-masking-screen-shot.png" alt="Capture One's AI Masking" >
   <figcaption>Capture One's AI Masking</figcaption>
