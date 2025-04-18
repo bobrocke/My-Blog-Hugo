@@ -1,29 +1,10 @@
 {{ define "main" }}
-<main id="list.html">
-  <h1>{{ .Title }}</h1>
-  {{ range .Pages.ByPublishDate.Reverse }}
-    <p>
-      <a class="font-125" href="{{ .RelPermalink }}">{{ .Title }}</a>
-    </p>
-  {{ end }}
-</main>
-
-  <!-- <main id="list.html" class="mx-auto w-screen max-w-4xl flex-1 grow px-6 py-16">
-  	{{- with .Title }}
-  	<header class="main__header">
-  		<h1 class="main__title">{{ . }}</h1>
-  	</header>
-  	{{- end }}
-  	{{- with .Content }}
-  	<div class="content main__content clearfix">
-  		{{ . }}
-  	</div>
-  	{{- end }}
-  	{{- range .Paginator.Pages }}
-  		{{- .Render "summary" }}
-  	{{- end }}
+  <main id="list.html">
+    <h1>{{ .Title }}</h1>
+    {{ range .Pages.ByPublishDate.Reverse }}
+      <p>
+        <a class="font-125" href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </p>
+    {{ end }}
   </main>
-  {{ partial "pagination.html" . }} -->
-
-
 {{ end }}
