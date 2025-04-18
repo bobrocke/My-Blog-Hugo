@@ -5,11 +5,7 @@
 
   {{- if gt $page.Paginator.TotalPages 1 }}
     <ul class="inline-flex -space-x-px text-base h-10">
-      {{- partial (printf "partials/inline/pagination") $page }}
-    </ul>
-  {{- end }}
 
-  {{- define "partials/inline/pagination" }}
     {{- with .Paginator }}
       {{- $currentPageNumber := .PageNumber }}
 
@@ -66,15 +62,16 @@
 
       {{- with .Last }}
         {{- if ne $currentPageNumber .PageNumber }}
-        <li class="page-item">
-          <a href="{{ .URL }}" aria-label="Last" class="flex items-center justify-center px-4 h-10 leading-tight text-black bg-white border border-gray-300 rounded-e-lg hover:bg-red-600 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
-        </li>
+          <li class="page-item">
+            <a href="{{ .URL }}" aria-label="Last" class="flex items-center justify-center px-4 h-10 leading-tight text-black bg-white border border-gray-300 rounded-e-lg hover:bg-red-600 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
+          </li>
         {{- else }}
-        <li class="page-item disabled">
-          <a aria-disabled="true" aria-label="Last" class="flex items-center justify-center px-4 h-10 leading-tight text-gray-400 bg-white border border-gray-300 rounded-e-lg dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-        </li>
+          <li class="page-item disabled">
+            <a aria-disabled="true" aria-label="Last" class="flex items-center justify-center px-4 h-10 leading-tight text-gray-400 bg-white border border-gray-300 rounded-e-lg dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
+          </li>
         {{- end }}
       {{- end }}
     {{- end }}
-  {{- end -}}
+    </ul>
+  {{- end }}
 </div>
