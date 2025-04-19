@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Why Still Jekyll?
 date: 2025-04-05
 lastmod:

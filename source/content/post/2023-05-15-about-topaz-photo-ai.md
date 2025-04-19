@@ -1,6 +1,4 @@
 ---
-layout: post
-permalink: /photography/photography-software/about-topaz-photo-ai/
 title: "About Topaz Photo AI\u2026"
 summary: In [my last post](https://bobrockefeller.com/photography/beginning-bird-photography/), I ended by saying I had chosen Lightroom Classic and [Topaz Photo AI](https://www.topazlabs.com/topaz-photo-ai) for my post-production needs. It didn’t take long for me to realize that Lightroom Classic’s new [Denoise feature](https://helpx.adobe.com/lightroom-classic/help/whats-new/2023-3.html) made that a bad choice, for me.
 date: 2023-05-15 22:52:53

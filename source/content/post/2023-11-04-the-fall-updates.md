@@ -35,7 +35,7 @@ The last to update was ON1 with Photo RAW 2024; perhaps the most ambitious of th
 
 With upgrades in hand, I can spend some time with each program in an attempt to discover if any can beat Lightroom Classic for my needs. That is still the standard, in my view, and is so capable that others have a steep hill to climb. Adobe engineers have a long and deep understanding of color, raw conversion, and image adjustments. The professional community's use of Lightroom Classic and Capture One drives those applications' improvements and features. I'll see how Photo RAW 2024, in particular, compares.
 
-Unless there is a big change to my opinion over the next few days of experiments, this is how I see the rankings of these four programs:
+Unless there is a big change in my opinion over the next few days of experiments, this is how I see the rankings of these four programs:
 
 <figure style="display: block; margin: 1em auto 1em auto">
   <img src="/images/wp-content/uploads/2023/11/scores-updated.jpeg" alt="Updated Decision Matrix" >

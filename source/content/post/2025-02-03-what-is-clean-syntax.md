@@ -1,5 +1,4 @@
 ---
-layout: post
 title: What is Clean Syntax?
 summary: Programmers talk about *clean syntax* and say this or that language or framework has such a property. I've noted that Ruby and Ruby on Rails have this thing, too. So what is it?
 image:
