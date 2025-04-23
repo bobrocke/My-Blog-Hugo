@@ -36,4 +36,4 @@ eleventyConfig.addFilter("postDate", (dateObj) => {
 });
 ```
 
-I do worry that something in Jekyll's dependencies will break and that there won't be a fix due to age and potential lack of maintenance.
+I do worry that something in Jekyll's dependencies will break and that there won't be a fix as interest in the platform fades.
