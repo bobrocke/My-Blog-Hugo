@@ -27,7 +27,7 @@ TailwindCSS goes at it from another direction. You could style a button like thi
 <button class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"> Button </button>
 ```
 
-Behind Bulma's simple `button` class is plenty of CSS:
+Behind Bulma's simple `button` class is plenty of CSS scattered in many places across `bulma.css`:
 
 ```CSS
 margin: 0;
@@ -49,9 +49,9 @@ outline-width: var(--bulma-focus-width);
 }
 ```
 
-And lots more. It's easy to get started on a project by using Bulma's classes on all the things. But when you step back a look, it looks like ... Bulma. You need to optimize and customize. So off you go to the inspector and find what to override for this element, that element, and the other element. Always hoping not to enter CSS class specificity hell.
+And there's lots more. It's easy to get started on a project by using Bulma's classes on all the things. But when you step back and look, it looks like ... _Bulma_. You need to optimize and customize. So off you go to the inspector and find what to override for this element, that element, and the other element. Always hoping not to enter CSS class specificity hell.
 
-TailwindCSS looks bad at the start. What's up with all those classes!? But if you need to tweak something, it's all there in front of you. Does it need a little more bottom margin for this element in this one place? Change `mb-2` to `mb-4` and you're done. If a Bulma element needs a change in just this one place, you need to write another class.
+TailwindCSS looks bad at the start. What's up with all those classes!? But if you need to tweak something, it's all there in front of you. Does this element need a little more bottom margin in this one place? Change `mb-2` to `mb-4` and you're done. If a Bulma element needs a change in just this one place, you need to write another class. And make the context switch going to another file, in another pane, written in another language.
 
 But being consistent with TailwindCSS takes some effort. Was it `text-red-600` I've been using, or was it `text-red-400`? All the `<button>`s need the same string of classes pasted in. Bulma just needs `class="button"` on all the `<button>`s.
 
@@ -63,4 +63,4 @@ A problem in many situations is that some of a page's content is generated from 
 </div>
 ```
 
-Those classes can then style the HTML tags output by the markdown renderer. TailwindCSS allows its `prose` class to be extended with such things as `prose-a:text-blue-600` and `prose-a:hover:text-red-600`. Similar modifiers work for Bulma, but there are fewer available. Otherwise, it's back to CSS overrides or new classes.
+Those classes can then style the HTML tags output by the markdown renderer. TailwindCSS allows its `prose` class to be extended in a number of ways, for example `prose-a:text-blue-600` and `prose-a:hover:text-red-600`. Similar modifiers work for Bulma, but there are fewer available. If you need more, it's back to CSS overrides or new classes.

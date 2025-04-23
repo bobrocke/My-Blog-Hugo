@@ -14,10 +14,12 @@ After moving my blog from WordPress to Jekyll to Hugo, I came to better apprecia
 <!--more-->
 
 Shortcodes
-`<!--more-->`
+`<!--more-->` Is configurable in Hugo and Jekyll, but not in HydePHP (it only uses YAML description:)
+
 Linking to other blog posts
 
 - 11ty post-name/index.html
 - Hugo post-name
+- Jekyll requires a shortcode that interferes with syntax highlighting
 
 Some custom code will be needed to 'convert' from one directory structure to another.
