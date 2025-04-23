@@ -4,11 +4,11 @@
   {{ "<!-- index.html -->" | safeHTML }}
   {{ range $paginator.Pages }}
     <div class="mx-6 mt-8">
-      <h2><a class="font-serif text-xl hover:text-red-600 md:text-4xl" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+      <h2><a class="font-serif text-xl hover:text-red-600 md:text-4xl dark:text-gray-400 dark:hover:text-red-900" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
       {{ partial "post-meta.html" . }}
-      <div class="max-w-none prose-sm prose prose-a:no-underline prose-a:text-blue-600 prose-a:hover:text-red-600 md:prose-lg">{{ .Summary }}</div>
+      <div class="max-w-none prose-sm prose prose-a:no-underline prose-a:text-blue-600 prose-a:hover:text-red-600 md:prose-lg dark:text-gray-400 dark:prose-a:text-blue-600 dark:prose-a:hover:text-red-900">{{ .Summary }}</div>
       {{ if .Truncated }}
-        <a class="float-right text-sm md:text-base hover:text-red-600" href="{{ .RelPermalink }}">Read more...</a>
+        <a class="float-right text-sm md:text-base text-blue-600 hover:text-red-600 dark:text-blue-600 dark:hover:text-red-900" href="{{ .RelPermalink }}">Read more...</a>
       {{ end }}
     </div>
  	{{ end }}

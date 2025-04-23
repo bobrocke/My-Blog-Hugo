@@ -15,18 +15,18 @@ This site is now running on Hugo, a popular Static Site Generator (SSG). I tried
 
 All of those SSGs were very good and in wide use, but didn't quite fit, for me.
 
-Jekyll
+[Jekyll](https://jekyllrb.com/)
 : One of the original SSGs, but its getting a bit old, now. Ruby isn't as popular as it once was and many of the available Jekyll themes were released years ago and not updated since. Gems can be a bit of a pain to work with, too, because each version of Ruby on your machine needs its own set of gems.
 
-Astro
+[Astro](https://astro.build/)
 : A very popular option, but a bit too much for this site. It's really a complete app framework that goes far beyond what I need. It's just too 'heavy'.
 
-Eleventy/11ty
+[Eleventy/11ty](https://www.11ty.dev/)
 : Another popular SSG that's fast, customizable, and extendable via plugins and JavaScript. A little _too_ extendable for my tastes---it's very basic out-of-the-box and needs those plugins. It seems as if every little thing has to be installed and configured almost from scratch - dates, categories, next/previous post links,...
 
 An often reported, stand out feature of Hugo is its speed in generating content. This is not a big site but it takes Hugo only 1.2 seconds to generate 82 pages, 16 paginated pages, and move 45 images. Changing a couple of pages takes Hugo milliseconds to regenerate and serve. It feels almost instant and that makes development pleasant.
 
-As opposed to Jekyll's gems and 11ty's node modules, Hugo is a single binary with no dependencies to manage unless you want to. I've added only [TailwindCSS](https://tailwindcss.com/, [Flowbite](https://flowbite.com/), and [PostCSS](https://postcss.org/)---all popular and well-maintained packages.
+As opposed to Jekyll's gems and 11ty's node modules, Hugo is a single binary with no dependencies to manage unless you want to. I've added only [TailwindCSS](https://tailwindcss.com/), [Flowbite](https://flowbite.com/), and [PostCSS](https://postcss.org/)---all popular and well-maintained packages.
 
 There's built-in support for multiple taxonomy page displays and the posts for each category within. This site uses 'categories' and 'tags', but many more are possible. 11ty can't do that without plugins and extra custom code.
 
