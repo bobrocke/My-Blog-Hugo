@@ -9,7 +9,7 @@ categories: [Web Development]
 tags: [Eleventy]
 ---
 
-A key feature of Eleventy (11ty) is its extensibility through plugins. As long as those plugins are first party (such as `@11ty/eleventy-plugin-syntaxhighlight`) there should be little trouble over time. But if plugins are from the community (such as `@jgarber/eleventy-plugin-markdown`) there is a concern about how long they may be maintained.
+A key feature of Eleventy (11ty) is its extensibility through plugins. As long as those plugins are first party (such as `@11ty/eleventy-plugin-syntaxhighlight`) there should be little trouble over time. But if plugins are from the community (such as `@jgarber/eleventy-plugin-markdown`) there is doubt about how long they may be maintained.
 
 <!--more-->
 
