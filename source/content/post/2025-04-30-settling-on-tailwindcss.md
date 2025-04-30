@@ -1,10 +1,10 @@
 ---
 title: Settling on TailwindCSS
-date: 2025-04-08
+date: 2025-04-30
 lastmod:
 summary:
 description:
-draft: true
+draft:
 categories: [Web Development]
 tags: [CSS]
 ---
@@ -55,6 +55,8 @@ TailwindCSS looks bad at the start. What's up with all those classes!? But if yo
 
 But being consistent with TailwindCSS takes some effort. Was it `text-red-600` I've been using, or was it `text-red-400`? All the `<button>`s need the same string of classes pasted in. Bulma just needs `class="button"` on all the `<button>`s.
 
+Another thing to know is that TailwindCSS works very differently than traditional CSS libraries behind the scenes. Rather than offer a static `.css` file, as you develop the site and make styling changes, TailwindCSS re-reads your files and creates a new `.css` file with just the classes used in those files. That makes a smaller `.css` file for production at the cost of tooling complexity. You must integrate TailwindsCSS much more deeply than simply loading a `.min.css` file from a CDN and linking to it.
+
 A problem in many situations is that some of a page's content is generated from a markdown file. The site author won't have access to the HTML in order to style it in the normal way. Both Bulma and TailwindCSS have classes, `content` for Bulma and `prose` for TailwindCSS, that can be applied to a `<div>` enclosing the markdown output. Something like:
 
 ```html
@@ -64,3 +66,5 @@ A problem in many situations is that some of a page's content is generated from 
 ```
 
 Those classes can then style the HTML tags output by the markdown renderer. TailwindCSS allows its `prose` class to be extended in a number of ways, for example `prose-a:text-blue-600` and `prose-a:hover:text-red-600`. Similar modifiers work for Bulma, but there are fewer available. If you need more, it's back to CSS overrides or new classes.
+
+I like TailwindCSS, but recognize its shortcomings. This site is built with TailwindsCSS. Nevertheless, I'm working on another project now that uses Bulma so I can better judge its capabilities.
