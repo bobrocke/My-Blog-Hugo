@@ -38,3 +38,17 @@ Hugo comes 'out of the box' with more features than 11ty; you add the ones you n
 Almost all of them are related to getting TailwindCSS, and the TailwindCSS component library [Flowbite](https://flowbite.com/), working.
 
 Dates in 11ty are hard. The default is UTC time and it took me a while to figure out how to change those dates into my local time and format them in a friendly way. I got some of the way by trial and error, but I eventually got stuck. Stuck until I found [the solution here](https://www.eladnarra.com/blog/2024/dates-and-eleventy/).
+
+```js
+import { DateTime } from "luxon";
+
+  eleventyConfig.addFilter("postDate", (dateObj) => {
+    let thisDateTime = DateTime.fromJSDate(dateObj, { zone: "utc" }).setZone(
+      "America/New_York",
+      { keepLocalTime: true },
+    );
+    return thisDateTime.toLocaleString(DateTime.DATE_MED);
+  });
+  ```
+
+The community around 11ty is very active and helpful; especially on their Discord channel.
