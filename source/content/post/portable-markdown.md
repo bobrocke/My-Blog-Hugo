@@ -9,7 +9,7 @@ categories: [Web Development]
 tags: [Markdown]
 ---
 
-After moving my blog from WordPress to Jekyll to Hugo, I came to better appreciate the need to write markdown that is independent of the system used to create a blog. That may mean forgoing a special feature in one system, but if (when) that markdown file is going to run though another blogging engine, the effort will be worth it.
+After moving my blog from WordPress to Jekyll and then to Hugo, I came to better appreciate the need to write markdown that is independent of the system used to create a blog. That may mean forgoing a special feature in one system, but if (when) that markdown file is going to run though another blogging engine, the effort will be worth it.
 
 <!--more-->
 
