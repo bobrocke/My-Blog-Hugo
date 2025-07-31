@@ -1,4 +1,4 @@
-{{- $styles := resources.Get "css/styles.css" | postCSS (dict "config" "./source/assets/css/postcss.config.mjs") -}}
+{{- $styles := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/postcss.config.mjs") -}}
 
 {{- if hugo.IsServer }}
   {{ $styles = $styles | resources.ExecuteAsTemplate (printf "css/styles.dev.%v.css" now.UnixMilli) .}}
@@ -6,7 +6,7 @@
   {{ $styles = $styles | minify | fingerprint | resources.PostProcess }}
 {{ end -}}
 
-{{- $lightbox := resources.Get "css/lightbox.css" | postCSS (dict "config" "./source/assets/css/postcss.config.mjs") -}}
+{{- $lightbox := resources.Get "css/lightbox.css" | postCSS (dict "config" "./assets/css/postcss.config.mjs") -}}
 
 <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
 <link rel="stylesheet" href="{{ $lightbox.RelPermalink }}">
