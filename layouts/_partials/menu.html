@@ -25,11 +25,11 @@
         {{- range .Site.Menus.main }}
           {{ if ne $title .Name }}
             <li class="">
-              <a class="block px-3 py-2 text-white md:border-0 md:p-0" href="{{ .URL }}">{{ .Name }}</a>
+              <a class="block px-3 py-2 text-white md:border-0 md:p-0 hover:text-red-600" href="{{ .URL }}">{{ .Name }}</a>
             </li>
           {{ else }}
             <li class="">
-              <a class="block px-3 py-2 text-white md:border-0 md:p-0 hover:text-red-600">{{ .Name }}</a>
+              <a class="block px-3 py-2 text-white md:border-0 md:p-0">{{ .Name }}</a>
             </li>
           {{ end }}
         {{- end }}
