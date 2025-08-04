@@ -11,11 +11,13 @@ tags: [Squarespace]
 
 My experiments in web development have led me all over the field of Content Management Systems (CMSs) from WordPress to Squarespace with stops at [Kirby](https://getkirby.com/), [concrete5](https://www.concretecms.com/), [SilverStripe](https://www.silverstripe.org/), [Perch](https://perchrunway.com/), [Statamic](https://statamic.com/), and [Grav](https://getgrav.org/). Some of those have changed names and/or underpinnings, but clearly, I’ve tried too many.
 
+<!--more-->
+
 With the exception of WordPress, the others all required a fair amount of file system management, PHP and CSS coding, and lots of document reading in exchange for very flexible systems that could do almost anything you could code for. But WordPress is simply not secure enough; every hacker seems to target WordPress installations and they have gotten very good at bypassing WordPress’ security features.
 
 [Squarespace](https://www.squarespace.com/) has been on my radar for several years, at least back to 2019. Its clever combination of web server, WYSIWYG design, elegant themes, and superb support can’t help but be attractive. For me, back then, the system was too restrictive and didn’t offer enough flexibility or options to make it viable for what I wanted to do.
 
-<img src="/images/wp-content/uploads/2023/10/squarespace-logo-horizontal-black.jpg" alt="Squarespace Logo" style="display: block; margin: 1em auto 1em auto">
+<img src="/assets/images/wp-content/uploads/2023/10/squarespace-logo.png" alt="Squarespace Logo" style="display: block; margin: 1em auto 1em auto">
 
 Now Squarespace has reached Version 7.1 and the flexibility is there. At least it has through my trial period getting a skeleton of my combined sites up and running. Some things can’t be changed without a huge amount of effort and unsupported custom code, but I can live with that. One thing of particular importance to me is the ability to set up multiple blogs for my multiple hobbies. Having different galleries for my different photography interests is pretty simple, too.
 

@@ -12,6 +12,8 @@ tags: []
 
 I’ve spent the last couple of months working back and forth between the raw processors [Capture One](https://www.captureone.com/en), [Lightroom Classic](https://www.adobe.com/products/photoshop-lightroom-classic.html), [PhotoLab Elite](https://www.dxo.com/dxo-photolab/), and [Photo RAW](https://www.on1.com/products/photo-raw/) in an attempt to settle on just one going into 2024. Owning more than one is just too expensive and too complicated trying to keep edits and metadata in sync. My primary raw post-processing tools have been Capture One and Lightroom Classic. So that’s where I started my efforts.
 
+<!--more-->
+
 Needless to say, attempting to compare and select from these very capable applications isn’t easy. To try making it more so, I decided to use a [_decision matrix_](https://en.wikipedia.org/wiki/Decision_matrix#:~:text=A%20decision%20matrix%20is%20a,based%20on%20certain%20decision%20criteria.) in an attempt to force more objectivity into a greatly subjective choice.
 
 ### Selection Criteria
@@ -20,7 +22,7 @@ So I began with a list of characteristics, or feature sets, that I thought were 
 
 - Initial Conversion – translating the .raw file into an image to edit: color fidelity, details extracted, lens and camera corrections, artifacts generated, and the starting point provided for more editing.
 - Digital Asset Management (DAM) – ingesting new images, metadata management, file management, and searching/filtering images based on their metadata.
-- Global Adjustments – adjustments available, denoising, and the effects of individual controls.
+- Global Adjustments – adjustments available, de-noising, and the effects of individual controls.
 - Local Adjustments – adjustments available, masking, the effects of individual controls, and any layering available.
 - Intangibles – the look and feel of the application, the company’s attitude toward user suggestions, and the responsiveness of the company to bugs and user suggestions.
 - Printing – templates, specific sharpening for paper and size, and the flexibility of printed output.
@@ -56,7 +58,7 @@ The hard part. These are my highlights and lowlights for each application:
 
 No, not that matrix!
 
-<figure style="display: block; margin: 1em auto 1em auto"><a href="/images/wp-content/uploads/2023/10/image-5.jpeg"><img src="/images/wp-content/uploads/2023/10/image-5.jpeg" alt="My Decision Matrix"></a><figcaption>My Decision Matrix</figcaption></figure>
+<figure style="display: block; margin: 1em auto 1em auto"><a href="/assets/images/wp-content/uploads/2023/10/image-5.jpeg"><img src="/assets/images/wp-content/uploads/2023/10/image-5.jpeg" alt="My Decision Matrix"></a><figcaption>My Decision Matrix</figcaption></figure>
 
 This is where I ended up after the weighting and the ranking. I was a bit surprised to see how close PhotoLab Elite was to Lightroom Classic in the final score.
 
