@@ -1,4 +1,4 @@
-<nav class="bg-black border-red-600 border-b-6 dark:bg-gray-800 dark:border-red-900">
+<nav class="bg-black border-red-600 border-b-6 dark:border-red-900">
   <div class="flex flex-wrap items-center justify-between max-w-screen-xl p-4 px-6 mx-auto">
 
     {{ if .IsHome }}
@@ -7,11 +7,11 @@
       </a>
     {{ else }}
       <a href="/" class="flex items-center space-x-3">
-          <span class="self-center font-sans text-xl font-semibold tracking-wider text-white hover:text-red-600 whitespace-nowrap dark:text-gray-400">Bob Rockefeller</span>
+          <span class="self-center font-sans text-xl font-semibold tracking-wider text-white  whitespace-nowrap dark:text-gray-400 hover:text-red-600">Bob Rockefeller</span>
       </a>
     {{ end }}
 
-        <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center justify-center w-10 h-10 p-2 text-sm text-gray-500 rounded-lg hover:text-red-600 md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+    <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center justify-center w-10 h-10 p-2 text-sm text-gray-500 rounded-lg hover:text-red-600 md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
       <span class="sr-only">Open main menu</span>
       <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
@@ -25,11 +25,11 @@
         {{- range .Site.Menus.main }}
           {{ if ne $title .Name }}
             <li class="">
-              <a class="block px-3 py-2 text-white bg-black md:border-0 md:p-0" href="{{ .URL }}">{{ .Name }}</a>
+              <a class="block px-3 py-2 text-white md:border-0 md:p-0" href="{{ .URL }}">{{ .Name }}</a>
             </li>
           {{ else }}
             <li class="">
-              <a class="block px-3 py-2 text-white bg-black hover:text-red-600 md:border-0 md:p-0">{{ .Name }}</a>
+              <a class="block px-3 py-2 text-white md:border-0 md:p-0 hover:text-red-600">{{ .Name }}</a>
             </li>
           {{ end }}
         {{- end }}
@@ -40,10 +40,6 @@
           </button>
         </li>
       </ul>
-
     </div>
-
-
   </div>
-
 </nav>

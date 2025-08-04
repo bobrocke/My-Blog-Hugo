@@ -14,5 +14,6 @@ ReadMe.md
 codebook.toml
 scripts
 .ruby-version
+not.ruby-version
 _site
 _resources
