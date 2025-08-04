@@ -53,4 +53,3 @@ resourceDir = '_resources'
 [taxonomies]
   tag = "tags"
   category = "categories"
-

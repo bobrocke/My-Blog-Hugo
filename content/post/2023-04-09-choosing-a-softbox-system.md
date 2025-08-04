@@ -13,7 +13,7 @@ After I settled on the right off-camera lighting system for me (Profoto), I need
 
 <!--more-->
 
-<img src="/assets/images/wp-content/uploads/2023/10/profoto-logo.png" alt="Profoto Logo" style="float: left; width: 50%; margin: 1em 1em 1em 0em">
+<img src="/images/wp-content/uploads/2023/10/profoto-logo.png" alt="Profoto Logo" style="float: left; width: 50%; margin: 1em 1em 1em 0em">
 
 Once again, I was faced with the large cost difference between Glow and Profoto equipment. Profoto is undeniably good equipment, but the price can be hard to swallow. In the end, I went with the old adage ‘buy once, cry once’ and will be using the Profoto OCF system.
 
