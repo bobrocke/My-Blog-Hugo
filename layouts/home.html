@@ -1,7 +1,8 @@
 {{ define "main" }}
+  {{ "<!-- layouts/home.html -->" | safeHTML }}
+
  	{{ $paginator := (.Paginate (where .Site.RegularPages "Type" "post").ByDate.Reverse) }}
 
-  {{ "<!-- index.html -->" | safeHTML }}
   {{ range $paginator.Pages }}
     <div class="mx-6 mt-8">
       <h2><a class="font-serif text-xl hover:text-red-600 md:text-4xl dark:text-gray-400 dark:hover:text-red-900" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
