@@ -3,8 +3,11 @@
 <html class="dark" lang="{{ .Site.LanguageCode }}">
   {{ partial "head.html" . -}}
 
-  <body class="mx-auto w-screen max-w-4xl p-6 dark:bg-gray-700">
-    {{- partial "header.html" . -}}
+  <!-- Designed for iPhone 12 screen (390 x 844) and larger -->
+  <body class="grid max-w-5xl
+    md:grid-cols-[200px_1fr] md:px-6 md:pt-6 md:mx-auto
+    dark:bg-gray-700">
+    {{- partial "menu.html" . -}}
 
     {{- block "main" . }}{{- end }}
 

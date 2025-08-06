@@ -1,5 +1,7 @@
-<nav class="md:hidden bg-black border-red-600 border-b-6 dark:border-red-900">
-  <div class="flex flex-wrap items-center justify-between max-w-screen-xl p-4 px-6 mx-auto">
+<nav class="bg-black border-red-600 border-b-6
+  md:border-r-6 md:border-b-0
+  dark:border-red-900">
+  <div class="flex flex-wrap items-center justify-between py-4 px-6 mx-auto">
 
     {{ if .IsHome }}
       <a class="flex items-center space-x-3">
@@ -11,30 +13,35 @@
       </a>
     {{ end }}
 
-    <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center justify-center w-10 h-10 p-2 text-sm text-gray-500 rounded-lg hover:text-red-600 md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+    <button data-collapse-toggle="navbar-default" type="button"
+      class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-200
+      md:hidden
+      dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+      aria-controls="navbar-default" aria-expanded="false">
       <span class="sr-only">Open main menu</span>
       <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
       </svg>
     </button>
 
-    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-      <ul class="flex flex-col p-4 mt-4 font-medium border border-gray-100 md:p-0 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-black">
+    <div class="w-full md:block" id="navbar-default">
+      <ul class="flex flex-col p-4 mt-4 font-medium border border-gray-100
+        md:border-0">
 
         {{ $title := .Title }}
         {{- range .Site.Menus.main }}
           {{ if ne $title .Name }}
             <li class="">
-              <a class="block px-3 py-2 text-white md:border-0 md:p-0 hover:text-red-600" href="{{ .URL }}">{{ .Name }}</a>
+              <a class="block px-3 py-2 text-white hover:text-red-600" href="{{ .URL }}">{{ .Name }}</a>
             </li>
           {{ else }}
             <li class="">
-              <a class="block px-3 py-2 text-white md:border-0 md:p-0">{{ .Name }}</a>
+              <a class="block px-3 py-2 text-white">{{ .Name }}</a>
             </li>
           {{ end }}
         {{- end }}
         <li>
-          <button id="theme-toggle" type="button" class="block px-3 py-2 text-white hover:text-red-600 md:p-0 dark:hover:text-red-900">
+          <button id="theme-toggle" type="button" class="block px-3 py-2 text-white hover:text-red-600 dark:hover:text-red-900">
             <span id="theme-toggle-dark-icon" class="hidden w-5 h-5"><i class="fa-solid fa-moon"></i></span>
             <span id="theme-toggle-light-icon" class="hidden w-5 h-5"><i class="fa-solid fa-sun"></i></span>
           </button>

@@ -1,6 +1,6 @@
 {{ "<!-- layouts/_partials/pagination.html -->" | safeHTML }}
 
-<div class="flex justify-center mt-8 text-sm">
+<div class="flex justify-center mt-8 text-sm md:col-span-2">
   {{- $page := . }}
 
   {{- if gt $page.Paginator.TotalPages 1 }}
