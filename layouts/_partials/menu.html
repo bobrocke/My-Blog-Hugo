@@ -1,17 +1,28 @@
 <nav class="bg-black border-red-600 border-b-6
   md:border-r-6 md:border-b-0
   dark:border-red-900">
-  <div class="flex flex-wrap items-center justify-between py-4 px-6 mx-auto">
 
-    {{ if .IsHome }}
-      <a class="flex items-center space-x-3">
-          <span class="self-center font-sans text-xl md:text-center md:text-3xl md:text-wrap font-semibold tracking-wider text-white whitespace-nowrap dark:text-gray-400">Bob Rockefeller</span>
-      </a>
-    {{ else }}
-      <a href="/" class="flex items-center space-x-3">
-          <span class="self-center font-sans text-xl md:text-center md:text-3xl md:text-wrap font-semibold tracking-wider text-white  whitespace-nowrap dark:text-gray-400 hover:text-red-600">Bob Rockefeller</span>
-      </a>
-    {{ end }}
+
+  <div class="flex flex-wrap items-center justify-between py-4 px-6 mx-auto">
+    <div class="md:hidden">
+      {{ if .IsHome }}
+        <img src="/images/logo-horiz.svg" alt="Logo" height="50" width="160" />
+      {{ else }}
+        <a href="/">
+          <img src="/images/logo-horiz.svg" alt="Logo" height="50" width="160" />
+        </a>
+      {{ end }}
+    </div>
+
+    <div class="hidden md:block">
+      {{ if .IsHome }}
+        <img src="/images/logo-vert.svg" alt="Logo" width="180"/>
+      {{ else }}
+        <a href="/">
+          <img src="/images/logo-vert.svg" alt="Logo" width="180"/>
+        </a>
+      {{ end }}
+    </div>
 
     <button data-collapse-toggle="navbar-default" type="button"
       class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-500
