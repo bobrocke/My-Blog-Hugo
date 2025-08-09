@@ -36,25 +36,43 @@
     </button>
 
     <div class="w-full hidden md:block" id="navbar-default">
-      <ul class="flex flex-col p-4 mt-4 font-medium border border-gray-100 md:border-0">
-
+      <ul class="flex flex-col p-4 mt-4 font-medium text-white border border-gray-100
+        md:border-0 md:text-xl
+        dark:text-gray-400">
         {{ $title := .Title }}
         {{- range .Site.Menus.main }}
           {{ if ne $title .Name }}
             <li class="">
-              <a class="block px-3 py-2 text-white hover:text-red-600 dark:text-gray-400" href="{{ .URL }}">{{ .Name }}</a>
+              <a class="block px-3 py-2 hover:text-red-600 " href="{{ .URL }}">{{ .Name }}</a>
             </li>
           {{ else }}
             <li class="">
-              <a class="block px-3 py-2 text-white dark:text-gray-400">{{ .Name }}</a>
+              <a class="block px-3 py-2">{{ .Name }}</a>
             </li>
           {{ end }}
         {{- end }}
         <li>
-          <button id="theme-toggle" type="button" class="block px-3 py-2 text-white hover:text-red-600 dark:text-gray-400 dark:hover:text-red-900">
+          <button id="theme-toggle" type="button" class="block px-3 py-2 text-white hover:text-red-600 dark:hover:text-red-900">
             <span id="theme-toggle-dark-icon" class="hidden w-5 h-5"><i class="fa-solid fa-moon"></i></span>
             <span id="theme-toggle-light-icon" class="hidden w-5 h-5"><i class="fa-solid fa-sun"></i></span>
           </button>
+        </li>
+        <li>
+          <a class="block px-3 py-2 mt-6 text-center hover:text-red-600 dark:hover:text-red-600" href="https://github.com/bobrocke" title="Bob on GitHub" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </li>
+        <li>
+          <a class="block px-3 py-2 text-center hover:text-red-600 dark:hover:text-red-600" href="https://stackoverflow.com/users/1938118/bob-rockefeller" title="Bob on Stack Overflow" target="_blank"><i class="fa-brands fa-stack-overflow"></i></a>
+        </li>
+        <li>
+          <a class="block px-3 py-2 text-center hover:text-red-600 dark:hover:text-red-600" href="https://www.flickr.com/photos/bobrocke/" title="Bob on Flickr" target="_blank"><i class="fa-brands fa-flickr"></i></a>
+        </li>
+        <li>
+          <a class="block px-3 py-2 text-center hover:text-red-600 dark:hover:text-red-600" href="https://500px.com/p/BobRockefeller?view=photos" title="Bob on 500px" target="_blank"><i class="fa-brands fa-500px"></i></a>
+        </li>
+        <li>
+          <a class="block px-3 py-2 text-center hover:text-red-600 dark:hover:text-red-600" href="https://www.facebook.com/bob.rockefeller/" title="Bob on Facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        </li>
+        <li class="text-xs block px-3 py-2 mt-6 ">&copy; {{ now.Year }} Bob Rockefeller.All Rights Reserved.
         </li>
       </ul>
     </div>
