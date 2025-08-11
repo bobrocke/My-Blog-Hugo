@@ -1,0 +1,7 @@
+
+<div class="text-xs md:text-sm text-gray-400 dark:text-gray-400">
+  <i class="fa-regular fa-calendar"></i>&nbsp;&nbsp;{{ .Date | time.Format ":date_long" }}
+  {{ if ne .Lastmod .Date }}
+    &nbsp;&nbsp;Revised: {{ .Lastmod | time.Format ":date_long" }}
+  {{ end }}
+</div>
