@@ -7,9 +7,6 @@ resourceDir = '_resources'
 
 [Params]
   description = 'What is Bob up to now?'
-  customCSS = ["/css/lightbox.css", "/css/custom.css"] # Include custom CSS files
-  customJS = ["/js/lightbox.js"]                       # Include custom JS files
-
 
 # Configure Pagination. See https://gohugo.io/templates/pagination/#configuration
 [pagination]
