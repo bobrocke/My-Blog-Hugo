@@ -1,27 +1,45 @@
-<nav class="bg-black border-red-600 border-b-6
+ {{ "<!-- layouts/_partials/menu.html -->" | safeHTML }}
+
+ <nav class="bg-black border-red-600 border-b-6
   md:border-r-6 md:border-b-0
   dark:border-red-900">
 
   <div class="flex flex-wrap items-center justify-between py-4 px-6 mx-auto">
-    <div class="md:hidden">
-      {{ if .IsHome }}
-        <img src="/images/logo-horiz.svg" alt="Logo" height="50" width="160" />
-      {{ else }}
-        <a href="/">
-          <img src="/images/logo-horiz.svg" alt="Logo" height="50" width="160" />
-        </a>
-      {{ end }}
-    </div>
+    {{ if .Store.Get "paginator" }}
+      {{- with .Store.Get "paginator" }}
+        <div class="md:hidden">
+          {{ if eq .PageNumber 1 }}
+            <img src="/images/logo-horiz.svg" alt="Logo" height="50" width="160" />
+          {{ else }}
+            <a href="/"><img src="/images/logo-horiz.svg" alt="Logo" height="50" width="160" /></a>
+          {{ end }}
+        </div>
 
-    <div class="hidden md:block mt-2">
-      {{ if .IsHome }}
-        <img src="/images/logo-vert.svg" alt="Logo" width="180"/>
-      {{ else }}
-        <a href="/">
-          <img src="/images/logo-vert.svg" alt="Logo" width="180"/>
-        </a>
+        <div class="hidden md:block mt-2">
+          {{ if eq .PageNumber 1 }}
+            <img src="/images/logo-vert.svg" alt="Logo" width="180"/>
+          {{ else }}
+            <a href="/"> <img src="/images/logo-vert.svg" alt="Logo" width="180"/></a>
+          {{ end }}
+        </div>
       {{ end }}
-    </div>
+    {{ else }}
+      <div class="md:hidden">
+        {{ if .IsHome }}
+          <img src="/images/logo-horiz.svg" alt="Logo" height="50" width="160" />
+        {{ else }}
+          <a href="/"><img src="/images/logo-horiz.svg" alt="Logo" height="50" width="160" /></a>
+        {{ end }}
+      </div>
+
+      <div class="hidden md:block mt-2">
+        {{ if .IsHome }}
+          <img src="/images/logo-vert.svg" alt="Logo" width="180"/>
+        {{ else }}
+          <a href="/"> <img src="/images/logo-vert.svg" alt="Logo" width="180"/></a>
+        {{ end }}
+      </div>
+    {{ end }}
 
     <button data-collapse-toggle="navbar-default" type="button"
       class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-500
@@ -38,11 +56,36 @@
       <ul class="flex flex-col p-4 mt-4 font-medium text-white border border-gray-100
         md:border-0 md:text-xl md:text-center
         dark:text-gray-400">
+
+        {{ if .Store.Get "paginator" }}
+          {{- with .Store.Get "paginator" }}
+            {{ if eq .PageNumber 1 }}
+              <li class="">
+                <a class="block px-3 py-2">Home</a>
+              </li>
+            {{ else }}
+              <li class="">
+                <a class="block px-3 py-2 hover:text-red-600" href="{{ .URL }}">Home</a>
+              </li>
+            {{ end }}
+          {{ end }}
+        {{ else }}
+          {{ if .IsHome }}
+            <li class="">
+              <a class="block px-3 py-2">Home</a>
+            </li>
+          {{ else }}
+            <li class="">
+              <a class="block px-3 py-2 hover:text-red-600" href="/">Home</a>
+            </li>
+          {{ end }}
+        {{ end }}
+
         {{ $title := .Title }}
         {{- range .Site.Menus.main }}
           {{ if ne $title .Name }}
             <li class="">
-              <a class="block px-3 py-2 hover:text-red-600 " href="{{ .URL }}">{{ .Name }}</a>
+              <a class="block px-3 py-2 hover:text-red-600" href="{{ .URL }}">{{ .Name }}</a>
             </li>
           {{ else }}
             <li class="">
