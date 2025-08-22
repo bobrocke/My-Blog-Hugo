@@ -4,7 +4,11 @@
 
     <title>
       {{ block "title" . }}
-        {{- .Site.Title }} - {{ .Title -}}
+        {{ if hugo.IsProduction }}
+          {{- .Site.Title }} | {{ .Title -}}
+        {{ else }}
+          Hugo | {{ .Title -}}
+        {{ end }}
       {{ end }}
     </title>
 

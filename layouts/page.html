@@ -5,32 +5,34 @@
 
   <div class="m-8">
     {{ partial "post-meta-dates.html" . }}
-    <h1 class="font-serif text-2xl md:text-4xl dark:text-gray-400">{{ .Title }}</h1>
+    <h1 class="text-2xl md:text-4xl dark:text-gray-400">{{ .Title }}</h1>
     {{ partial "post-meta-tax.html" . }}
-    <div class="max-w-none prose prose-pre:text-wrap prose-base md:prose-lg prose-a:hover:text-red-600 dark:text-gray-400 dark:prose-code:text-gray-500 dark:prose-strong:text-gray-500 dark:prose-headings:text-gray-500 dark:prose-a:text-blue-600 dark:prose-a:hover:text-red-900">
+    <div class="max-w-none font-serif prose prose-pre:text-wrap prose-a:hover:text-red-600 prose-base
+      md:prose-lg
+      dark:text-gray-400 dark:prose-code:text-gray-500 dark:prose-strong:text-gray-500 dark:prose-headings:text-gray-500 dark:prose-a:text-blue-600 dark:prose-a:hover:text-red-900">
       {{ .Content }}
     </div>
   </div>
 
   <div class="flex justify-center my-8 md:col-span-2">
     <ul class="inline-flex text-base h-10 list-none">
-      {{ with $pages.Next . }}
+      {{ with $pages.Prev . }}
         <li>
-          <a href="{{ .RelPermalink }}" aria-label="Previous" class="w-30 flex items-center justify-center px-4 h-10 ms-0 leading-tight text-black bg-white border border-gray-300 rounded-s-lg hover:bg-red-600 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-900 dark:hover:text-red-900" role="button"><span aria-hidden="true">Older</span></a>
+          <a href="{{ .RelPermalink }}" aria-label="Newer" class="w-30 flex items-center justify-center px-4 h-10 leading-tight text-black bg-white border border-gray-300 rounded-s-lg hover:bg-red-600 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-900 dark:hover:text-red-900" role="button"><span aria-hidden="true">Newer</span></a>
         </li>
       {{ else }}
         <li>
-          <a aria-label="Previous" class="w-30 flex items-center justify-center px-4 h-10 ms-0 leading-tight text-gray-400 bg-white border border-gray-300 rounded-s-lg dark:bg-gray-800 dark:border-gray-700 dark:text-gray-600" role="button"><span aria-hidden="true">Older</span></a>
+          <a aria-label="Newer" class="w-30 flex items-center justify-center px-4 h-10 leading-tight text-gray-400 bg-white border border-gray-300 rounded-s-lg dark:bg-gray-800 dark:border-gray-700 dark:text-gray-600" role="button"><span aria-hidden="true">Newer</span></a>
         </li>
       {{ end }}
 
-      {{ with $pages.Prev . }}
+      {{ with $pages.Next . }}
         <li>
-          <a href="{{ .RelPermalink }}" aria-label="Next" class="w-30 flex items-center justify-center px-4 h-10 leading-tight text-black bg-white border border-gray-300 rounded-e-lg hover:bg-red-600 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-900 dark:hover:text-red-900" role="button"><span aria-hidden="true">Newer</span></a>
+          <a href="{{ .RelPermalink }}" aria-label="Older" class="w-30 flex items-center justify-center px-4 h-10 leading-tight text-black bg-white border border-gray-300 rounded-e-lg hover:bg-red-600 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-900 dark:hover:text-red-900" role="button"><span aria-hidden="true">Older</span></a>
         </li>
       {{ else }}
         <li>
-          <a aria-label="Next" class="w-30 flex items-center justify-center px-4 h-10 leading-tight text-gray-400 bg-white border border-gray-300 rounded-e-lg dark:bg-gray-800 dark:border-gray-700 dark:text-gray-600" role="button"><span aria-hidden="true">Newer</span></a>
+          <a aria-label="Older" class="w-30 flex items-center justify-center px-4 h-10 ms-0 leading-tight text-gray-400 bg-white border border-gray-300 rounded-e-lg dark:bg-gray-800 dark:border-gray-700 dark:text-gray-600" role="button"><span aria-hidden="true">Older</span></a>
         </li>
       {{ end }}
     </ul>
