@@ -3,7 +3,7 @@
 
 <div class="flex justify-center my-8 text-sm md:col-span-2">
   {{ if gt $page.Paginator.TotalPages 1 }}
-    <ul class="inline-flex text-base h-10">
+    <ul class="inline-flex -space-x-px text-base h-10">
       {{ with .Paginator }}
         {{ $start := sub .PageNumber 1 }}
 
