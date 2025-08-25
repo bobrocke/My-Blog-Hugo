@@ -2,8 +2,8 @@
   {{ "<!-- page/single.html -->" | safeHTML }}
 
   <div class="m-8">
-    <h1 class="text-2xl md:text-4xl mb-4 dark:text-gray-400">{{ .Title }}</h1>
-    <div class="max-w-none font-serif prose-sm md:prose-lg prose prose-a:hover:text-red-600 prose-a:no-underline prose-a:text-blue-600 dark:text-gray-400 dark:prose-h3:text-gray-400 dark:prose-a:hover:text-red-900 dark:prose-a:text-blue-700">
+    <h1 class="text-2xl font-bold md:text-4xl mb-4 dark:text-gray-400">{{ .Title }}</h1>
+    <div class="max-w-none font-serif prose-sm md:prose-lg prose prose-h3:font-sans prose-a:hover:text-red-600 prose-a:no-underline prose-a:text-blue-600 dark:text-gray-400 dark:prose-h3:text-gray-400 dark:prose-a:hover:text-red-900 dark:prose-a:text-blue-700">
       {{ .Content }}
     </div>
   </div>
