@@ -11,9 +11,9 @@
       {{ range .Pages }}
         <div class="m-8">
           {{ partial "post-meta-dates.html" . }}
-          <h2><a class="text-xl font-bold hover:text-red-600 md:text-4xl dark:text-gray-400 dark:hover:text-red-900" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+          <h2><a class="text-xl font-bold hover:text-red-600 md:text-4xl dark:text-gray-400" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
           {{ partial "post-meta-tax.html" . }}
-          <div class="max-w-none font-serif prose-sm prose prose-a:hover:text-red-600 md:prose-lg dark:text-gray-400 dark:prose-a:text-blue-600 dark:prose-a:hover:text-red-900">{{ .Summary }}</div>
+          <div class="max-w-none font-serif prose-sm prose prose-a:hover:text-red-600 md:prose-lg dark:text-gray-400  dark:prose-a:text-gray-400">{{ .Summary }}</div>
         </div>
      	{{ end }}
     {{ end }}
