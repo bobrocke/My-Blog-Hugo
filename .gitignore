@@ -4,6 +4,8 @@
 /hugo_stats.json
 .hugo_build.lock
 
+zed-gotmpl-master
+
 yarn.lock
 hugo_notes.md
 .zed
