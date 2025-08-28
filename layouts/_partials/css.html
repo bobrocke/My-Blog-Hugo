@@ -6,7 +6,9 @@
   {{ $styles = $styles | minify | fingerprint | resources.PostProcess }}
 {{ end -}}
 
-{{- $lightbox := resources.Get "css/lightbox.css" | postCSS (dict "config" "./assets/css/postcss.config.mjs") -}}
+{{- $lightbox := resources.Get "css/lightbox.css"}}
+{{- $bootstrapicons := resources.Get "css/bootstrap-icons.css"}}
 
-<link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+<link rel="stylesheet" href="{{ $bootstrapicons.RelPermalink }}">
 <link rel="stylesheet" href="{{ $lightbox.RelPermalink }}">
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}">
