@@ -6,7 +6,7 @@
 {{ define "main" }}
   {{ "<!-- layouts/home.html -->" | safeHTML }}
 
-  <div class="break-after-column m-8">
+  <div class="break-after-column mt-8 mx-8">
     {{ with .Store.Get "paginator" }}
       {{ range .Pages }}
         <div class="mb-12">
