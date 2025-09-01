@@ -1,13 +1,22 @@
-{{- $styles := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/postcss.config.mjs") -}}
+{{ with resources.Get "css/styles.css" }}
+  {{ $opts := dict "minify" (not hugo.IsDevelopment) }}
+  {{ with . | css.TailwindCSS $opts }}
+    {{ if hugo.IsDevelopment }}
+      <link rel="stylesheet" href="{{ .RelPermalink }}">
+    {{ else }}
+      {{ with . | fingerprint }}
+        <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
 {{- $lightbox := resources.Get "css/lightbox.css"}}
 {{- $bootstrapicons := resources.Get "css/bootstrap-icons.css"}}
 {{- $fontawesome := resources.Get "css/fontawesome.css"}}
 {{- $brands := resources.Get "css/brands.css"}}
 
-{{- if hugo.IsServer }}
-  {{ $styles = $styles | resources.ExecuteAsTemplate (printf "css/styles.dev.%v.css" now.UnixMilli) .}}
-{{ else }}
-  {{ $styles = $styles | minify | fingerprint | resources.PostProcess }}
+{{- if not hugo.IsServer }}
   {{ $lightbox = $lightbox | minify | fingerprint | resources.PostProcess }}
   {{ $bootstrapicons = $bootstrapicons | minify | fingerprint | resources.PostProcess }}
   {{ $fontawesome = $fontawesome | minify | fingerprint | resources.PostProcess }}
@@ -18,4 +27,3 @@
 <link rel="stylesheet" href="{{ $fontawesome.RelPermalink }}">
 <link rel="stylesheet" href="{{ $brands.RelPermalink }}">
 <link rel="stylesheet" href="{{ $lightbox.RelPermalink }}">
-<link rel="stylesheet" href="{{ $styles.RelPermalink }}">
