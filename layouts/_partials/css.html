@@ -10,20 +10,3 @@
     {{ end }}
   {{ end }}
 {{ end }}
-
-{{- $lightbox := resources.Get "css/lightbox.css"}}
-{{- $bootstrapicons := resources.Get "css/bootstrap-icons.css"}}
-{{- $fontawesome := resources.Get "css/fontawesome.css"}}
-{{- $brands := resources.Get "css/brands.css"}}
-
-{{- if not hugo.IsServer }}
-  {{ $lightbox = $lightbox | minify | fingerprint | resources.PostProcess }}
-  {{ $bootstrapicons = $bootstrapicons | minify | fingerprint | resources.PostProcess }}
-  {{ $fontawesome = $fontawesome | minify | fingerprint | resources.PostProcess }}
-  {{ $brands = $brands | minify | fingerprint | resources.PostProcess }}
-{{ end -}}
-
-<link rel="stylesheet" href="{{ $bootstrapicons.RelPermalink }}">
-<link rel="stylesheet" href="{{ $fontawesome.RelPermalink }}">
-<link rel="stylesheet" href="{{ $brands.RelPermalink }}">
-<link rel="stylesheet" href="{{ $lightbox.RelPermalink }}">

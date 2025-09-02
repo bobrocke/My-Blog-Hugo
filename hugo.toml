@@ -64,3 +64,9 @@ resourceDir = '_resources'
     disableWatch = true
     source = 'hugo_stats.json'
     target = 'assets/notwatching/hugo_stats.json'
+  [[module.mounts]]
+    source = 'node_modules/flowbite'
+    target = 'assets/css/flowbite'
+  [[module.mounts]]
+    source = 'node_modules/flowbite'
+    target = 'assets/js/flowbite'
