@@ -33,7 +33,7 @@
         {{/* The left arrow */}}
         {{ with .Prev }}
           <li>
-            <a href="{{ .URL }}" aria-label="Previous"  role="button" class="flex items-center justify-center px-4 h-10 ms-0 rounded-s-lg leading-tight text-black bg-white border border-gray-300 hover:bg-red-600 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-900 dark:hover:text-red-600">&laquo;</a>
+            <a href="{{ .URL }}" aria-label="Previous"  role="button" class="flex items-center justify-center px-4 h-10 ms-0 rounded-s-lg leading-tight text-black bg-white border border-gray-300 hover:bg-red-600 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-900 dark:hover:text-red-600" title="Previous Page">&laquo;</a>
           </li>
         {{ else }}
           <li>
@@ -95,7 +95,7 @@
         {{/* The right arrow */}}
         {{ with .Next }}
           <li>
-            <a href="{{ .URL }}" aria-label="Next" class="flex items-center justify-center px-4 h-10 leading-tight text-black bg-white border border-gray-300 rounded-e-lg hover:bg-red-600 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-red-600" role="button"><span aria-hidden="true">&raquo;</span></a>
+            <a href="{{ .URL }}" aria-label="Next" class="flex items-center justify-center px-4 h-10 leading-tight text-black bg-white border border-gray-300 rounded-e-lg hover:bg-red-600 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-red-600" role="button" title="Next Page"><span aria-hidden="true">&raquo;</span></a>
           </li>
         {{ else }}
           <li>
