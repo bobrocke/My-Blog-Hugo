@@ -42,6 +42,11 @@ resourceDir = '_resources'
     url = "/tags"
     weight = 3
 
+  [[menu.main]]
+    name = "Photos"
+    url = "https://photos.bobrockefeller.com/"
+    weight = 4
+
 [taxonomies]
   tag = "tags"
   category = "categories"
