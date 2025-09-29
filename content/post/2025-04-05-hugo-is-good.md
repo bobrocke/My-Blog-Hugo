@@ -30,7 +30,7 @@ As opposed to Jekyll's gems and 11ty's node modules, Hugo is a single binary wit
 
 There's built-in support for multiple taxonomy page displays and the posts for each category within. This site uses *categories* and *tags*, but many more are possible. 11ty can't do that without plugins and extra custom code.
 
-But there's a bit more of a learning curve for Hugo than the others. Hugo is an all Go environment -- it's written in Go and uses only the Go Template Language. If you've been working in more widely used template languages, you'll need a bit to get up to speed. For example here's a conditional: `{{ if ne $title .Name }}`. That means 'if $title is not equal to .Name'. More typical of other frameworks would be `{% if $title != .Name %}`.
+But there's a bit more of a learning curve for Hugo than the others. Hugo is an all Go environment -- it's written in Go and uses only the Go Template Language. If you've been working in more widely used template languages, you'll need a bit to get up to speed. For example here's a conditional: `{{ if ne $title .Name }}`. That means "if $title is not equal to .Name". More typical of other frameworks would be `{% if $title != .Name %}`.
 
 I don't find Hugo's [documentation](https://gohugo.io/documentation/) easy to navigate, so I often use a web search to find what I need. When I get stuck, which is often, I've gotten excellent help on [their Discourse forum](https://discourse.gohugo.io/).
 
