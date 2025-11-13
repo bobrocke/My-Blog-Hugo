@@ -4,8 +4,8 @@
 
 @import "flowbite/src/themes/default.css";
 @plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
 
-@source "flowbite";
 @source "hugo_stats.json";
 
 @import "lightbox.css";
