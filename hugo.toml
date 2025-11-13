@@ -20,9 +20,9 @@ resourceDir = '_resources'
     title = true
   [markup.goldmark.renderHooks]
     [markup.goldmark.renderHooks.image]
-      enableDefault = false
+      useEmbedded = "never"
     [markup.goldmark.renderHooks.link]
-      enableDefault = true
+      useEmbedded = "fallback"
   [markup.goldmark.renderer]
     unsafe = true # true allows HTML in md files
 

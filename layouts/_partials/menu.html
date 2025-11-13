@@ -60,22 +60,22 @@
         {{ if .Store.Get "paginator" }}
           {{- with .Store.Get "paginator" }}
             {{ if eq .PageNumber 1 }}
-              <li class="">
+              <li>
                 <a class="block px-3 py-2">Home</a>
               </li>
             {{ else }}
-              <li class="">
+              <li>
                 <a class="block px-3 py-2 hover:text-red-600" href="/">Home</a>
               </li>
             {{ end }}
           {{ end }}
         {{ else }}
           {{ if .IsHome }}
-            <li class="">
+            <li>
               <a class="block px-3 py-2">Home</a>
             </li>
           {{ else }}
-            <li class="">
+            <li>
               <a class="block px-3 py-2 hover:text-red-600" href="/">Home</a>
             </li>
           {{ end }}
@@ -84,11 +84,11 @@
         {{ $title := .Title }}
         {{- range .Site.Menus.main }}
           {{ if ne $title .Name }}
-            <li class="">
+            <li>
               <a class="block px-3 py-2 hover:text-red-600" href="{{ .URL }}">{{ .Name }}</a>
             </li>
           {{ else }}
-            <li class="">
+            <li>
               <a class="block px-3 py-2">{{ .Name }}</a>
             </li>
           {{ end }}
