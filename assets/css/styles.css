@@ -38,6 +38,5 @@ dt {
     &::after {
       display: none;
     }
-    text-wrap: nowrap;
   }
 }
