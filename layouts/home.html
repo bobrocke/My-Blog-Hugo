@@ -1,5 +1,5 @@
 {{ define "pagination" }}
- 	{{ $paginator := (.Paginate (where .Site.RegularPages "Type" "post").ByDate.Reverse) }}
+ 	{{ $paginator := (.Paginate (where .Site.RegularPages "Type" "blog").ByDate.Reverse) }}
   {{ .Store.Set "paginator" $paginator }}
 {{ end }}
 
