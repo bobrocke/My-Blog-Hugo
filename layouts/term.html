@@ -9,9 +9,9 @@
     {{ range $paginator.Pages }}
       <div class="mb-14">
         {{ partial "post-meta-dates.html" . }}
-        <h3 class="text-xl font-bold hover:text-red-600 md:text-4xl dark:text-gray-400 dark:hover:text-red-900"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
+        <h2 class="r-article-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
         {{ partial "post-meta-tax.html" . }}
-        <div class="max-w-none mt-6 font-serif prose-sm prose prose-a:hover:text-red-600 md:prose-lg dark:text-gray-400 dark:prose-a:text-gray-400">{{ .Summary }}</div>
+        <div class="r-content">{{ .Summary }}</div>
       </div>
     {{ end }}
   </div>
