@@ -6,7 +6,7 @@
     {{ $paginator := .Paginate .Pages.ByTitle 12 }}
 
     {{ range $paginator.Pages }}
-      <h3 class="ml-6 pb-4 text-lg md:text-2xl hover:text-red-600"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
+      <h3 class="ml-6 pb-4 text-lg md:text-2xl hover:text-primary-highlight"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
     {{ end }}
   </div>
 
