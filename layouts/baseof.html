@@ -4,9 +4,8 @@
   {{ partial "head.html" . -}}
 
   <!-- Designed for iPhone 12 screen (390 x 844) and larger -->
-  <body class="grid max-w-5xl
-    md:grid-cols-[200px_1fr] md:px-6 md:pt-6 md:mx-auto
-    dark:bg-gray-700">
+  <body class="grid max-w-5xl bg-light
+    md:grid-cols-[200px_1fr] md:px-6 md:pt-6 md:mx-auto">
 
     {{ with (templates.Defer (dict "key" "global")) }}
       {{ partial "css.html" . }}

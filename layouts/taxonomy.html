@@ -1,12 +1,13 @@
 {{ define "main" }}
   {{ "<!-- layouts/taxonomy.html -->" | safeHTML }}
-  <div class="mx-6 mt-8 dark:text-gray-400">
+  <div class="mx-6 mt-8
+    dark:text-gray-400">
     <h1 class="text-2xl font-bold md:text-4xl mb-6">{{ .Title }}</h1>
 
     {{ $paginator := .Paginate .Pages.ByTitle 12 }}
 
     {{ range $paginator.Pages }}
-      <h3 class="ml-6 pb-4 text-lg md:text-2xl hover:text-primary-highlight"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
+      <h3 class="ml-6 pb-4 text-lg hover:text-primary-highlight md:text-2xl"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
     {{ end }}
   </div>
 

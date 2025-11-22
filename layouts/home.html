@@ -6,12 +6,12 @@
 {{ define "main" }}
   {{ "<!-- layouts/home.html -->" | safeHTML }}
 
-  <div class="break-after-column mt-8 mx-8">
+  <div class="break-after-column mx-8 mt-8 md:mt-0">
     {{ with .Store.Get "paginator" }}
       {{ range .Pages }}
         <div class="mb-12">
           {{ partial "post-meta-dates.html" . }}
-          <h2><a class="r-article-title" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+          <h2><a class="r-article-title-link" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
           {{ partial "post-meta-tax.html" . }}
           <div class="r-content">{{ .Summary }}</div>
         </div>
