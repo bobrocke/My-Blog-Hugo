@@ -3,7 +3,7 @@
 
   {{ $pages := .CurrentSection.Pages.ByDate }}
 
-  <div class="mx-8 mt-8 md:mt-0">
+  <div class="mx-8 mt-8">
     {{ partial "post-meta-dates.html" . }}
     <h1 class="r-article-title">{{ .Title }}</h1>
     {{ partial "post-meta-tax.html" . }}

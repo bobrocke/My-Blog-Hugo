@@ -1,7 +1,7 @@
 {{ define "main" }}
   {{ "<!-- layouts/term.html -->" | safeHTML }}
   <div class="break-after-column mt-8 mx-8">
-    <h1 class="text-xl md:text-3xl mb-6 dark:text-gray-400">Posts about {{ .Title }}</h1>
+    <h1 class="text-xl md:text-3xl mb-6">Posts about {{ .Title }}</h1>
 
     {{ $pages := .Pages}}
     {{ $paginator := .Paginate $pages.ByDate.Reverse 4 }}
