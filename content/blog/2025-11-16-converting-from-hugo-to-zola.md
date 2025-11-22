@@ -102,9 +102,8 @@ The only real pain point in the conversion was modifying post front matter from:
 ---
 title: Converting from Hugo to Zola
 date: 2025-11-16
-taxonomies:
-  categories: [Web Development]
-  tags: [Zola]
+categories: [Web Development]
+tags: [Zola]
 draft: false
 ---
 ```
@@ -115,8 +114,9 @@ to:
 ---
 title: Converting from Hugo to Zola
 date: 2025-11-16
-categories: [Web Development]
-tags: [Zola]
+taxonomies:
+  categories: [Web Development]
+  tags: [Zola]
 draft: false
 ---
 ```
