@@ -3,13 +3,11 @@
 
   {{ $pages := .CurrentSection.Pages.ByDate }}
 
-  <div class="m-8">
+  <div class="mx-8 mt-8">
     {{ partial "post-meta-dates.html" . }}
-    <h1 class="text-2xl md:text-4xl font-bold dark:text-gray-400">{{ .Title }}</h1>
+    <h1 class="r-article-title">{{ .Title }}</h1>
     {{ partial "post-meta-tax.html" . }}
-    <div class="max-w-none font-serif mt-6 prose prose-pre:text-wrap prose-a:hover:text-red-600 prose-base prose-h2:font-sans prose-h2:mt-8 prose-h2:mb-2
-      md:prose-lg
-      dark:text-gray-400 dark:prose-a:text-gray-400 dark:prose-code:text-gray-300 dark:prose-strong:text-gray-300 dark:prose-headings:text-gray-500">
+    <div class="r-content">
       {{ .Content }}
     </div>
   </div>
@@ -18,21 +16,21 @@
     <ul class="inline-flex text-base -space-x-px h-10 list-none">
       {{ with $pages.Prev . }}
         <li>
-          <a href="{{ .RelPermalink }}" aria-label="Newer" class="w-30 flex items-center justify-center px-4 h-10 leading-tight text-black bg-white border border-gray-300 rounded-s-lg hover:bg-red-600 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-900 dark:hover:text-red-600" role="button"><span aria-hidden="true">Newer</span></a>
+          <a href="{{ .RelPermalink }}" aria-label="Newer" class="rounded-s-lg r-next-previous" role="button">Newer</a>
         </li>
       {{ else }}
         <li>
-          <a aria-label="Newer" class="w-30 flex items-center justify-center px-4 h-10 leading-tight text-gray-400 bg-white border border-gray-300 rounded-s-lg dark:bg-gray-800 dark:border-gray-700 dark:text-gray-600" role="button"><span aria-hidden="true">Newer</span></a>
+          <span aria-label="Newer" class="rounded-s-lg r-next-previous r-disabled" role="button" aria-disabled="true">Newer</span>
         </li>
       {{ end }}
 
       {{ with $pages.Next . }}
         <li>
-          <a href="{{ .RelPermalink }}" aria-label="Older" class="w-30 flex items-center justify-center px-4 h-10 leading-tight text-black bg-white border border-gray-300 rounded-e-lg hover:bg-red-600 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-red-600" role="button"><span aria-hidden="true">Older</span></a>
+          <a href="{{ .RelPermalink }}" aria-label="Older" class="rounded-e-lg r-next-previous" role="button">Older</a>
         </li>
       {{ else }}
         <li>
-          <a aria-label="Older" class="w-30 flex items-center justify-center px-4 h-10 ms-0 leading-tight text-gray-400 bg-white border border-gray-300 rounded-e-lg dark:bg-gray-800 dark:border-gray-700 dark:text-gray-600" role="button"><span aria-hidden="true">Older</span></a>
+          <span aria-label="Older" class="rounded-e-lg r-next-previous r-disabled" role="button" aria-disabled="true">Older</span>
         </li>
       {{ end }}
     </ul>

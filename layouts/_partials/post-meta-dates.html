@@ -1,5 +1,5 @@
 
-<div class="text-xs md:text-sm text-gray-400 dark:text-gray-400">
+<div class="r-metadata">
   <i class="bi bi-calendar"></i></i>&nbsp;&nbsp;{{ .Date | time.Format ":date_long" }}
   {{ if ne .Lastmod .Date }}
     &nbsp;&nbsp;Revised: {{ .Lastmod | time.Format ":date_long" }}
