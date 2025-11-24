@@ -77,23 +77,25 @@ I wanted to create multiple CSS files for organization and have them combined in
 I also greatly simplified the styling for dark mode. The code to handle light and dark modes is this:
 
 ```css
-  /*
-  Light Theme (default)
-  */
-  --bg-color-light: lightgray;
-  --bg-color-black: black;
-  --color-primary: black;
-  --color-primary-dim: gray;
-  --color-primary-invert: white;
-  --color-primary-highlight: red;
+/*
+Light Theme (default)
+*/
+--color-text-primary: var(--color-gray-80);
+--color-text-secondary: var(--color-gray-50);
+--color-text-accent: red;
+--color-text-light: var(--color-gray-10);
+--color-bg-lightest: var(--color-gray-0);
+--color-bg-light: var(--color-gray-10);
+--color-bg-darkest: var(--color-gray-90);
 
-  /*
-  Dark Theme
-  */
-  .dark {
-    --bg-color-light: gray;
-    --color-primary-dim: DarkGray;
-  }
+/*
+Dark Theme
+*/
+--color-text-primary: var(--color-gray-20);
+--color-text-secondary: var(--color-gray-50);
+--color-bg-lightest: var(--color-gray-50);
+--color-bg-light: var(--color-gray-80);
+--color-bg-darkest: var(--color-gray-100);
 ```
 
 The only real pain point in the conversion was modifying post front matter from:
