@@ -18,3 +18,4 @@ scripts
 not.ruby-version
 _site
 _resources
+.prettierrc.json
