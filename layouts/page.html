@@ -10,29 +10,29 @@
     <div class="r-content">
       {{ .Content }}
     </div>
-  </div>
 
-  <div class="flex justify-center my-8 md:col-span-2">
-    <ul class="inline-flex text-base -space-x-px h-10 list-none">
-      {{ with $pages.Prev . }}
-        <li>
-          <a href="{{ .RelPermalink }}" aria-label="Newer" class="rounded-s-lg r-next-previous" role="button">Newer</a>
-        </li>
-      {{ else }}
-        <li>
-          <span aria-label="Newer" class="rounded-s-lg r-next-previous r-disabled" role="button" aria-disabled="true">Newer</span>
-        </li>
-      {{ end }}
+    <div class="flex justify-center mb-4 md:mb-0 md:col-span-2">
+      <ul class="inline-flex text-base -space-x-px h-10 list-none">
+        {{ with $pages.Prev . }}
+          <li>
+            <a href="{{ .RelPermalink }}" aria-label="Newer" class="rounded-s-lg r-next-previous" role="button">Newer</a>
+          </li>
+        {{ else }}
+          <li>
+            <span aria-label="Newer" class="rounded-s-lg r-next-previous r-disabled" role="button" aria-disabled="true">Newer</span>
+          </li>
+        {{ end }}
 
-      {{ with $pages.Next . }}
-        <li>
-          <a href="{{ .RelPermalink }}" aria-label="Older" class="rounded-e-lg r-next-previous" role="button">Older</a>
-        </li>
-      {{ else }}
-        <li>
-          <span aria-label="Older" class="rounded-e-lg r-next-previous r-disabled" role="button" aria-disabled="true">Older</span>
-        </li>
-      {{ end }}
-    </ul>
+        {{ with $pages.Next . }}
+          <li>
+            <a href="{{ .RelPermalink }}" aria-label="Older" class="rounded-e-lg r-next-previous" role="button">Older</a>
+          </li>
+        {{ else }}
+          <li>
+            <span aria-label="Older" class="rounded-e-lg r-next-previous r-disabled" role="button" aria-disabled="true">Older</span>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
   </div>
 {{ end }}

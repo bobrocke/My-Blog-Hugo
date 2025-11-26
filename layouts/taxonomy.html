@@ -8,8 +8,10 @@
     {{ range $paginator.Pages }}
       <h3 class="ml-6 pb-4 text-lg hover:text-primary-highlight md:text-2xl"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
     {{ end }}
-  </div>
 
     {{ partial "pagination.html" . }}
+  </div>
+
+
 
 {{ end }}
