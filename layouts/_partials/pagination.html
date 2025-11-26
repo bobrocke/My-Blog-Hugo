@@ -6,7 +6,6 @@
     <ul class="inline-flex -space-x-px text-base h-10">
       {{ with .Paginator }}
         {{ $start := sub .PageNumber 1 }}
-
         {{ if lt $start 2 }}
           {{ $start = 2 }}
         {{ end }}
