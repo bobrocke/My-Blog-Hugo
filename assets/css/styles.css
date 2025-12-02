@@ -76,7 +76,7 @@ dt {
 }
 
 .r-article-title-link {
-  @apply dark:hover:text-primary-highlight text-2xl font-bold md:text-4xl;
+  @apply dark:hover:text-primary-highlight hover:text-primary-highlight text-2xl font-bold md:text-4xl;
 }
 
 .r-content {
