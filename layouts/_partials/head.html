@@ -26,9 +26,7 @@
 
     <link rel="icon" href="/favicon.ico">
 
-    {{ with (templates.Defer (dict "key" "global")) }}
-      {{ partial "css.html" . }}
-    {{ end }}
+    {{ partial "css.html" . }}
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

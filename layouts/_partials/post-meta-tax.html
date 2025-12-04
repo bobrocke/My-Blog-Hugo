@@ -1,12 +1,13 @@
 
-<div class="r-metadata">
+<div class="blog-meta blog-taxonomies">
   {{ if gt .Params.categories 0 }}
     {{ $items := .Params.categories }}
-    {{ $count:= len $items }}
+    {{ $count := len $items }}
+
     <i class="bi bi-folder"></i>&nbsp;
     {{ range $index, $element := .Params.categories }}
       {{ $url_stub := . | urlize }}
-      <a class="hover:text-primary-highlight" href="/categories/{{- $url_stub }}">{{ . }}</a>
+      <a href="/categories/{{- $url_stub }}">{{ . }}</a>
       {{- if lt (add $index 1) $count }}
         &#x2022;
       {{ end }}
@@ -16,11 +17,12 @@
 
   {{ if gt .Params.tags 0 }}
     {{ $items := .Params.tags }}
-    {{ $count:= len $items }}
+    {{ $count := len $items }}
+
     <i class="bi bi-tag"></i>&nbsp;
       {{ range $index, $element := .Params.tags }}
         {{ $url_stub := . | urlize }}
-        <a class="hover:text-primary-highlight" href="/tags/{{- $url_stub }}">{{ . }}</a>
+        <a href="/tags/{{- $url_stub }}">{{ . }}</a>
         {{- if lt (add $index 1) $count }}
           &#x2022;
         {{ end -}}

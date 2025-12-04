@@ -1,5 +1,5 @@
 
-<div class="r-metadata">
+<div class="blog-meta blog-dates">
   <i class="bi bi-calendar"></i></i>&nbsp;&nbsp;{{ .Date | time.Format ":date_long" }}
   {{ if ne .Lastmod .Date }}
     &nbsp;&nbsp;Revised: {{ .Lastmod | time.Format ":date_long" }}

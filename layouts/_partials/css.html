@@ -1,1 +1,45 @@
-
+{{ if hugo.IsProduction }}
+  {{ with resources.Get "css/bootstrap-icons.css" | minify }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
+  {{ end }}
+  {{ with resources.Get "css/brands.css" | minify }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
+  {{ end }}
+  {{ with resources.Get "css/lightbox.css" | minify }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
+  {{ end }}
+  {{ with resources.Get "css/reset.css" | minify }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
+  {{ end }}
+  {{ with resources.Get "css/global.css" | minify }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
+  {{ end }}
+  {{ with resources.Get "css/CUBE.css" | minify }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
+  {{ end }}
+  {{ with resources.Get "css/semantics.css" | minify }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
+  {{ end }}
+{{ else }}
+  {{ with resources.Get "css/bootstrap-icons.css" }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
+  {{ end }}
+  {{ with resources.Get "css/brands.css" }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
+  {{ end }}
+  {{ with resources.Get "css/lightbox.css" }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
+  {{ end }}
+  {{ with resources.Get "css/reset.css" }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
+  {{ end }}
+  {{ with resources.Get "css/global.css" }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
+  {{ end }}
+  {{ with resources.Get "css/CUBE.css" }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
+  {{ end }}
+  {{ with resources.Get "css/semantics.css" }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
+  {{ end }}
+{{ end }}

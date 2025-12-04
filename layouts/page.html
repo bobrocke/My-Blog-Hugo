@@ -3,15 +3,15 @@
 
   {{ $pages := .CurrentSection.Pages.ByDate }}
 
-  <div class="mx-8 mt-8">
+  <div class="content">
     {{ partial "post-meta-dates.html" . }}
     <h1 class="r-article-title">{{ .Title }}</h1>
     {{ partial "post-meta-tax.html" . }}
-    <div class="r-content">
+    <div class="prose">
       {{ .Content }}
     </div>
 
-    <div class="flex justify-center mb-4 md:mb-0 md:col-span-2">
+    <div class="page-nav">
       <ul class="inline-flex text-base -space-x-px h-10 list-none">
         {{ with $pages.Prev . }}
           <li>

@@ -1,9 +1,9 @@
 {{ "<!-- layouts/_partials/pagination.html -->" | safeHTML }}
 {{ $page := . }}
 
-<div class="flex justify-center text-sm mb-4 md:mb-0 md:col-span-2">
+<div class="pagination">
   {{ if gt $page.Paginator.TotalPages 1 }}
-    <ul class="inline-flex -space-x-px text-base h-10">
+    <ul class="button-nav">
       {{ with .Paginator }}
         {{ $start := sub .PageNumber 1 }}
         {{ if lt $start 2 }}
@@ -30,26 +30,22 @@
         {{ end }}
 
         {{/* The left arrow */}}
-        {{ with .Prev }}
-          <li>
-            <a href="{{ .URL }}" aria-label="Previous" role="button" class="rounded-s-lg r-pagination-button" title="Previous Page">&laquo;</a>
-          </li>
-        {{ else }}
-          <li>
-            <span aria-disabled="true" aria-label="Previous" role="button" class="rounded-s-lg r-pagination-button r-disabled">&laquo;</span>
-          </li>
-        {{ end }}
+        <li>
+          {{ with .Prev }}
+            <a href="{{ .URL }}" aria-label="Previous" role="button" title="Previous Page"> <i class="bi bi-caret-left-fill"></i></a>
+          {{ else }}
+            <span aria-disabled="true" aria-label="Previous" role="button"><i class="bi bi-caret-left-fill inactive"></i></span>
+          {{ end }}
+        </li>
 
         {{/* The fixed page 1 block */}}
-        {{ if eq .PageNumber 1 }}
-          <li>
-            <span aria-disabled="true" aria-label="Page 1" role="button" class="r-pagination-button r-disabled">1</span>
-          </li>
-        {{ else }}
-          <li>
-            <a href="{{ .First.URL }}" aria-label="Page 1" role="button" class="r-pagination-button">1</a>
-          </li>
-        {{ end }}
+        <li>
+          {{ if eq .PageNumber 1 }}
+            <span aria-disabled="true" aria-label="Page 1" role="button" class="inactive">1</span>
+          {{ else }}
+            <a href="{{ .First.URL }}" aria-label="Page 1" role="button">1</a>
+          {{ end }}
+        </li>
 
         {{/* The page block window */}}
         {{ if or (gt $start 0) (gt $end 0) }}
@@ -62,15 +58,13 @@
               {{ end }}
             {{ end }}
 
-            {{ if eq $.Paginator.PageNumber $k }}
-              <li>
-                <span aria-current="page" role="button" aria-label="Page {{ $k }}" class="r-pagination-button r-disabled">{{ $k }}</span>
-              </li>
-            {{ else }}
-              <li>
-                <a href="{{ (index $.Paginator.Pagers (sub $k 1)).URL }}" role="button" aria-label="Page {{ $k }}" class="r-pagination-button">{{ $k }}</a>
-              </li>
-            {{ end }}
+            <li>
+              {{ if eq $.Paginator.PageNumber $k }}
+                <span aria-disabled="true" aria-current="page" role="button" aria-label="Page {{ $k }}" class="inactive">{{ $k }}</span>
+              {{ else }}
+                <a href="{{ (index $.Paginator.Pagers (sub $k 1)).URL }}" role="button" aria-label="Page {{ $k }}">{{ $k }}</a>
+              {{ end }}
+            </li>
 
             {{ if eq $i 2 }}
               {{ if ne $k (sub $.Paginator.TotalPages 1) }}
@@ -81,26 +75,22 @@
         {{ end }}
 
         {{/* The fixed last page block */}}
-        {{ if eq .PageNumber .TotalPages }}
-          <li>
-            <span aria-disabled="true" aria-label="Page 1" role="button" class="r-pagination-button r-disabled">{{ .TotalPages }}</span>
-          </li>
-        {{ else }}
-          <li>
+        <li>
+          {{ if eq .PageNumber .TotalPages }}
+            <span aria-disabled="true" aria-label="Page 1" role="button" class="inactive">{{ .TotalPages }}</span>
+          {{ else }}
             <a href="{{ .Last.URL }}" aria-label="Page 1" role="button" class="r-pagination-button">{{ .TotalPages }}</a>
-          </li>
-        {{ end }}
+          {{ end }}
+        </li>
 
         {{/* The right arrow */}}
-        {{ with .Next }}
-          <li>
-            <a href="{{ .URL }}" aria-label="Next" role="button" class="rounded-e-lg r-pagination-button" role="button" title="Next Page">&raquo;</a>
+        <li>
+          {{ with .Next }}
+            <a href="{{ .URL }}" aria-label="Next" role="button" role="button" title="Next Page"><i class="bi bi-caret-right-fill"></i></a>
+          {{ else }}
+            <span aria-disabled="true" aria-label="Next" role="button"><i class="bi bi-caret-right-fill inactive"></i></span>
+          {{ end }}
           </li>
-        {{ else }}
-          <li>
-            <span aria-disabled="true" aria-label="Next" role="button" class="rounded-e-lg r-pagination-button r-disabled">&raquo;</span>
-          </li>
-        {{ end }}
       {{ end }}
     </ul>
   {{ end }}
