@@ -4,9 +4,7 @@ summary: Consistent with my shifting attention in web development, I’ve had my
 date: 2023-04-03 21:33:13
 publish: true
 pin: false
-categories:
-  - Photography
-  - Web Development
+categories: [Photography, Web Development]
 tags: [Squarespace]
 ---
 

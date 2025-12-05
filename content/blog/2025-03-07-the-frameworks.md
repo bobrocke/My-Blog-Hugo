@@ -1,6 +1,5 @@
 ---
 title: The Frameworks
-image:
 categories: [Web Development]
 tags:
 toc: false

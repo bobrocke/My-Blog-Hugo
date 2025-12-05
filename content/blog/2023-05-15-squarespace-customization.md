@@ -1,11 +1,9 @@
 ---
 title: Squarespace Customization
-summary: The Squarespace platform allows the web developer a lot of flexibility in creating unique designs. But, naturally, there are limits and some developers will want to go beyond them to create websites that are even more unique. Although not covered by Squarespace’s support team, CSS and JavaScript can be used by more advanced web developers.
 date: 2023-05-15 23:01:59
 publish: true
 pin: false
-categories:
-  - Web Development
+categories: [Web Development]
 tags: [Squarespace]
 ---
 

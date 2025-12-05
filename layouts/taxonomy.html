@@ -4,13 +4,13 @@
     {{ $paginator := .Paginate .Pages.ByTitle 12 }}
 
     <h1 class="heading">{{ .Title }}</h1>
-
     <ul>
       {{ range $paginator.Pages }}
         <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
       {{ end }}
     </ul>
-
-    {{ partial "pagination.html" . }}
+      {{ partial "pagination.html" . }}
   </div>
+
+
 {{ end }}

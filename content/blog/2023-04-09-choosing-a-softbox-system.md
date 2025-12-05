@@ -4,9 +4,8 @@ summary: After I settled on the right off-camera lighting system for me (Profoto
 date: 2023-04-09 22:03:41
 publish: true
 pin: false
-categories:
-  - Photography Gear
-tags: []
+categories: [Photography Gear]
+tags: [Profoto, Glow]
 ---
 
 After I settled on the right off-camera lighting system for me (Profoto), I needed to choose between [Glow](https://www.adorama.com/brands/Glow) (an Adorama brand) and [Profoto](https://profoto.com/us/products/light-shaping-tools) (specifically their OCF line) for a system of softboxes. As with the lighting system choice, I wanted a range of light modifiers that worked together and in the same general way so as not to complicate things by having to remember how each of a variety of different softboxes was assembled and adjusted.

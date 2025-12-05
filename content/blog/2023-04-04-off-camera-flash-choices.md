@@ -4,8 +4,7 @@ summary: My off-camera flash 'system' has been a mishmash of equipment. Clearly,
 date: 2023-04-04 21:55:27
 publish: true
 pin: false
-categories:
-  - Photography Gear
+categories: [Photography Gear]
 tags: [Godox, Profoto]
 ---
 

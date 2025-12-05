@@ -319,7 +319,7 @@ Pagination
 Taxonomy
 */
 
-.taxonomy ul {
+.taxonomy > ul {
   list-style: none;
   font-family: var(--font-sans);
   font-size: var(--text-lg);

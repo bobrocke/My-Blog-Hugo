@@ -6,7 +6,7 @@ tags: [CSS, Tailwind]
 draft: false
 ---
 
-While converting this site from [Hugo to Zola](@/blog/2025-11-16-converting-from-hugo-to-zola.md), I elected to dispense with Tailwind; partially because I wanted to try using plain CSS and partially because Zola and Tailwind don't make an easy pairing. Along the way, I discovered that I don't like Tailwind as much as I thought I did.
+While converting this site from [Hugo to Zola](2025-11-16-converting-from-hugo-to-zola), I elected to dispense with Tailwind; partially because I wanted to try using plain CSS and partially because Zola and Tailwind don't make an easy pairing. Along the way, I discovered that I don't like Tailwind as much as I thought I did.
 
 <!--more-->
 

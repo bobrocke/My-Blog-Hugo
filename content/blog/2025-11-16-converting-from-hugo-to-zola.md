@@ -2,7 +2,7 @@
 title: Converting from Hugo to Zola
 date: 2025-11-16
 categories: [Web Development]
-tags: [Zola]
+tags: [Zola, Hugo]
 draft: false
 ---
 

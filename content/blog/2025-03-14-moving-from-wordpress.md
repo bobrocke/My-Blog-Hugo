@@ -2,10 +2,8 @@
 title: Moving From WordPress
 date: 2025-03-14 19:28:41
 lastmod: 2025-03-19 19:28:41
-summary: I've done it before and it looks like I'm doing it again. It's the right time to move my [personal blog](https://www.bobrockefeller.com) from WordPress to a static site for simplicity, security, portability, and performance.
-image:
 categories: [Web Development]
-tags: [WordPress]
+tags: [WordPress, Jekyll]
 ---
 
 I've done it before and it looks like I'm doing it again. It's the right time to move my [personal blog](https://www.bobrockefeller.com) from WordPress to a static site for simplicity, security, portability, and performance.

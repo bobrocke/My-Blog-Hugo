@@ -2,7 +2,7 @@
 title: Zola is an Interesting SSG
 date: 2025-11-12
 categories: [Web Development]
-tags: [Zola]
+tags: [Zola, Hugo]
 draft: false
 ---
 

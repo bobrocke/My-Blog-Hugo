@@ -1,6 +1,5 @@
 ---
 title: Rails and Laravel
-summary: I'm finding that I really like the syntax of Ruby and the philosophy of Rails. Both are straightforward and 'clean'. But I've been tinkering with Laravel, too, because it runs on more shared hosting services since it's just good ol' PHP.
 categories: [Web Development]
 tags: [Ruby on Rails, Laravel]
 date: 2025-02-02 17:13:00

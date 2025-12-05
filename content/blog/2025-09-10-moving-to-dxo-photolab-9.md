@@ -2,11 +2,9 @@
 title: Moving to DxO PhotoLab 9
 date: 2025-09-10
 lastmod: 2025-09-26
-summary:
-description:
 draft: false
 categories: [Photography Software]
-tags: [PhotoLab]
+tags: [PhotoLab, Lightroom]
 ---
 
 Although many prefer using PhotoLab as the central hub of their photography workflow, using separate applications for DAM and printing, I'm looking for an all-in-one solution with tight integration and a uniform interface. PhotoLab 9 seems (after a several days with the trial) to have hit the sweet spot in capabilities for my needs.
@@ -16,7 +14,6 @@ Although many prefer using PhotoLab as the central hub of their photography work
 <img src="/images/post-images/lightroom-classic-logo.svg" alt="Lightroom Classic Logo" style="float: left; width: 20%; margin: 1em 1em 1em 0em">
 
 I’ve used Lightroom for many years and never really objected to Adobe’s subscription plan. Still, I wonder if the subscription model makes them less motivated to add and improve features quickly? I’ve also never really been comfortable with its interface, even after all this time, having come from [Apple's Aperture](https://www.apple.com/welcomescreen/aperture3/). Up until now, it has done what I needed to do better than the alternatives. The alternatives are getting better and better.
-
 
 ## The Key New Features
 
