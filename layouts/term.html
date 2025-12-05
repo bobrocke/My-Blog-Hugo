@@ -1,17 +1,19 @@
 {{ define "main" }}
   {{ "<!-- layouts/term.html -->" | safeHTML }}
-  <div class="break-after-column mt-8 mx-8">
-    <h1 class="text-xl md:text-3xl mb-6">Posts about {{ .Title }}</h1>
+  <div class="content">
+    <h1 class="heading">Posts about {{ .Title }}</h1>
 
     {{ $pages := .Pages}}
     {{ $paginator := .Paginate $pages.ByDate.Reverse 4 }}
 
     {{ range $paginator.Pages }}
-      <div class="mb-14">
+      <div>
         {{ partial "post-meta-dates.html" . }}
-        <h2 class="r-article-title-link"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+        <h2 class="blog-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
         {{ partial "post-meta-tax.html" . }}
-        <div class="r-content">{{ .Summary }}</div>
+        <div class="prose post-summary">
+          {{ .Summary }}
+        </div>
       </div>
     {{ end }}
 

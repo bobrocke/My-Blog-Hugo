@@ -1,18 +1,5 @@
-{{- with resources.Get "js/main.js" }}
-  {{- if eq hugo.Environment "development" }}
-    {{- with . | js.Build }}
-      <script src="{{ .RelPermalink }}"></script>
-    {{- end }}
-  {{- else }}
-    {{- $opts := dict "minify" true }}
-    {{- with . | js.Build $opts | fingerprint }}
-      <script src="{{ .RelPermalink }}" integrity="{{- .Data.Integrity }}" crossorigin="anonymous"></script>
-    {{- end }}
-  {{- end }}
-{{- end }}
+{{ $main := resources.Get "js/main.js" }}
+<script src="{{ $main.RelPermalink }}"></script>
 
 {{ $lightbox := resources.Get "js/lightbox.js" }}
 <script src="{{ $lightbox.RelPermalink }}"></script>
-
-{{ $flowbite := resources.Get "js/flowbite/dist/flowbite.min.js" }}
-<script src="{{ $flowbite.RelPermalink }}"></script>

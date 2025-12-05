@@ -1,17 +1,16 @@
 {{ define "main" }}
   {{ "<!-- layouts/taxonomy.html -->" | safeHTML }}
-  <div class="mx-6 mt-8">
-    <h1 class="text-2xl font-bold md:text-4xl mb-6">{{ .Title }}</h1>
-
+  <div class="content taxonomy">
     {{ $paginator := .Paginate .Pages.ByTitle 12 }}
 
-    {{ range $paginator.Pages }}
-      <h3 class="ml-6 pb-4 text-lg hover:text-primary-highlight md:text-2xl"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
-    {{ end }}
+    <h1 class="heading">{{ .Title }}</h1>
+
+    <ul>
+      {{ range $paginator.Pages }}
+        <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+      {{ end }}
+    </ul>
 
     {{ partial "pagination.html" . }}
   </div>
-
-
-
 {{ end }}
