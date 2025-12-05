@@ -12,27 +12,30 @@
     </div>
 
     <div class="page-nav">
-      <ul class="inline-flex text-base -space-x-px h-10 list-none">
-        {{ with $pages.Prev . }}
-          <li>
-            <a href="{{ .RelPermalink }}" aria-label="Newer" class="rounded-s-lg r-next-previous" role="button">Newer</a>
-          </li>
-        {{ else }}
-          <li>
-            <span aria-label="Newer" class="rounded-s-lg r-next-previous r-disabled" role="button" aria-disabled="true">Newer</span>
-          </li>
-        {{ end }}
+      {{ with $pages.Prev . }}
+        <div>
+          <a href="{{ .RelPermalink }}" aria-label="Newer" role="button">
+            <i class="bi bi-caret-left-fill"></i>Newer Post
+          </a>
+        </div>
+      {{ else }}
+        <div class="inactive">
+          <span aria-label="Newer" class="inactive" role="button" aria-disabled="true"><i class="bi bi-caret-left-fill"></i>Newer Post</span>
+        </div>
+      {{ end }}
 
-        {{ with $pages.Next . }}
-          <li>
-            <a href="{{ .RelPermalink }}" aria-label="Older" class="rounded-e-lg r-next-previous" role="button">Older</a>
-          </li>
-        {{ else }}
-          <li>
-            <span aria-label="Older" class="rounded-e-lg r-next-previous r-disabled" role="button" aria-disabled="true">Older</span>
-          </li>
-        {{ end }}
-      </ul>
+
+      {{ with $pages.Next . }}
+        <div>
+          <a href="{{ .RelPermalink }}" aria-label="Older" role="button">
+            Older Post<i class="bi bi-caret-right-fill"></i>
+          </a>
+        </div>
+      {{ else }}
+        <div class="inactive">
+          <span aria-label="Older" class="inactive" role="button" aria-disabled="true">Older Post<i class="bi bi-caret-right-fill"></i></span>
+        </div>
+      {{ end }}
     </div>
   </div>
 {{ end }}
