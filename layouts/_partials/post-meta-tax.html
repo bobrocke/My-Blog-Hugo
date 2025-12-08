@@ -1,31 +1,21 @@
 
 <div class="blog-meta blog-taxonomies">
-  {{ if gt .Params.categories 0 }}
-    {{ $items := .Params.categories }}
-    {{ $count := len $items }}
-
+  {{ $items := .Params.categories }}
+  {{ if $items }}
     <i class="bi bi-folder"></i>&nbsp;
-    {{ range $index, $element := .Params.categories }}
-      {{ $url_stub := . | urlize }}
-      <a href="/categories/{{- $url_stub }}">{{ . }}</a>
-      {{- if lt (add $index 1) $count }}
-        &#x2022;
-      {{ end }}
+    {{ range $index, $element := $items }}
+      <a href="/categories/{{ $element | urlize }}">{{ $element }}</a>
+      {{ if lt $index (sub (len $items) 1) }} &#x2022;{{ end }}
     {{ end }}
-    &nbsp;&nbsp;
   {{ end }}
 
-  {{ if gt .Params.tags 0 }}
-    {{ $items := .Params.tags }}
-    {{ $count := len $items }}
-
+  {{ $items := .Params.tags }}
+  {{ if $items }}
+    &nbsp;&nbsp;
     <i class="bi bi-tag"></i>&nbsp;
-      {{ range $index, $element := .Params.tags }}
-        {{ $url_stub := . | urlize }}
-        <a href="/tags/{{- $url_stub }}">{{ . }}</a>
-        {{- if lt (add $index 1) $count }}
-          &#x2022;
-        {{ end -}}
-      {{ end }}
+    {{ range $index, $element := $items }}
+      <a href="/tags/{{ $element | urlize }}">{{ $element }}</a>
+      {{ if lt $index (sub (len $items) 1) }} &#x2022;{{ end }}
+    {{ end }}
   {{ end }}
 </div>
