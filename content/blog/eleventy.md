@@ -19,7 +19,7 @@ So I'm re-writing my blog with 11ty---no better way to learn about it.
 
 While I experimented with 11ty, I tried out the Bulma CSS library after having used TailwindCSS with Hugo. My impressions will have to wait for another post; suffice it to say that I'm continuing to work with 11ty using TailwindCSS.
 
-Hugo comes 'out of the box' with more features than 11ty and no dependencies; you add only the dependencies you choose as plugins from node modules. I have these:
+Hugo comes 'out of the box' with more features than 11ty and no dependencies; you add only the dependencies you choose as plugins from node modules. I have these for Hugo:
 
 ```json
 "dependencies": {
@@ -56,3 +56,5 @@ eleventyConfig.addFilter("postDate", (dateObj) => {
 ```
 
 Seeing [dates displayed off by one day](https://www.11ty.dev/docs/dates/#dates-off-by-one-day) is another thing to watch out for. Once I got the UTC to local time conversion figured out, the off by one day problem cleared up.
+
+Because 11ty comes with a limited feature set, you end up having to splice in those you need. I've mentioned double pagination, but 11ty does not have an asset pipeline
