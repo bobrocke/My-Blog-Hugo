@@ -79,7 +79,7 @@
           {{ if eq .PageNumber .TotalPages }}
             <span aria-disabled="true" aria-label="Page 1" role="button" class="inactive">{{ .TotalPages }}</span>
           {{ else }}
-            <a href="{{ .Last.URL }}" aria-label="Page 1" role="button" class="r-pagination-button">{{ .TotalPages }}</a>
+            <a href="{{ .Last.URL }}" aria-label="Page 1" role="button" >{{ .TotalPages }}</a>
           {{ end }}
         </li>
 
